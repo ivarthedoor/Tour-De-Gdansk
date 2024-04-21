@@ -51,3 +51,5 @@ def make_players(colors):
 players = make_players([green, yellow, blue, red])
 for player in players:
     print(player)  #"test"
+
+#Sprwadzam Ivar
