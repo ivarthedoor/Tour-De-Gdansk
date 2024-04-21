@@ -53,3 +53,5 @@ for player in players:
     print(player)  #"test"
 
 #Sprwadzam Ivar
+
+print("testing_testing_testing")
