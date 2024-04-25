@@ -14,7 +14,7 @@ Pomysły na pola zadaniowe:
      wejściem na to pole)
     -po przekroczeniu odpowiedniego etapu ilość pól cofania się jest zmniejszona o połowę (zaokrąglane do góry)
     -papier/kamień/nozyce (pechowe pole)
-    -zgadywanka True or False (pytania z wiedzy o Gdańsku) (tak lub nie))
+    !-zgadywanka True or False (pytania z wiedzy o Gdańsku) (tak lub nie))
     -zgadywanie liczb, za którym razem odgadniesz liczbę, to tyle pól przesówasz się w przód
     -zgadywanie liczb, za którym razem odgadniesz liczbę, to tyle pól przesówasz się w w tył
     -pole z grą w wisielca (wygyrwasz + 10 pól, przegrywasz -10)
