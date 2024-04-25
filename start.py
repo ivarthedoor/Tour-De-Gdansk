@@ -27,6 +27,27 @@ Pomysły na pola zadaniowe:
 Programy przypisane do pól: do danego pola przypisany jest dany rodzaj zadania, zadania będą losowane ze zbioru lub
      przypisane na sztywno do pola
 '''
+
+
+'''
+-(wejście) powitanie gracza, opis gry
+-dobór kolorów dla poszczególnych graczy
+-rozpoczęcie rzutów kością, wg ustalonej kolejności kolorów
+.
+.
+.
+.
+[backend]
+-zdefiniowanie funkcji odpowiadających poszczególnym polom katywnym
+-rozpisanie programu, który aktywuje poszczególne funkcje, jeżeli wypadnie liczba (1-100), odpowiadająca danej funkcji,
+lub nie wykona akcji, jeżeli pole będzie "puste"
+.
+.
+.
+.
+-zakończenie gry, podziękowania, puenta?
+-wyświetlenie autorów
+'''
 #Typowanie graczy
 x = 1
 players = {"position": None, "number": x, "color": "green"}
@@ -50,8 +71,7 @@ def make_players(colors):
 
 players = make_players([green, yellow, blue, red])
 for player in players:
-    print(player)  #"test"
+    print(player)
 
-#Sprwadzam Ivar
 
 print("testing_testing_testing")
