@@ -1,6 +1,6 @@
 from random import randint
 #Funkcje
-#Funkcje true_or_false 10szt
+#Funkcje question 10szt
 
 def question1():
     final_value = True
