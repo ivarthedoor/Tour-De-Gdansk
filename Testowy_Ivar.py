@@ -222,7 +222,7 @@ def question10():
 
 
 
-def t_o_fy():
+def questions():
     number = randint(1, 10)
     if number == 1:
         return question1()
