@@ -92,5 +92,7 @@ Jeszcze pomysł na ascii na zakończenie
 -papier/kamień/nożyce
 -zganij liczbę
 -zadania matematyczne (wynik to rok np powstania jakiegoś zabytku)
+--Pole aktywne(zaliczone): Gracz idzie o losową liczbe pól lub zależnie od poziomu trudności
+-Pole aktywne(niezaliczone): Gracz cofa się o losową liczbe pól lub zależnie od poziomu trudności lub może sie uratowac wyrzucając odpowiednią liczbę pól
 
 
