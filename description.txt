@@ -1,0 +1,85 @@
+OPIS GRY
+-Gra planszowa oparta na zasadzie rzutu kością,
+    której założeniem jest sprawdzenie wiedzy gracza na temat historii i ciekawostek miasta Gdańska.
+-Gra jest przeznaczona dla czterech graczy, wybierają oni kolory swoich "pionków" (czerwony/zielony/żółty/niebieski),
+    a następnie kolejno rzucają kością sześciościenną, aby wykonać ruch na planszy.
+-Na planszy znajdują się dwa rodzaje pól: -Pola puste (gdy gracz wejdzie na takie pole nic się nie wydarzy)
+                                          -Pola aktywne (gdy gra wejdzie na takie pole, komputer wylosuje randomowe zadanie z danego
+                                            zestawu zadań.)[prawdopodobnie zadania będą różniły się w zależności od dzielnicy,
+                                            w której będzie znajdował się gracz]
+-Zadania dzielą się na dwa rodzaje (wstępnie): -Pytania otwarte (lub ABCD)
+                                               -Pytania zamknięte (Tak/Nie)
+-Akcje po wykonaniu zadania: -Pole puste: Nie dzieje się nic, w kolejnej rundzie gracz ponownie rzuca kością.
+                             -Pole aktywne(zaliczone): Gracz idzie o 4 pola do przodu.
+                             -Pole aktywne(niezaliczone): Gracz cofa się o 4 pola do tyłu.
+-Zakończenie: Warunkiem ukończenia gry jest przejście wszystkich 100 pól do mety, przed przeciwnikami.
+    Na zakończenie pojawi się grafika prezentująca podjum.
+
+
+GAME BUILD
+-Stworzenie funkcjonalnej planszy w odpowiednim układzie układzie graficznym
+    -10 rzędów po 10 pól (wstępnie gracze będą poruszali się od lewej do prawej, ale jest też pomysł ruchhu wężykiem)
+-Stworzenie programu przechowującego dane poszczególnych graczy (wstępnie napisane)
+-Stworzenie opisów poszczególnych sekcji gry, pojawiających się w określonych miejscach w grze (Nadanie fabuły)*1
+-Stworzenie programów rzutu kością, porzejścia o 4 pola w przód i wtył(w zależności od powodzenia w zadaniu)
+-Stworzenie programów losujących zadania (wstępnie napisane)
+-Stworzenie odpowiedniego zakończenia
+-Stworzenie grafik ascii
+-Stworzenie głównego programu gry, operującego po wszystkich pozostałych programach.
+
+
+
+
+
+
+*1. Np Opisy poszczególnych dzielnic, gdy gracz będzie do nich wkraczał
+    (Pytanie, czy chcemy tworzyć jakąś grbszą fabułę, np grupka archeologów musi dociec do źródła powstania miasta,
+    wtedy opisywali byśmy to w stylu pierwszych gier np. "Wchodzisz przez stare dębowe drzwi do ceglanego powieszczenia,
+    w powietrzu unosi się zapach kurzu i stęchlizny. Za oknem słychać gwar miejskiego rynku i tęten koni ciągnących bryczki.
+    wyglądasz przez okno w drewnianej ramie z żółtego nierównego szkła i widzisz ciągnącą się ulicę długą.
+    Znajdujesz się w śródmieściu XVI wiecznego Gdańska...)
+
+NA TERAZ
+-Tworzymy prostą planszę, może być mniejsza, ważne by miała odpowiedni układzie
+-Tworzymy przykładowego gracza o sztywno przypisanych danych np kolory
+-Tworzymy sprosty randomizer rzutu kością
+-przykładowy gracz, musi prawidłowo przesówać się po planszy zgodnie z rzutem kkością.
+    -w przypadku powodzenia powyższych tworzymy kolejnych graczy, dodajemy ich do programu i spawdzamy czy działają wszystkie warianty
+    np jeżeli klikoro graczy znajdzie się na tym samym polu.
+-musimy wymyslić jak ubrać graficznie poszczgólnch graczy na planszy 
+    (Na początek myślę, żeby to było A/B/C/D, ale finalnie na pewno nie może tak to zostac)
+
+Poniżej przykład jak mi się to widzi
+
+
+
+START_._._._.B._._._._._.
+     _._._._._._._._._._.
+     _._._._._._._._._._.
+     _._._._._.AC._._._._.
+     _._._._._._._._._._.
+     _.D._._._._._._._._.
+     _._._._._._._._._._.
+     _._._._._._._._._._.
+     _._._._._._._._._._.
+     _._._._._._._._._._.KONIEC
+
+
+Jeszcze pomysł na ascii na zakończenie
+
+
+    ------WYNIKI------
+     _A_
+    |   |_B_
+    |   |   |_C_
+    |   |   |   |_D_
+    |   |   |   |   |
+
+
+###########################
+-pole więzienie
+-wisielec
+-lucky throw (dodatkowy rzut kością)
+-papier/kamień/nożyce
+-zganij liczbę
+-zadania matematyczne (wynik to rok np powstania jakiegoś zabytku)
