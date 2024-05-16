@@ -1,25 +1,37 @@
-# #import movement_programms
+import random
 
-# def board(board_base = None):
-#     if board_base is None:
-#         board_base = []
-#     x = 0
-#     while x < 10:
-#         x += 1
-#         board_base.append(str(x))
-#     board_lenght = len(board_base)
-#     empty = ".".join(["____" for characters in board_base])
-#     return empty
+def throw_the_dice():
+    throw = random.randint(1, 6)
+    return throw
 
-# print(board())
+board_range = range(1, 100)
+position_A = 0
+position_B = 0
 
+def positioning_A():
+    global position_A
+    position_A += throw_the_dice()
 
+def positioning_B():
+    global position_B
+    position_B += throw_the_dice()
 
-# def example_player():
-#     position = 0
+def generate_board():
+    board_list = ["____" for i in board_range]
+    board_list[position_A - 1] = "A"
+    board_list[position_B - 1] = "B"
+    board_joined = ".".join(board_list)
+    return board_joined
 
-# def example_district():
-#     players_position = board()
-plansza = [1, 2, 3, 4]
-print(plansza)
-print()
+def game():
+    while True:
+        play = input("press a to move A, b to move B, or q to quit: ")
+        if play == "a":
+            positioning_A()
+        elif play == "b":
+            positioning_B()
+        elif play == "q":
+            break
+        print(generate_board())
+
+game()
