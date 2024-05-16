@@ -18,8 +18,8 @@ def positioning_B():
 
 def generate_board():
     board_list = ["____" for i in board_range]
-    board_list[position_A - 1] = "A"
-    board_list[position_B - 1] = "B"
+    board_list[position_A - 1] = "_A__"
+    board_list[position_B - 1] = "_B__"
     board_joined = ".".join(board_list)
     return board_joined
 
@@ -35,3 +35,4 @@ def game():
         print(generate_board())
 
 game()
+
