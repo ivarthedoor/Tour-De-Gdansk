@@ -40,14 +40,13 @@ GAME BUILD
     Znajdujesz się w śródmieściu XVI wiecznego Gdańska...)
 
 NA TERAZ
--Tworzymy prostą planszę, może być mniejsza, ważne by miała odpowiedni układzie
--Tworzymy przykładowego gracza o sztywno przypisanych danych np kolory
--Tworzymy sprosty randomizer rzutu kością
--przykładowy gracz, musi prawidłowo przesówać się po planszy zgodnie z rzutem kkością.
-    -w przypadku powodzenia powyższych tworzymy kolejnych graczy, dodajemy ich do programu i spawdzamy czy działają wszystkie warianty
-    np jeżeli klikoro graczy znajdzie się na tym samym polu.
--musimy wymyslić jak ubrać graficznie poszczgólnch graczy na planszy 
-    (Na początek myślę, żeby to było A/B/C/D, ale finalnie na pewno nie może tak to zostac)
+-dodajemy 2 pozostałych graczy
+-tworzymy instrukcje warunkowe dla każdego wariantu, gdy gracze znajdą sie na tym samym polu
+-dodajemy napisy "START" i "META"
+-implementujemy przykładowe pytania do poszczególnych pól
+
+    W przypadku szybkiego powodzenia powyższych, pzerabiamy zaimplementowane pytanie tak aby było losowane z zestawu,
+    oraz wstępnie zaczynamy podziały pytań na kategorie dzielnic, oraz rozważamy jak dzielić plansze na dzielnice.
 
 Poniżej przykład jak mi się to widzi
 
