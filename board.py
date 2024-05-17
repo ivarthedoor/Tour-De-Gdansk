@@ -26,11 +26,11 @@ def generate_board():
     
     board_list = ["____" for _ in board_range]
     if position_A != position_B:
-        board_list[position_A - 1] = "_A__"
-        board_list[position_B - 1] = "_B__"
+        board_list[position_A - 1] = "_\U0001F535__"
+        board_list[position_B - 1] = "_\U0001F534__"
     elif position_A == position_B:
         equal_position = position_A  
-        board_list[equal_position] = "_AB_"  
+        board_list[equal_position - 1] = "_\U0001F535\U0001F534_"  
     board_joined = ".".join(board_list)
     return board_joined
 
