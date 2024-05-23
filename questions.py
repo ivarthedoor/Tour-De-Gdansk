@@ -382,3 +382,21 @@ def true_or_false():
         return question9()
     else:
         return question10
+    
+
+
+
+    #Matematyczne
+import main_functions
+
+
+def math_question1():
+    print("To chyba jakiś wzór matematyczny")
+    main_functions.sleep_and_clear(6)
+    print("Gdy to obliczymy dowiemy się o roku budowy żurawia")
+    print("72*(2*2)+12*(2**2)+((800/4)+44)")
+    answear = int(input("to chyba  "))
+    if answear == 1444:
+        print("TAK jest!! udało się!!!")
+    else:
+        print("Kurcze coś jest nie tak!")
