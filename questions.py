@@ -98,7 +98,7 @@ def question5():
         final_value = False
     return final_value
 
-def question6():
+def question6(): #oliwa
     final_value = True
     print("Początkiem dzisiejszego parku był przyklasztorny ogród założony przez zakonników. \
           \nPrawdopodobnie był położony po wschodniej stronie starej siedziby opatów z XV wieku, \

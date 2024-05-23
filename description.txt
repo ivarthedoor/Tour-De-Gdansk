@@ -40,8 +40,6 @@ GAME BUILD
     Znajdujesz się w śródmieściu XVI wiecznego Gdańska...)
 
 NA TERAZ
--dodajemy 2 pozostałych graczy
--tworzymy instrukcje warunkowe dla każdego wariantu, gdy gracze znajdą sie na tym samym polu
 -dodajemy napisy "START" i "META"
 -implementujemy przykładowe pytania do poszczególnych pól
 
@@ -85,13 +83,15 @@ Jeszcze pomysł na ascii na zakończenie
 
 
 ###########################
--pole więzienie
--wisielec
--lucky throw (dodatkowy rzut kością)
--papier/kamień/nożyce
--zganij liczbę
--zadania matematyczne (wynik to rok np powstania jakiegoś zabytku)
---Pole aktywne(zaliczone): Gracz idzie o losową liczbe pól lub zależnie od poziomu trudności
--Pole aktywne(niezaliczone): Gracz cofa się o losową liczbe pól lub zależnie od poziomu trudności lub może sie uratowac wyrzucając odpowiednią liczbę pól
-- Pytanie czy robimy 4 czy 10 dzielnic
-
+Decyzje ws zadań:
+1. Tworzymy opis fabularny
+2. Tworzymy 4 dzielnice z większą ilością pól (Śródmieście, Oliwa, Wrzeszcz, Orunia)
+3. Podciągamy graczy do kolejnych dzielnic
+4. Robimy więzienie + lucky throw (szczegóły do ustalenia później)
+5. Robimy mini gierki (Zrobimy jeżeli przypasuje)
+6. Robimy zadania matematyczne w wersji Janka (Gracz widzi zadanie matematyczne, rozwiązanie to rok czegokolwiek i następnie po prawidłowej
+                                                odpowiedzi, wyświetlana będzie historia odpowiadająca odpowiedzi.)
+7. Robimy kary i nagrody (zamiast ruchu po polach, dodawanie i odejmowanie punktów)
+8. Tworzymy punktację
+9. W zależności od pierwszeństwa na kolejnej dzielnicy gracze dostają dodatkowe  punkty (10, 8, 6, 4)
+10. Powtórzenie po raz drugi (lub trzeci) takiej samej ilości oczek, skutkuje przeczekaniem następnej kolejki
