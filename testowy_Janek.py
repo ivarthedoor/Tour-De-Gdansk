@@ -1,7 +1,7 @@
 # import random
 
 # def throw_the_dice():
-#     throw = random.randint(1, 6)
+#     throw = random.randint(1, 1)
 #     return throw
 
 # board_range = range(1, 30)
@@ -181,7 +181,7 @@
 import random
 
 def throw_the_dice():
-    throw = random.randint(1, 6)
+    throw = random.randint(1, 1)
     return throw
 
 board_range = range(1, 30)
