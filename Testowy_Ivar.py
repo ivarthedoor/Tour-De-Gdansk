@@ -4,9 +4,9 @@
 🟢 (Zielony krąg) – \U0001F7E2
 🟡 (Żółty krąg) – \U0001F7E1
 """
-
+#
 import random
-
+import questions
 def throw_the_dice():
     throw = random.randint(1, 1)
     return throw
@@ -17,6 +17,7 @@ position_B = 1
 position_C = 1
 position_D = 1
 equal_position = 0
+player_A_points = 0
 
 
 def positioning_A():
@@ -68,6 +69,18 @@ def game():
         play = input("press a to move A, b to move B, or q to quit: ")
         if play == "a":
             positioning_A()
+            if position_A == 3:
+                questions.abcd_questions()
+                if questions.abcd_questions() == True:
+                    player_A_points + 10
+                    position_A + 1
+                    print(player_A_points)
+
+                else:
+                    player_A_points - 10
+                    position_A - 1
+                    print(player_A_points)
+
         elif play == "b":
             positioning_B()
         elif play == "c":
@@ -75,5 +88,6 @@ def game():
         elif play == "q":
             break
         print(generate_board())
-
+ 
 game()
+# questions.abcd_question1()

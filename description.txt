@@ -1,3 +1,14 @@
+NA TERAZ
+-dodajemy napisy "START" i "META"
+-implementujemy przykładowe pytania do poszczególnych pól
+    -w przypadku powodzenia, najpierw dodajemy generatory losowych pytań
+    -następnie dodajemy kolejnych graczy do planszy.
+    -testujemy wszelkie możlwe warianty, pod kątem wystąpienia możliwych błędów
+-Brainstorm w jaki sposób napisać planszę w podziale dzielnicowym (np 4 osobne plansze wyświetlane jedna po 
+    dtugiej w core gry)
+
+
+
 OPIS GRY
 -Gra planszowa oparta na zasadzie rzutu kością,
     której założeniem jest sprawdzenie wiedzy gracza na temat historii i ciekawostek miasta Gdańska.
@@ -20,33 +31,27 @@ GAME BUILD
 -Stworzenie funkcjonalnej planszy w odpowiednim układzie układzie graficznym
     -10 rzędów po 10 pól (wstępnie gracze będą poruszali się od lewej do prawej, ale jest też pomysł ruchhu wężykiem)
 -Stworzenie programu przechowującego dane poszczególnych graczy (wstępnie napisane)
--Stworzenie opisów poszczególnych sekcji gry, pojawiających się w określonych miejscach w grze (Nadanie fabuły)*1
+-Stworzenie opisów poszczególnych sekcji gry, pojawiających się w określonych miejscach w grze (Nadanie fabuły)
 -Stworzenie programów rzutu kością, porzejścia o 4 pola w przód i wtył(w zależności od powodzenia w zadaniu)
--Stworzenie programów losujących zadania (wstępnie napisane)
+-Stworzenie programów losujących zadania
 -Stworzenie odpowiedniego zakończenia
 -Stworzenie grafik ascii
 -Stworzenie głównego programu gry, operującego po wszystkich pozostałych programach.
 
 
 
-
-
-
-*1. Np Opisy poszczególnych dzielnic, gdy gracz będzie do nich wkraczał
-    (Pytanie, czy chcemy tworzyć jakąś grbszą fabułę, np grupka archeologów musi dociec do źródła powstania miasta,
-    wtedy opisywali byśmy to w stylu pierwszych gier np. "Wchodzisz przez stare dębowe drzwi do ceglanego powieszczenia,
-    w powietrzu unosi się zapach kurzu i stęchlizny. Za oknem słychać gwar miejskiego rynku i tęten koni ciągnących bryczki.
-    wyglądasz przez okno w drewnianej ramie z żółtego nierównego szkła i widzisz ciągnącą się ulicę długą.
-    Znajdujesz się w śródmieściu XVI wiecznego Gdańska...)
-
-NA TERAZ
--dodajemy napisy "START" i "META"
--implementujemy przykładowe pytania do poszczególnych pól
-
-    W przypadku szybkiego powodzenia powyższych, pzerabiamy zaimplementowane pytanie tak aby było losowane z zestawu,
-    oraz wstępnie zaczynamy podziały pytań na kategorie dzielnic, oraz rozważamy jak dzielić plansze na dzielnice.
-
-Poniżej przykład jak mi się to widzi
+Decyzje ws zadań:
+1. Tworzymy opis fabularny
+2. Tworzymy 4 dzielnice z większą ilością pól (Śródmieście, Oliwa, Wrzeszcz, Orunia)
+3. Podciągamy graczy do kolejnych dzielnic
+4. Robimy więzienie + lucky throw (szczegóły do ustalenia później)
+5. Robimy mini gierki (Zrobimy jeżeli przypasuje)
+6. Robimy zadania matematyczne w wersji Janka (Gracz widzi zadanie matematyczne, rozwiązanie to rok czegokolwiek i następnie po prawidłowej
+                                                odpowiedzi, wyświetlana będzie historia odpowiadająca odpowiedzi.)
+7. Robimy kary i nagrody (zamiast ruchu po polach, dodawanie i odejmowanie punktów)
+8. Tworzymy punktację
+9. W zależności od pierwszeństwa na kolejnej dzielnicy gracze dostają dodatkowe  punkty (10, 8, 6, 4)
+10. Powtórzenie po raz drugi (lub trzeci) takiej samej ilości oczek, skutkuje przeczekaniem następnej kolejki
 
 
 
@@ -83,15 +88,30 @@ Jeszcze pomysł na ascii na zakończenie
 
 
 ###########################
-Decyzje ws zadań:
-1. Tworzymy opis fabularny
-2. Tworzymy 4 dzielnice z większą ilością pól (Śródmieście, Oliwa, Wrzeszcz, Orunia)
-3. Podciągamy graczy do kolejnych dzielnic
-4. Robimy więzienie + lucky throw (szczegóły do ustalenia później)
-5. Robimy mini gierki (Zrobimy jeżeli przypasuje)
-6. Robimy zadania matematyczne w wersji Janka (Gracz widzi zadanie matematyczne, rozwiązanie to rok czegokolwiek i następnie po prawidłowej
-                                                odpowiedzi, wyświetlana będzie historia odpowiadająca odpowiedzi.)
-7. Robimy kary i nagrody (zamiast ruchu po polach, dodawanie i odejmowanie punktów)
-8. Tworzymy punktację
-9. W zależności od pierwszeństwa na kolejnej dzielnicy gracze dostają dodatkowe  punkty (10, 8, 6, 4)
-10. Powtórzenie po raz drugi (lub trzeci) takiej samej ilości oczek, skutkuje przeczekaniem następnej kolejki
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zostawiam, żeby nie zapomnieć zarysu pomysłu:
+Wchodzisz przez stare dębowe drzwi do ceglanego powieszczenia,
+w powietrzu unosi się zapach kurzu i stęchlizny. Za oknem słychać gwar miejskiego rynku i tęten koni ciągnących bryczki.
+wyglądasz przez okno w drewnianej ramie z żółtego nierównego szkła i widzisz ciągnącą się ulicę długą.
+Znajdujesz się w śródmieściu XVI wiecznego Gdańska...

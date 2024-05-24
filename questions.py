@@ -1,6 +1,6 @@
 from random import randint
 
-def question1():
+def abcd_question1():
     final_value = True
     print("Konkatedralna Bazylika Mariacka zwana często „Koroną Gdańska” jest największą w Europie świątynią wybudowaną z cegły. \
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
@@ -19,7 +19,7 @@ def question1():
         final_value = False
     return final_value #Jeżeli True gracz idzie dalej, jeżeli False gracz czeka kolejkę.
 
-def question2():
+def abcd_question2():
     final_value = True
     print("W 1549 przed Dworem Artusa istniała bliżej nieznana studnia, być może już z metalowymi dekoracjami.  \
            \nMowa o słynnej późniejszej fontannie Neptuna. \
@@ -38,7 +38,7 @@ def question2():
         final_value = False
     return final_value
 
-def question3():
+def abcd_question3():
     final_value = True
     print("Kuźnia Wodna to zabytek dawnej techniki, jedyny tego typu zachowany do dziś. \
           \nTo największa i najdłużej pracująca z młotowni oliwskich. \
@@ -58,7 +58,7 @@ def question3():
         final_value = False
     return final_value
 
-def question4():
+def abcd_question4():
     final_value = True
     print("Dwór Artusa gmach usytuowany w centrum Gdańska, przy Długim Targu 44, dawniej miejsce spotkań kupców, \
           \nośrodek życia towarzyskiego, później giełda, obecnie oddział Muzeum Gdańska. \
@@ -78,7 +78,7 @@ def question4():
         final_value = False
     return final_value
 
-def question5():
+def abcd_question5():
     final_value = True
     print("Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku. \
           \nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym \
@@ -98,7 +98,7 @@ def question5():
         final_value = False
     return final_value
 
-def question6(): #oliwa
+def abcd_question6(): #oliwa
     final_value = True
     print("Początkiem dzisiejszego parku był przyklasztorny ogród założony przez zakonników. \
           \nPrawdopodobnie był położony po wschodniej stronie starej siedziby opatów z XV wieku, \
@@ -122,7 +122,7 @@ def question6(): #oliwa
         final_value = False
     return final_value
 
-def question7():
+def abcd_question7():
     final_value = True
     print("9 maja 1734 roku Gdańszczanie pokonali w bitwie szturmujące Górę Gradową wojska. \
           \nTo było największe zwycięstwo gdańskiego oręża w osiemnastym stuleciu i ważny epizod wojny o sukcesję polską, \
@@ -144,7 +144,7 @@ def question7():
         final_value = False
     return final_value
 
-def question8():
+def abcd_question8():
     final_value = True
     print("Najstarsze materiały świadczące o znajomości tego kamienia i jego obróbce w rejonie Gdańska \
           \npochodzą z okresu 8 - 4 tys. lat p.n.e. i wiążą się z przypisywaną mu magiczną siłą. \
@@ -166,7 +166,7 @@ def question8():
         final_value = False
     return final_value
 
-def question9():
+def abcd_question9():
     final_value = True
     print("Wyspa jest położona pomiędzy Motławą a jej przekopem - Nową Motławą. \
           \nLeży w centrum Śródmieścia, od wschodu połączona z Długimi Ogrodami poprzez Most Stągiewny, \
@@ -191,7 +191,7 @@ def question9():
         final_value = False
     return final_value
 
-def question10():
+def abcd_question10():
     final_value = True
     print("Miasto Gdańsk, Wolne Miasto Gdańsk, Danzig... \
           \nGdańsk zawsze był nietypowym miastem, rządził się swoimi prawami, przez pewien okres był zupełnie niepodległy żadnym krajom. \
@@ -215,28 +215,28 @@ def question10():
 
 
 
-def questions():
+def abcd_questions():
     number = randint(1, 10)
     if number == 1:
-        return question1()
+        return abcd_question1()
     elif number == 2:
-        return question2()
+        return abcd_question2()
     elif number == 3:
-        return question3()
+        return abcd_question3()
     elif number == 4:
-        return question4()
+        return abcd_question4()
     elif number == 5:
-        return question5()
+        return abcd_question5()
     elif number == 6:
-        return question6()
+        return abcd_question6()
     elif number == 7:
-        return question7()
+        return abcd_question7()
     elif number == 8:
-        return question8()
+        return abcd_question8()
     elif number == 9:
-        return question9()
+        return abcd_question9()
     else:
-        return question10
+        return abcd_question10
     
 
 def question1():
@@ -400,3 +400,5 @@ def math_question1():
         print("TAK jest!! udało się!!!")
     else:
         print("Kurcze coś jest nie tak!")
+
+# print(abcd_question1())
