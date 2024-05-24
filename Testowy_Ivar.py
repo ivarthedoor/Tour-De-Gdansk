@@ -8,7 +8,7 @@
 import random
 import questions
 def throw_the_dice():
-    throw = random.randint(1, 1)
+    throw = 1    #random.randint(1, 1)
     return throw
 
 board_range = range(1, 30)
@@ -63,31 +63,44 @@ def generate_board():
     board_joined = ".".join(board_list)
     return board_joined
 
+task_assingment_positions = []
+for i in board_range:
+    if i % 5 == 0:
+        task_assingment_positions.append(i)
+
+def questions_assingment(x):
+    global player_A_points
+    for i in task_assingment_positions:
+        if x == i:
+            questions.abcd_questions()
+            if questions.abcd_questions == True:
+                player_A_points = player_A_points + 10
+                # position_A + 10
+                print(f"Player A {player_A_points}")
+            else:
+                player_A_points = player_A_points - 10
+                # position_A - 10
+                print(f"Player A {player_A_points}")
+
 
 def game():
     while True:
         play = input("press a to move A, b to move B, or q to quit: ")
         if play == "a":
             positioning_A()
-            if position_A == 3:
-                questions.abcd_questions()
-                if questions.abcd_questions() == True:
-                    player_A_points + 10
-                    position_A + 1
-                    print(player_A_points)
-
-                else:
-                    player_A_points - 10
-                    position_A - 1
-                    print(player_A_points)
-
+            questions_assingment(position_A)
+            position_A - 2
         elif play == "b":
             positioning_B()
+            questions_assingment(position_B)
         elif play == "c":
             positioning_C()
+            questions_assingment(position_C)
         elif play == "q":
             break
         print(generate_board())
  
 game()
 # questions.abcd_question1()
+# questions_assingment(5)
+# print(task_assingment_positions)

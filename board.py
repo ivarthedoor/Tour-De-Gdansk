@@ -50,6 +50,12 @@ def generate_board():
     
     return board_joined.rstrip(".")
 
+import questions
+task_assingment_positions = []
+for i in board_range:
+    if i % 5 == 0:
+        task_assingment_positions.append(i)
+
 
 def game():
     while True:

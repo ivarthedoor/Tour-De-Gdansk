@@ -114,7 +114,8 @@ def abcd_question6(): #oliwa
           \n \
           \nPodaj dokładną odpowiedź")
     answer = input("Odpowiedź: ")
-    if answer == "Cystersów" or "cystersów" or "Cystersow" or "cystersow":
+    if answer == "Cystersów"or answer =="Cystersow":
+        answer.capitalize
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -136,7 +137,8 @@ def abcd_question7():
           \n \
           \nPodaj dokładną odpowiedź")
     answer = input("Odpowiedź: ")
-    if answer == "Rosyjskie" or "rosyjskie":
+    if answer == "Rosyjskie":
+        answer.capitalize
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -158,7 +160,8 @@ def abcd_question8():
           \n \
           \nPodaj dokładną odpowiedź")
     answer = input("Odpowiedź: ")
-    if answer == "Bursztyn" or "bursztyn":
+    if answer == "Bursztyn":
+        answer.capitalize
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -183,7 +186,8 @@ def abcd_question9():
           \n \
           \nPodaj dokładną odpowiedź")
     answer = input("Odpowiedź: ")
-    if answer == "Spichrzów" or "spichrzów" or "Spichrzow" or "spichrzow":
+    if answer == "Spichrzów" or answer == "Spichrzow":
+        answer.capitalize
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -205,7 +209,8 @@ def abcd_question10():
           \n \
           \nPodaj dokładną odpowiedź")
     answer = input("Odpowiedź: ")
-    if answer == "Niemcy" or "niemcy":
+    if answer == "Niemcy":
+        answer.capitalize
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -401,4 +406,4 @@ def math_question1():
     else:
         print("Kurcze coś jest nie tak!")
 
-# print(abcd_question1())
+# print(abcd_question7())
