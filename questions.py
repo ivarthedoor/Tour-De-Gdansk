@@ -223,27 +223,56 @@ def abcd_question10():
 def abcd_questions():
     number = randint(1, 10)
     if number == 1:
-        return abcd_question1()
+        if abcd_question1() == True:
+            return True
+        else:
+            return False
     elif number == 2:
-        return abcd_question2()
+        if abcd_question2() == True:
+            return True
+        else:
+            return False
     elif number == 3:
-        return abcd_question3()
+        if abcd_question3() == True:
+            return True
+        else:
+            return False
     elif number == 4:
-        return abcd_question4()
+        if abcd_question4() == True:
+            return True
+        else:
+            return False
     elif number == 5:
-        return abcd_question5()
+        if abcd_question5() == True:
+            return True
+        else:
+            return False
     elif number == 6:
-        return abcd_question6()
+        if abcd_question6() == True:
+            return True
+        else:
+            return False
     elif number == 7:
-        return abcd_question7()
+        if abcd_question7() == True:
+            return True
+        else:
+            return False
     elif number == 8:
-        return abcd_question8()
+        if abcd_question8() == True:
+            return True
+        else:
+            return False
     elif number == 9:
-        return abcd_question9()
+        if abcd_question9() == True:
+            return True
+        else:
+            return False
     else:
-        return abcd_question10()
+        if abcd_question10() == True:
+            return True
+        else:
+            return False
     
-
 def question1():
     final_value = True
     print("Czy Zoo w Gdańsku jest największym zoo w Polsce?")
