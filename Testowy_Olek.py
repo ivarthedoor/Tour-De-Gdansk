@@ -62,7 +62,7 @@ def throw_the_dice():
     throw = random.randint(1, 1)
     return throw
 
-board_range = range(1, 30)
+board_range = range(1, 28)
 position_A = 0
 position_B = 0
 position_C = 0
@@ -94,12 +94,12 @@ def move_player(position):
 def generate_board():
     global position_A, position_B, position_C, position_D
     
-    board_field = ["____." for _ in range(0, 30)]
+    board_field = ["____" for _ in board_range]
     players_positions = [position_A, position_B, position_C, position_D]
     player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"]
     
     for i, position in enumerate(players_positions):
-        if board_field[position] == "____.":
+        if board_field[position] == "____":
             board_field[position] = player_symbols[i]
         else:
             board_field[position] += player_symbols[i]
@@ -109,7 +109,7 @@ def generate_board():
         if len(board_field[i]) < 4:
             board_field[i] = board_field[i].ljust(4, '_')
 
-    return " ".join(board_field)
+    return ".".join(board_field)
     
     # board_joined = ""
     # for symbol in board_field:
@@ -124,21 +124,23 @@ def generate_board():
 task_assingment_positions = []
 for i in board_range:
     if i % 5 == 0:
-        task_assingment_positions.append(i)
+        task_assingment_positions.append(i - 1)
 
 def questions_assingment(x):
-    global player_A_points
+    # global player_A_points
     for i in task_assingment_positions:
         if x == i:
             questions.abcd_questions()
-            if questions.abcd_questions == True:
-                player_A_points = player_A_points + 10
-                # position_A + 10
-                print(f"Player A {player_A_points}")
-            else:
-                player_A_points = player_A_points - 10
-                # position_A - 10
-                print(f"Player A {player_A_points}")
+            sleep(3)
+            clear()
+            # if questions.abcd_questions == True:
+            #     player_A_points = player_A_points + 10
+            #     # position_A + 10
+            #     # print(f"Player A {player_A_points}")
+            # else:
+            #     player_A_points = player_A_points - 10
+            #     # position_A - 10
+            #     # print(f"Player A {player_A_points}")
 
 
 def game():
