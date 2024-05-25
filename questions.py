@@ -241,7 +241,7 @@ def abcd_questions():
     elif number == 9:
         return abcd_question9()
     else:
-        return abcd_question10
+        return abcd_question10()
     
 
 def question1():

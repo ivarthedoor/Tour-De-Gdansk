@@ -67,29 +67,12 @@ position_A = 0
 position_B = 0
 position_C = 0
 position_D = 0
-# equal_position = 0
+
 def move_player(position):
     position += throw_the_dice()
     if position >= 30:  # Zakładając, że plansza ma 30 pól
         position = 29
     return position
-
-# def positioning_A():
-#     global position_A
-#     position_A += throw_the_dice()
-
-# def positioning_B():
-#     global position_B
-#     position_B += throw_the_dice()
-
-# def positioning_C():
-#     global position_C
-#     position_C += throw_the_dice()
-
-# def positioning_D():
-#     global position_D
-#     position_D += throw_the_dice()
-
 
 def generate_board():
     global position_A, position_B, position_C, position_D
@@ -110,15 +93,6 @@ def generate_board():
             board_field[i] = board_field[i].ljust(4, '_')
 
     return ".".join(board_field)
-    
-    # board_joined = ""
-    # for symbol in board_field:
-    #     if symbol == "____":
-    #         board_joined += "____."
-    #     else:
-    #         board_joined += f"_{symbol}__."
-    
-    # return board_joined.rstrip(".")
 
 
 task_assingment_positions = []
@@ -127,20 +101,12 @@ for i in board_range:
         task_assingment_positions.append(i - 1)
 
 def questions_assingment(x):
-    # global player_A_points
     for i in task_assingment_positions:
         if x == i:
             questions.abcd_questions()
             sleep(3)
             clear()
-            # if questions.abcd_questions == True:
-            #     player_A_points = player_A_points + 10
-            #     # position_A + 10
-            #     # print(f"Player A {player_A_points}")
-            # else:
-            #     player_A_points = player_A_points - 10
-            #     # position_A - 10
-            #     # print(f"Player A {player_A_points}")
+
 
 
 def game():
@@ -149,7 +115,7 @@ def game():
     
     while True:
         print(generate_board())
-        play = input("press a to move Blue, b to move Red, c to move Green, d to move Yellow or q to quit: ")
+        play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
 
         if play == "1":
@@ -158,12 +124,15 @@ def game():
             sleep_and_clear(0.1)
         elif play == "2":
             position_B = move_player(position_B)
+            questions_assingment(position_B)
             sleep_and_clear(0.1)
         elif play == "3":
             position_C = move_player(position_C)
+            questions_assingment(position_C)
             sleep_and_clear(0.1)
         elif play == "4":
             position_D = move_player(position_D)
+            questions_assingment(position_D)
             sleep_and_clear(0.1)
         elif play == "q":
             sleep_and_clear(0.1)
