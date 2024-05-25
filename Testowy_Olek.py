@@ -46,7 +46,6 @@ import questions
     
 #     # return board_joined.rstrip(".")
 
-# generate_board()
 
 def clear():
     if os.name == "posix":
@@ -76,7 +75,6 @@ def move_player(position):
 
 def generate_board():
     global position_A, position_B, position_C, position_D
-    
     board_field = ["____" for _ in board_range]
     players_positions = [position_A, position_B, position_C, position_D]
     player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"]
@@ -87,7 +85,6 @@ def generate_board():
         else:
             board_field[position] += player_symbols[i]
 
-        # Upewnij się, że każda pozycja na planszy ma dokładnie 4 znaki
     for i in range(len(board_field)):
         if len(board_field[i]) < 4:
             board_field[i] = board_field[i].ljust(4, '_')
@@ -104,15 +101,12 @@ def questions_assingment(x):
     for i in task_assingment_positions:
         if x == i:
             questions.abcd_questions()
-            sleep(3)
-            clear()
-
+            sleep_and_clear(3)
 
 
 def game():
     global position_A, position_B, position_C, position_D
 
-    
     while True:
         print(generate_board())
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
