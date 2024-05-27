@@ -1,7 +1,6 @@
 from random import randint
 
 def abcd_question1():
-    # final_value = True
     print("Konkatedralna Bazylika Mariacka zwana często „Koroną Gdańska” jest największą w Europie świątynią wybudowaną z cegły. \
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
           \n \
@@ -17,10 +16,8 @@ def abcd_question1():
     else:
         print("Odpowiedź jest błędna!")
         return False
-    # return final_value #Jeżeli True gracz idzie dalej, jeżeli False gracz czeka kolejkę.
 
 def abcd_question2():
-    final_value = True
     print("W 1549 przed Dworem Artusa istniała bliżej nieznana studnia, być może już z metalowymi dekoracjami.  \
            \nMowa o słynnej późniejszej fontannie Neptuna. \
           \n \
@@ -32,14 +29,12 @@ def abcd_question2():
     year = int(input("Odpowiedź: "))
     if year == 1633:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question3():
-    final_value = True
     print("Kuźnia Wodna to zabytek dawnej techniki, jedyny tego typu zachowany do dziś. \
           \nTo największa i najdłużej pracująca z młotowni oliwskich. \
           \nFunkcjonowała przez ok. 350 lat wykorzystując siłę spiętrzonych wód Potoku Oliwskiego. \
@@ -52,14 +47,12 @@ def abcd_question3():
     year = int(input("Odpowiedź: "))
     if year == 1597:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question4():
-    final_value = True
     print("Dwór Artusa gmach usytuowany w centrum Gdańska, przy Długim Targu 44, dawniej miejsce spotkań kupców, \
           \nośrodek życia towarzyskiego, później giełda, obecnie oddział Muzeum Gdańska. \
           \nPełni rolę obiektu recepcyjnego miasta. \
@@ -72,14 +65,12 @@ def abcd_question4():
     year = int(input("Odpowiedź: "))
     if year == 1481:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!") 
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question5():
-    final_value = True
     print("Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku. \
           \nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym \
           \noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej. \
@@ -92,14 +83,12 @@ def abcd_question5():
     year = int(input("Odpowiedź: "))
     if year == 1575:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!") 
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question6(): #oliwa
-    final_value = True
     print("Początkiem dzisiejszego parku był przyklasztorny ogród założony przez zakonników. \
           \nPrawdopodobnie był położony po wschodniej stronie starej siedziby opatów z XV wieku, \
           \ndalej do Zatoki Gdańskiej rozciągał się nadmorski las, który rozcinał Potok Oliwski. \
@@ -107,70 +96,61 @@ def abcd_question6(): #oliwa
           \nogród został poszerzony w kierunku południowo-zachodnim, stykając się ze starszym ogrodem klasztornym. \
           \n \
           \nO jakim zakonie mowa? \
-          \n-Kapucynów \
-          \n-Cystersów? \
-          \n-Mnichów z Shaolin \
-          \n-Franciszkanów \
+          \n1.Kapucynów \
+          \n2.Cystersów? \
+          \n3.Mnichów z Shaolin \
+          \n4.Franciszkanów \
           \n \
-          \nPodaj dokładną odpowiedź")
-    answer = input("Odpowiedź: ")
-    if answer == "Cystersów"or answer =="Cystersow":
-        answer.capitalize
+          \nPodaj dokładną odpowiedź od 1 do 4")
+    answer = int(input("Odpowiedź: "))
+    if answer == 2:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question7():
-    final_value = True
     print("9 maja 1734 roku Gdańszczanie pokonali w bitwie szturmujące Górę Gradową wojska. \
           \nTo było największe zwycięstwo gdańskiego oręża w osiemnastym stuleciu i ważny epizod wojny o sukcesję polską, \
           \nw której potężne miasto wiernie stało przy legalnie obranym królu Stanisławie Leszczyńskim. \
           \n \
           \nCzyje wojska atakowały Gdańsk? \
-          \n-Niemieckie \
-          \n-Filipińskie \
-          \n-Rosyjskie \
-          \n-Pruskie \
+          \n1.Niemieckie \
+          \n2.Filipińskie \
+          \n3.Rosyjskie \
+          \n4.Pruskie \
           \n \
-          \nPodaj dokładną odpowiedź")
-    answer = input("Odpowiedź: ")
-    if answer == "Rosyjskie":
-        answer.capitalize
+          \nPodaj dokładną odpowiedź od 1 do 4")
+    answer = int(input("Odpowiedź: "))
+    if answer == 3:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question8():
-    final_value = True
     print("Najstarsze materiały świadczące o znajomości tego kamienia i jego obróbce w rejonie Gdańska \
           \npochodzą z okresu 8 - 4 tys. lat p.n.e. i wiążą się z przypisywaną mu magiczną siłą. \
           \nWyrabiano wówczas dla potrzeb kultowych amulety - postaci zwierząt, figurki bóstw i herosów. \
           \n \
           \nO jaki kamień chodzi? \
-          \n-Opal \
-          \n-Agat \
-          \n-Bursztyn \
-          \n-Krzemień \
+          \n1.Opal \
+          \n2.Agat \
+          \n3.Bursztyn \
+          \n4.Krzemień \
           \n \
-          \nPodaj dokładną odpowiedź")
-    answer = input("Odpowiedź: ")
-    if answer == "Bursztyn":
-        answer.capitalize
+          \nPodaj dokładną odpowiedź od 1 do 4")
+    answer = int(input("Odpowiedź: "))
+    if answer == 3:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question9():
-    final_value = True
     print("Wyspa jest położona pomiędzy Motławą a jej przekopem - Nową Motławą. \
           \nLeży w centrum Śródmieścia, od wschodu połączona z Długimi Ogrodami poprzez Most Stągiewny, \
           \nod południa ze Starym Przedmieściem, od zachodu poprzez Most Krowi i Most Zielony z Głównym Miastem. \
@@ -179,44 +159,39 @@ def abcd_question9():
           \nzostała odcięta od głównej części wyspy poprzez powstały sztucznie Kanał Smolny. \
           \n \
           \nO jaką wyspę chodzi? \
-          \n-Sobieszewską \
-          \n-Ołowianka2 \
-          \n-Spichrzów \
-          \n-Wolin \
+          \n1.Sobieszewską \
+          \n2.Ołowianka2 \
+          \n3.Spichrzów \
+          \n4.Wolin \
           \n \
-          \nPodaj dokładną odpowiedź")
-    answer = input("Odpowiedź: ")
-    if answer == "Spichrzów" or answer == "Spichrzow":
-        answer.capitalize
+          \nPodaj dokładną odpowiedź od 1 do 4")
+    answer = int(input("Odpowiedź: "))
+    if answer == 3:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 def abcd_question10():
-    final_value = True
     print("Miasto Gdańsk, Wolne Miasto Gdańsk, Danzig... \
           \nGdańsk zawsze był nietypowym miastem, rządził się swoimi prawami, przez pewien okres był zupełnie niepodległy żadnym krajom. \
           \nOprócz niepodległości i przynależności do Polski, przez długi okres swojej historii był częścią jednak do innego kraju. \
           \n \
           \nO jaki kraj chodzi? \
-          \n-Niemcy \
-          \n-Lichtenstein \
-          \n-Rosja \
-          \n-Szwecja \
+          \n1.Niemcy \
+          \n2.Lichtenstein \
+          \n3.Rosja \
+          \n4.Szwecja \
           \n \
-          \nPodaj dokładną odpowiedź")
-    answer = input("Odpowiedź: ")
-    if answer == "Niemcy":
-        answer.capitalize
+          \nPodaj dokładną odpowiedź od 1 do 4")
+    answer = int(input("Odpowiedź: "))
+    if answer == 1:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value
+        return False
 
 
 

@@ -47,11 +47,7 @@ def generate_board():
 
     return ".".join(board_field)
 
-
-task_assingment_positions = []
-for i in board_range:
-    if i % 5 == 0:
-        task_assingment_positions.append(i - 1)
+task_assingment_positions = [i - 1 for i in board_range if i % 5 == 0]
 
 players_points = [0, 0, 0, 0]
    
