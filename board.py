@@ -70,7 +70,8 @@ def questions_assingment(position, points_index):
                     players_points[points_index] -= 5
     return players_points[points_index]
 
-def game():
+def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by wtedy dopisać, jak program ma się zakończyć i dopiero
+    #finalnie w funkcji game, wywołał 4 takie funkcje jak obecna f-cja game.
     global task_assingment_positions, position_A, position_B, position_C, position_D
    
     while True:
@@ -78,7 +79,7 @@ def game():
         print(f"B: {players_points[1]}")
         print(f"C: {players_points[2]}")
         print(f"D: {players_points[3]}")
-        print(generate_board())
+        print("START." + generate_board() + ".META")
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
 

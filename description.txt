@@ -1,11 +1,7 @@
 NA TERAZ
--dodajemy napisy "START" i "META"
--implementujemy przykładowe pytania do poszczególnych pól
-    -w przypadku powodzenia, najpierw dodajemy generatory losowych pytań
-    -następnie dodajemy kolejnych graczy do planszy.
-    -testujemy wszelkie możlwe warianty, pod kątem wystąpienia możliwych błędów
--Brainstorm w jaki sposób napisać planszę w podziale dzielnicowym (np 4 osobne plansze wyświetlane jedna po 
-    dtugiej w core gry)
+-board.py -line 73* Chyba nadszedł czas rozpocząć budowę kolejnych etapów planszy (najpierw zróbmy 2 i wpiszmy wszystko co trzeba, 
+    żeby działało, np podciąganie graczy i przyznawanie im punktów)
+-testujemy wszelkie możlwe warianty, pod kątem wystąpienia możliwych błędów
 
 
 
