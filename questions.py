@@ -1,7 +1,7 @@
 from random import randint
 
 def abcd_question1():
-    final_value = True
+    # final_value = True
     print("Konkatedralna Bazylika Mariacka zwana często „Koroną Gdańska” jest największą w Europie świątynią wybudowaną z cegły. \
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
           \n \
@@ -13,11 +13,11 @@ def abcd_question1():
     year = int(input("Odpowiedź: "))
     if year == 1343:
         print("Odpowiedź jest poprawna!")
-        final_value = True
+        return True
     else:
         print("Odpowiedź jest błędna!")
-        final_value = False
-    return final_value #Jeżeli True gracz idzie dalej, jeżeli False gracz czeka kolejkę.
+        return False
+    # return final_value #Jeżeli True gracz idzie dalej, jeżeli False gracz czeka kolejkę.
 
 def abcd_question2():
     final_value = True
@@ -223,55 +223,35 @@ def abcd_question10():
 def abcd_questions():
     number = randint(1, 10)
     if number == 1:
-        if abcd_question1() == True:
+        if abcd_question1():
             return True
-        else:
-            return False
     elif number == 2:
-        if abcd_question2() == True:
+        if abcd_question2():
             return True
-        else:
-            return False
     elif number == 3:
-        if abcd_question3() == True:
+        if abcd_question3():
             return True
-        else:
-            return False
     elif number == 4:
-        if abcd_question4() == True:
+        if abcd_question4():
             return True
-        else:
-            return False
     elif number == 5:
-        if abcd_question5() == True:
+        if abcd_question5():
             return True
-        else:
-            return False
     elif number == 6:
-        if abcd_question6() == True:
+        if abcd_question6():
             return True
-        else:
-            return False
     elif number == 7:
-        if abcd_question7() == True:
+        if abcd_question7():
             return True
-        else:
-            return False
     elif number == 8:
-        if abcd_question8() == True:
+        if abcd_question8():
             return True
-        else:
-            return False
     elif number == 9:
-        if abcd_question9() == True:
+        if abcd_question9():
             return True
-        else:
-            return False
     else:
-        if abcd_question10() == True:
+        if abcd_question10():
             return True
-        else:
-            return False
     
 def question1():
     final_value = True
