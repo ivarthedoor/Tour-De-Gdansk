@@ -2,7 +2,7 @@ import random
 import os
 from time import sleep
 import questions
-
+          
 def clear():
     if os.name == "posix":
         os.system("clear")
@@ -53,36 +53,52 @@ for i in board_range:
     if i % 5 == 0:
         task_assingment_positions.append(i - 1)
 
-def questions_assingment(x):
-    for i in task_assingment_positions:
-        if x == i:
-            questions.abcd_questions()
-            sleep_and_clear(3)
+players_points = [0, 0, 0, 0]
+   
 
+def questions_assingment(position, points_index):
+    for i in task_assingment_positions:
+        if position == i:
+            if questions.abcd_questions():
+                sleep_and_clear(3)
+                players_points[points_index] += 10
+            else:
+                sleep_and_clear(3)
+                if players_points[points_index] == 0:
+                    players_points[points_index] -= 0
+                elif players_points[points_index] != 0:
+                    players_points[points_index] -= 5
+    return players_points[points_index]
 
 def game():
-    global position_A, position_B, position_C, position_D
-
+    global task_assingment_positions, position_A, position_B, position_C, position_D
+   
     while True:
+        print(f"A: {players_points[0]}")
+        print(f"B: {players_points[1]}")
+        print(f"C: {players_points[2]}")
+        print(f"D: {players_points[3]}")
         print(generate_board())
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
 
         if play == "1":
             position_A = move_player(position_A)
-            questions_assingment(position_A)
+            questions_assingment(position_A, 0)
             sleep_and_clear(0.1)
+
         elif play == "2":
             position_B = move_player(position_B)
-            questions_assingment(position_B)
+            questions_assingment(position_B, 1)
             sleep_and_clear(0.1)
+
         elif play == "3":
             position_C = move_player(position_C)
-            questions_assingment(position_C)
+            questions_assingment(position_C, 2)
             sleep_and_clear(0.1)
         elif play == "4":
             position_D = move_player(position_D)
-            questions_assingment(position_D)
+            questions_assingment(position_D, 3)
             sleep_and_clear(0.1)
         elif play == "q":
             sleep_and_clear(0.1)
