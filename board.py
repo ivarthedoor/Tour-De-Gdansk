@@ -1,33 +1,15 @@
 import random
 import os
 from time import sleep
-import questions
-          
-def clear():
-    if os.name == "posix":
-        os.system("clear")
-    else:
-        os.system("cls")
+import questions 
+from main_functions import sleep_and_clear
+from movement_programms import move_player
 
-def sleep_and_clear(time):
-    sleep(time)
-    clear()
-
-def throw_the_dice():
-    throw = random.randint(1, 1)
-    return throw
-
-board_range = range(1, 28)
+board_range = range(1, 31)
 position_A = 0
 position_B = 0
 position_C = 0
 position_D = 0
-
-def move_player(position):
-    position += throw_the_dice()
-    if position >= 30:  # Zakładając, że plansza ma 30 pól
-        position = 29
-    return position
 
 def generate_board():
     global position_A, position_B, position_C, position_D
@@ -60,21 +42,26 @@ def questions_assingment(position, points_index):
                 players_points[points_index] += 10
             else:
                 sleep_and_clear(3)
-                if players_points[points_index] == 0:
-                    players_points[points_index] -= 0
-                elif players_points[points_index] != 0:
+                if players_points[points_index] != 0:
                     players_points[points_index] -= 5
     return players_points[points_index]
+
+def make_players():
+    players = [x for x in enumerate(["Blue", "Red","Green", "Yellow"], start=1)]
+    i = 0
+    for i in range(len(players)):
+        a, b = players[i]
+        players_list = a, b
+        players_board = players_list, players_points[i]
+        print(f"{players_list[0]}.{players_list[1]}: {players_points[i]}")
+    
 
 def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by wtedy dopisać, jak program ma się zakończyć i dopiero
     #finalnie w funkcji game, wywołał 4 takie funkcje jak obecna f-cja game.
     global task_assingment_positions, position_A, position_B, position_C, position_D
-   
+
     while True:
-        print(f"A: {players_points[0]}")
-        print(f"B: {players_points[1]}")
-        print(f"C: {players_points[2]}")
-        print(f"D: {players_points[3]}")
+        make_players()
         print("START." + generate_board() + ".META")
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
@@ -82,23 +69,27 @@ def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by 
         if play == "1":
             position_A = move_player(position_A)
             questions_assingment(position_A, 0)
-            sleep_and_clear(0.1)
+            print("Time for Red (2)")
+            sleep_and_clear(1)
 
         elif play == "2":
             position_B = move_player(position_B)
             questions_assingment(position_B, 1)
-            sleep_and_clear(0.1)
+            print("Time for Green (3)")
+            sleep_and_clear(1)
 
         elif play == "3":
             position_C = move_player(position_C)
             questions_assingment(position_C, 2)
-            sleep_and_clear(0.1)
+            print("Time for Yellow (4)")
+            sleep_and_clear(1)
         elif play == "4":
             position_D = move_player(position_D)
             questions_assingment(position_D, 3)
-            sleep_and_clear(0.1)
+            print("Time for Blue (1)")
+            sleep_and_clear(1)
         elif play == "q":
-            sleep_and_clear(0.1)
+            sleep_and_clear(1)
             break
         else:
             print("Invalid input! Please press 1, 2, 3, 4 or q.")
@@ -114,6 +105,5 @@ def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by 
             elif position_D == 29:
                 print("Player D wins!")
             break
-
 
 game()
