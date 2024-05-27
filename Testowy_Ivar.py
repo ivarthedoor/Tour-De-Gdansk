@@ -1,33 +1,15 @@
 import random
 import os
 from time import sleep
-import questions
-          
-def clear():
-    if os.name == "posix":
-        os.system("clear")
-    else:
-        os.system("cls")
+import questions 
+from main_functions import sleep_and_clear
+from movement_programms import move_player
 
-def sleep_and_clear(time):
-    sleep(time)
-    clear()
-
-def throw_the_dice():
-    throw = random.randint(1, 1)
-    return throw
-
-board_range = range(1, 30)
+board_range = range(1, 31)
 position_A = 0
 position_B = 0
 position_C = 0
 position_D = 0
-
-def move_player(position):
-    position += throw_the_dice()
-    if position >= 30:  # Zakładając, że plansza ma 30 pól
-        position = 29
-    return position
 
 def generate_board():
     global position_A, position_B, position_C, position_D
@@ -60,9 +42,7 @@ def questions_assingment(position, points_index):
                 players_points[points_index] += 10
             else:
                 sleep_and_clear(3)
-                if players_points[points_index] == 0:
-                    players_points[points_index] -= 0
-                elif players_points[points_index] != 0:
+                if players_points[points_index] != 0:
                     players_points[points_index] -= 5
     return players_points[points_index]
 
@@ -127,4 +107,3 @@ def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by 
             break
 
 game()
-# make_players()
