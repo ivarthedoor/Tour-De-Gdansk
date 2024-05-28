@@ -6,15 +6,25 @@ from main_functions import sleep_and_clear
 from movement_programms import move_player
 
 board_range = range(1, 31)
-position_A = 0
-position_B = 0
-position_C = 0
-position_D = 0
+players_positions = [0, 0, 0, 0]
+
+def position_reset(): #Będzie do przeniesienia do movement_programms
+    global players_positions
+    players_positions[0] = 0
+    players_positions[1] = 0
+    players_positions[2] = 0
+    players_positions[3] = 0
+
+def next_level_points(a, b, c, d): #Będzie do przeniesienia do movement_programms
+    players_points[a] += 15
+    players_points[b] += 5
+    players_points[c] += 5
+    players_points[d] += 5
+
 
 def generate_board():
-    global position_A, position_B, position_C, position_D
+    global players_positions
     board_field = ["____" for _ in board_range]
-    players_positions = [position_A, position_B, position_C, position_D]
     player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"]
     
     for i, position in enumerate(players_positions):
@@ -34,7 +44,7 @@ task_assingment_positions = [i - 1 for i in board_range if i % 5 == 0]
 players_points = [0, 0, 0, 0]
    
 
-def questions_assingment(position, points_index):
+def questions_assingment(position, points_index): #do przeniesienia do questions
     for i in task_assingment_positions:
         if position == i:
             if questions.abcd_questions():
@@ -46,7 +56,7 @@ def questions_assingment(position, points_index):
                     players_points[points_index] -= 5
     return players_points[points_index]
 
-def make_players():
+def make_players(): #do przeniesienia do typing players
     players = [x for x in enumerate(["Blue", "Red","Green", "Yellow"], start=1)]
     i = 0
     for i in range(len(players)):
@@ -56,54 +66,125 @@ def make_players():
         print(f"{players_list[0]}.{players_list[1]}: {players_points[i]}")
     
 
-def game(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by wtedy dopisać, jak program ma się zakończyć i dopiero
-    #finalnie w funkcji game, wywołał 4 takie funkcje jak obecna f-cja game.
-    global task_assingment_positions, position_A, position_B, position_C, position_D
-
+def game1(): #zastanawiam się, czy te programy nie powinny się własnie znaleźć w core gry, a sama gra nie powinna być wywoływana np z pliku final_game
+    global task_assingment_positions, players_positions
     while True:
         make_players()
-        print("START." + generate_board() + ".META")
+        print(f"START.{generate_board()} \n \
+    ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.META")
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
 
         if play == "1":
-            position_A = move_player(position_A)
-            questions_assingment(position_A, 0)
+            players_positions[0] = move_player(players_positions[0])
+            questions_assingment(players_positions[0], 0)
             print("Time for Red (2)")
             sleep_and_clear(1)
 
         elif play == "2":
-            position_B = move_player(position_B)
-            questions_assingment(position_B, 1)
+            players_positions[1] = move_player(players_positions[1])
+            questions_assingment(players_positions[1], 1)
             print("Time for Green (3)")
             sleep_and_clear(1)
 
         elif play == "3":
-            position_C = move_player(position_C)
-            questions_assingment(position_C, 2)
+            players_positions[2] = move_player(players_positions[2])
+            questions_assingment(players_positions[2], 2)
             print("Time for Yellow (4)")
             sleep_and_clear(1)
         elif play == "4":
-            position_D = move_player(position_D)
-            questions_assingment(position_D, 3)
+            players_positions[3] = move_player(players_positions[3])
+            questions_assingment(players_positions[3], 3)
             print("Time for Blue (1)")
             sleep_and_clear(1)
         elif play == "q":
             sleep_and_clear(1)
-            break
+            return False
         else:
             print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-        if position_A == 29 or position_B == 29 or position_C == 29 or position_D == 29:
+        if players_positions[0] == 29 or players_positions[1] == 29 or players_positions[2] == 29 or players_positions[3] == 29:
             print(generate_board())
-            if position_A == 29:
+            if players_positions[0] == 29:
+                position_reset()
+                next_level_points(0, 1, 2, 3)
+                sleep_and_clear(0.01)
+                return True
+            elif players_positions[1] == 29:
+                position_reset()
+                next_level_points(1, 0, 2, 3)
+                sleep_and_clear(0.01)
+                return True
+            elif players_positions[2] == 29:
+                position_reset()
+                next_level_points(2, 1, 0, 3)
+                sleep_and_clear(0.01)
+                return True
+            elif players_positions[3] == 29:
+                position_reset()
+                next_level_points(3, 0, 1, 2)
+                sleep_and_clear(0.01)
+                return True
+
+def game2():
+    global task_assingment_positions, players_positions
+
+    while True:
+        make_players()
+        print(f"START.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n \
+    {generate_board()}.META")
+        play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
+        play = play.lower()
+
+        if play == "1":
+            players_positions[0] = move_player(players_positions[0])
+            questions_assingment(players_positions[0], 0)
+            print("Time for Red (2)")
+            sleep_and_clear(1)
+
+        elif play == "2":
+            players_positions[1] = move_player(players_positions[1])
+            questions_assingment(players_positions[1], 1)
+            print("Time for Green (3)")
+            sleep_and_clear(1)
+
+        elif play == "3":
+            players_positions[2] = move_player(players_positions[2])
+            questions_assingment(players_positions[2], 2)
+            print("Time for Yellow (4)")
+            sleep_and_clear(1)
+        elif play == "4":
+            players_positions[3] = move_player(players_positions[3])
+            questions_assingment(players_positions[3], 3)
+            print("Time for Blue (1)")
+            sleep_and_clear(1)
+        elif play == "q":
+            sleep_and_clear(1)
+            return False
+        else:
+            print("Invalid input! Please press 1, 2, 3, 4 or q.")
+
+        if players_positions[0] == 29 or players_positions[1] == 29 or players_positions[2] == 29 or players_positions[3] == 29:
+            print(generate_board())
+            if players_positions[0] == 29:
                 print("Player A wins!")
-            elif position_B == 29:
+            elif players_positions[1] == 29:
                 print("Player B wins!")
-            elif position_C == 29:
+            elif players_positions[2] == 29:
                 print("Player C wins!")
-            elif position_D == 29:
+            elif players_positions[3] == 29:
                 print("Player D wins!")
+            sleep_and_clear(1)
+            return True
+        
+def initial_game(): 
+    while True:
+        if not game1():
+            break
+        if not game2():
             break
 
-game()
+initial_game()
+
+print("Koniec")
+    

@@ -95,14 +95,50 @@ def game1():
 
         if position_A == 29 or position_B == 29 or position_C == 29 or position_D == 29:
             print(generate_board())
-            if position_A == 29 or position_B == 29 or position_C == 29 or position_D == 29:
+            if position_A == 29:
                 position_A = 0
                 position_B = 0
                 position_C = 0
                 position_D = 0
+                players_points[0] += 15
+                players_points[1] += 5
+                players_points[2] += 5
+                players_points[3] += 5
                 sleep_and_clear(0.01)
                 return True
-
+            elif position_B == 29:
+                position_A = 0
+                position_B = 0
+                position_C = 0
+                position_D = 0
+                players_points[0] += 5
+                players_points[1] += 15
+                players_points[2] += 5
+                players_points[3] += 5
+                sleep_and_clear(0.01)
+                return True
+            elif position_C == 29:
+                position_A = 0
+                position_B = 0
+                position_C = 0
+                position_D = 0
+                players_points[0] += 5
+                players_points[1] += 5
+                players_points[2] += 15
+                players_points[3] += 5
+                sleep_and_clear(0.01)
+                return True
+            elif position_D == 29:
+                position_A = 0
+                position_B = 0
+                position_C = 0
+                position_D = 0
+                players_points[0] += 5
+                players_points[1] += 5
+                players_points[2] += 5
+                players_points[3] += 15
+                sleep_and_clear(0.01)
+                return True
 
 def game2():
     global task_assingment_positions, position_A, position_B, position_C, position_D
