@@ -56,10 +56,8 @@ def make_players():
         print(f"{players_list[0]}.{players_list[1]}: {players_points[i]}")
     
 
-def game1(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by wtedy dopisać, jak program ma się zakończyć i dopiero
-    #finalnie w funkcji game, wywołał 4 takie funkcje jak obecna f-cja game.
+def game1():
     global task_assingment_positions, position_A, position_B, position_C, position_D
-    is_game_on = True
     while True:
         make_players()
         print(f"START.{generate_board()} \n \
@@ -91,8 +89,7 @@ def game1(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by
             sleep_and_clear(1)
         elif play == "q":
             sleep_and_clear(1)
-            is_game_on = False
-            return is_game_on
+            return False
         else:
             print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
@@ -104,13 +101,10 @@ def game1(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by
                 position_C = 0
                 position_D = 0
                 sleep_and_clear(0.01)
-                play = True
-                return play
-            
+                return True
 
 
-def game2(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by wtedy dopisać, jak program ma się zakończyć i dopiero
-    #finalnie w funkcji game, wywołał 4 takie funkcje jak obecna f-cja game.
+def game2():
     global task_assingment_positions, position_A, position_B, position_C, position_D
 
     while True:
@@ -144,7 +138,7 @@ def game2(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by
             sleep_and_clear(1)
         elif play == "q":
             sleep_and_clear(1)
-            break
+            return False
         else:
             print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
@@ -159,13 +153,14 @@ def game2(): #nazwał bym to coś w stylu game_board_srodmieście itp, trzeba by
             elif position_D == 29:
                 print("Player D wins!")
             sleep_and_clear(1)
-            play = False
-            return play
-
+            return True
+        
 def initial_game(): 
-
-        game1()
-        game2()
+    while True:
+        if not game1():
+            break
+        if not game2():
+            break
 
 initial_game()
 
