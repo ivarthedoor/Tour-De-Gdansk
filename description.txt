@@ -1,6 +1,6 @@
 NA TERAZ
--board.py -line 73* Chyba nadszedł czas rozpocząć budowę kolejnych etapów planszy (najpierw zróbmy 2 i wpiszmy wszystko co trzeba, 
-    żeby działało, np podciąganie graczy i przyznawanie im punktów)
+-Wpisanie 3ciej planszy, praca dla Pawła (Jeżeli się uda, to róenież 4tej)
+-Tworzenie większej ilości pytań.
 -testujemy wszelkie możlwe warianty, pod kątem wystąpienia możliwych błędów
 
 
