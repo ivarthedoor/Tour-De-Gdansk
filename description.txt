@@ -1,6 +1,9 @@
 NA TERAZ
 -Wpisanie 3ciej planszy, praca dla Pawła (Jeżeli się uda, to róenież 4tej)
 -Tworzenie większej ilości pytań.
+-Podwajamy ilość pól
+-zmieniamy program tak by gracze mogli iść tylko w konkretnej kolejności
+-!!! co w przypadku, gdby graczy będzie mniej niż 4?
 -testujemy wszelkie możlwe warianty, pod kątem wystąpienia możliwych błędów
 
 
