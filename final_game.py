@@ -11,6 +11,6 @@ def initial_game():
         if not game4():
             break
 
-initial_game()
+initial_game() # Włączenie gry poprzez funkcję, która wywołuje po kolei dzielnice
 
 print("Koniec")

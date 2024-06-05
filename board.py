@@ -1,8 +1,8 @@
-board_range = range(1, 31)
+board_range = range(1, 31) # Zakres jednej dzielnicy
 def generate_board():
     from core import players_positions
-    board_field = ["____" for _ in board_range]
-    player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"]
+    board_field = ["____" for _ in board_range] 
+    player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"] # ID znaków - kulki określające graczy
     
     for i, position in enumerate(players_positions):
         if board_field[position] == "____":

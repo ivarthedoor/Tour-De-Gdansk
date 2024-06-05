@@ -5,7 +5,7 @@ from movement_programms import move_player
 
 
 players_positions = [0, 0, 0, 0]
-task_assingment_positions = [i - 1 for i in board_range if i % 5 == 0]
+task_assingment_positions = [i - 1 for i in board_range if i % 5 == 0] # Co piąte pole 
 players_points = [0, 0, 0, 0]
 
 
@@ -22,7 +22,7 @@ def next_level_points(a, b, c, d):
     players_points[c] += 5
     players_points[d] += 5
 
-def questions_assingment(position, points_index):
+def questions_assingment(position, points_index):  # Losowanie pytania co piąte pole 
     for i in task_assingment_positions:
         if position == i:
             if abcd_questions():
@@ -34,7 +34,7 @@ def questions_assingment(position, points_index):
                     players_points[points_index] -= 5
     return players_points[points_index]
 
-def make_players():
+def make_players(): # Generowanie graczy - ale jeszcze bez wyboru  ich ilosći 
     players = [x for x in enumerate(["Blue", "Red","Green", "Yellow"], start=1)]
     i = 0
     for i in range(len(players)):
@@ -43,7 +43,7 @@ def make_players():
         players_board = players_list, players_points[i]
         print(f"{players_list[0]}.{players_list[1]}: {players_points[i]}")
 
-def game1():
+def game1(): # Dzielnica 1
     global task_assingment_positions, players_positions
     while True:
         make_players()
@@ -53,10 +53,10 @@ def game1():
     ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.META")
         play = input("press 1 to move Blue, 2 to move Red, 3 to move Green, 4 to move Yellow or q to quit: ")
         play = play.lower()
-
+# Poruszanie się graczem: 
         if play == "1":
             players_positions[0] = move_player(players_positions[0])
-            questions_assingment(players_positions[0], 0)
+            questions_assingment(players_positions[0], 0) # Jak jest na piątym polu to pojawia się pytanie 
             print("Time for Red (2)")
             sleep_and_clear(1)
 
@@ -105,7 +105,7 @@ def game1():
                 sleep_and_clear(0.01)
                 return True
 
-def game2():
+def game2(): # Dzielnica 2 
     global task_assingment_positions, players_positions
     while True:
         make_players()
@@ -167,7 +167,7 @@ def game2():
                 sleep_and_clear(0.01)
                 return True
 
-def game3():
+def game3(): # Dzielnica 3
     global task_assingment_positions, players_positions
     while True:
         make_players()
@@ -229,7 +229,7 @@ def game3():
                 sleep_and_clear(0.01)
                 return True
 
-def game4():
+def game4(): # Dzielnica 4
     global task_assingment_positions, players_positions
     while True:
         make_players()
@@ -268,7 +268,7 @@ def game4():
         else:
             print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-        if players_positions[0] == 29 or players_positions[1] == 29 or players_positions[2] == 29 or players_positions[3] == 29:
+        if players_positions[0] == 29 or players_positions[1] == 29 or players_positions[2] == 29 or players_positions[3] == 29: # Przenoszenie wszystkich graczy do następnej dzielnicy w momencie kiedy jeden z graczy dotarł do końca pierwszej dzielnicy
             print(generate_board())
             if players_positions[0] == 29:
                 print("Player A wins!")

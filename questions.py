@@ -1,5 +1,7 @@
-from random import randint
+import random 
+import main_functions
 
+# ABCD
 def abcd_question1():
     print("Konkatedralna Bazylika Mariacka zwana często „Koroną Gdańska” jest największą w Europie świątynią wybudowaną z cegły. \
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
@@ -193,42 +195,10 @@ def abcd_question10():
         print("Odpowiedź jest błędna!")
         return False
 
+# Tak lub nie 
 
 
-def abcd_questions():
-    number = randint(1, 10)
-    if number == 1:
-        if abcd_question1():
-            return True
-    elif number == 2:
-        if abcd_question2():
-            return True
-    elif number == 3:
-        if abcd_question3():
-            return True
-    elif number == 4:
-        if abcd_question4():
-            return True
-    elif number == 5:
-        if abcd_question5():
-            return True
-    elif number == 6:
-        if abcd_question6():
-            return True
-    elif number == 7:
-        if abcd_question7():
-            return True
-    elif number == 8:
-        if abcd_question8():
-            return True
-    elif number == 9:
-        if abcd_question9():
-            return True
-    else:
-        if abcd_question10():
-            return True
-    
-def question1():
+def tf_question1():
     final_value = True
     print("Czy Zoo w Gdańsku jest największym zoo w Polsce?")
     answear = int(input("Podaj odpowiedź: "))
@@ -240,7 +210,7 @@ def question1():
         final_value = False
     return final_value 
 
-def question2():
+def tf_question2():
     final_value = True
     print("Czy miasto Gdańsk posiada tytuł Smart City?")
     answear = int(input("Podaj odpowedż: "))
@@ -252,7 +222,7 @@ def question2():
     return final_value
 
 
-def question3():
+def tf_question3():
     final_value = True
     print("Czy Adam Kazimierz Czartoryski urodził się w Gdańsku?")
     answear = int(input("Podaj odpowuiedź: "))
@@ -264,7 +234,7 @@ def question3():
     return final_value
 
 
-def question4():
+def tf_question4():
     final_value = True
     print("Czy niemieckojęzyczny fizyk i inżynier, holenderskiego pochodzenia, wynalazca termometru rtęciowego Daniel Gabriel Fahrenheit zmarł w Gdańśku?")
     answear = int(input("Podaj odpowiedź: "))
@@ -276,7 +246,7 @@ def question4():
     return final_value
 
 
-def question5():
+def tf_question5():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -288,7 +258,7 @@ def question5():
     return final_value
 
 
-def question6():
+def tf_question6():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -300,7 +270,7 @@ def question6():
     return final_value
 
 
-def question7():
+def tf_question7():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -312,7 +282,7 @@ def question7():
     return final_value
 
 
-def question8():
+def tf_question8():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -324,7 +294,7 @@ def question8():
     return final_value
 
 
-def question9():
+def tf_question9():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -336,7 +306,7 @@ def question9():
     return final_value
 
 
-def question10():
+def tf_question10():
     final_value = True
     print("treść pytania")
     answear = int(input("odpowedż"))
@@ -347,38 +317,7 @@ def question10():
         print("Odpowiedź jest błędna!")
     return final_value
 
-
-
-def true_or_false():
-    number = randint(1, 10)
-    if number == 1:
-        return question1()
-    elif number == 2:
-        return question2()
-    elif number == 3:
-        return question3()
-    elif number == 4:
-        return question4()
-    elif number == 5:
-        return question5()
-    elif number == 6:
-        return question6()
-    elif number == 7:
-        return question7()
-    elif number == 8:
-        return question8()
-    elif number == 9:
-        return question9()
-    else:
-        return question10
-    
-
-
-
-    #Matematyczne
-import main_functions
-
-
+# Matematyczne
 def math_question1():
     print("To chyba jakiś wzór matematyczny")
     main_functions.sleep_and_clear(6)
@@ -390,4 +329,27 @@ def math_question1():
     else:
         print("Kurcze coś jest nie tak!")
 
-# print(abcd_question7())
+
+
+# Wywoływanie różnych pytań (ABCD, tak/nie, matematyczne)
+def abcd_questions():
+    abcd_question_list = [abcd_question1, abcd_question2,abcd_question3, abcd_question4, abcd_question5, \
+                          abcd_question6, abcd_question7, abcd_question8, abcd_question9, abcd_question10]
+    abcd_random_question = random.choice(abcd_question_list)
+    return abcd_random_question()
+
+    
+def true_or_false():
+    tf_question_list = [tf_question1, tf_question2, tf_question3, tf_question4, tf_question5, \
+                          tf_question6, tf_question7, tf_question8, tf_question9, tf_question10]
+    tf_question = random.choice(tf_question_list)
+    return tf_question()
+    
+
+def math_questions():
+    math_question_list = [math_question1, math_question2, math_question3, math_question4, math_question5, \
+                          math_question6, math_question7, math_question8, math_question9, math_question10]
+    math_random_question = random.choice(math_question_list)
+    return math_random_question()
+
+
