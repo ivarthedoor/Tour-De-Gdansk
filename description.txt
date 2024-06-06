@@ -1,5 +1,4 @@
 NA TERAZ
--Wpisanie 3ciej planszy, praca dla Pawła (Jeżeli się uda, to róenież 4tej)
 -Tworzenie większej ilości pytań.
 -Podwajamy ilość pól
 -zmieniamy program tak by gracze mogli iść tylko w konkretnej kolejności

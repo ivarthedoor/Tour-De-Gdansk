@@ -339,17 +339,17 @@ def abcd_questions():
     return abcd_random_question()
 
     
-def true_or_false():
-    tf_question_list = [tf_question1, tf_question2, tf_question3, tf_question4, tf_question5, \
-                          tf_question6, tf_question7, tf_question8, tf_question9, tf_question10]
-    tf_question = random.choice(tf_question_list)
-    return tf_question()
+# def true_or_false():
+#     tf_question_list = [tf_question1, tf_question2, tf_question3, tf_question4, tf_question5, \
+#                           tf_question6, tf_question7, tf_question8, tf_question9, tf_question10]
+#     tf_question = random.choice(tf_question_list)
+#     return tf_question()
     
 
-def math_questions():
-    math_question_list = [math_question1, math_question2, math_question3, math_question4, math_question5, \
-                          math_question6, math_question7, math_question8, math_question9, math_question10]
-    math_random_question = random.choice(math_question_list)
-    return math_random_question()
+# def math_questions():
+#     math_question_list = [math_question1, math_question2, math_question3, math_question4, math_question5, \
+#                           math_question6, math_question7, math_question8, math_question9, math_question10]
+#     math_random_question = random.choice(math_question_list)
+#     return math_random_question()
 
 

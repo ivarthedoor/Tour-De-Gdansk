@@ -1,4 +1,3 @@
-from questions import abcd_questions
 from main_functions import sleep_and_clear
 from board import board_range, generate_board
 from movement_programms import move_player
@@ -23,6 +22,7 @@ def next_level_points(a, b, c, d):
     players_points[d] += 5
 
 def questions_assingment(position, points_index):  # Losowanie pytania co piąte pole 
+    from questions import abcd_questions
     for i in task_assingment_positions:
         if position == i:
             if abcd_questions():
