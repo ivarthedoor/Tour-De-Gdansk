@@ -1,4 +1,7 @@
 NA TERAZ
+- chatGPT jako koła ratunkowe - API 
+- zmiana kodu na obiektowy 
+Sprawdzić wybór odpowiedzi na pytanie - czy trzeba wpisywać 1, 2, 3 czy całą datę na przykład 
 -Tworzenie większej ilości pytań.
 -Podwajamy ilość pól
 -zmieniamy program tak by gracze mogli iść tylko w konkretnej kolejności
