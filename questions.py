@@ -7,12 +7,12 @@ def abcd_question1():
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
           \n \
           \nW którym roku rozpoczęto budowę Bazyliki Mariackiej? \
-          \n-1285 \
-          \n-1343 \
-          \n-2003 \
-          \n-867")
+          \n- a - 1285 \
+          \n- b - 1343 \
+          \n- c - 2003 \
+          \n- d - 867")
     year = int(input("Odpowiedź: "))
-    if year == 1343:
+    if year == 'b':
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -24,12 +24,12 @@ def abcd_question2():
            \nMowa o słynnej późniejszej fontannie Neptuna. \
           \n \
           \nCzy wiesz w którym roku ukończono jej budowę? \
-          \n-1776 \
-          \n-1822 \
-          \n-1633 \
-          \n-764 p.n.e.")
+          \n- a - 1776 \
+          \n- b - 1822 \
+          \n- c - 1633 \
+          \n- d - 764 p.n.e.")
     year = int(input("Odpowiedź: "))
-    if year == 1633:
+    if year == 'c':
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -42,10 +42,10 @@ def abcd_question3():
           \nFunkcjonowała przez ok. 350 lat wykorzystując siłę spiętrzonych wód Potoku Oliwskiego. \
           \n \
           \nZ którego roku pochodzi pierwsza wzmianka na temat tejże kuźni? \
-          \n-1597 \
-          \n-1800 \
-          \n-1112 \
-          \n-1438")
+          \n- a - 1597 \
+          \n- b - 1800 \
+          \n- c - 1112 \
+          \n- d - 1438")
     year = int(input("Odpowiedź: "))
     if year == 1597:
         print("Odpowiedź jest poprawna!")
@@ -60,10 +60,10 @@ def abcd_question4():
           \nPełni rolę obiektu recepcyjnego miasta. \
           \n \
           \nW którym roku ukończono budowę pierwotnego Gdańskiego Dworu Artusa? \
-          \n-1567 \
-          \n-1481 \
-          \n-1914 \
-          \n-1474")
+          \n- a - 1567 \
+          \n- b - 1481 \
+          \n- c - 1914 \
+          \n- d - 1474")
     year = int(input("Odpowiedź: "))
     if year == 1481:
         print("Odpowiedź jest poprawna!")
@@ -78,10 +78,10 @@ def abcd_question5():
           \noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej. \
           \n \
           \nW którym roku ukończono budowę Bramy Wyżynnej? \
-          \n-1475 \
-          \n-1575 \
-          \n-1675 \
-          \n-1775")
+          \n- a - 1475 \
+          \n- b - 1575 \
+          \n- c - 1675 \
+          \n- d - 1775")
     year = int(input("Odpowiedź: "))
     if year == 1575:
         print("Odpowiedź jest poprawna!")
@@ -98,10 +98,10 @@ def abcd_question6(): #oliwa
           \nogród został poszerzony w kierunku południowo-zachodnim, stykając się ze starszym ogrodem klasztornym. \
           \n \
           \nO jakim zakonie mowa? \
-          \n1.Kapucynów \
-          \n2.Cystersów? \
-          \n3.Mnichów z Shaolin \
-          \n4.Franciszkanów \
+          \n- a - Kapucynów \
+          \n- b - Cystersów? \
+          \n- c - Mnichów z Shaolin \
+          \n- d - Franciszkanów \
           \n \
           \nPodaj dokładną odpowiedź od 1 do 4")
     answer = int(input("Odpowiedź: "))
@@ -118,7 +118,7 @@ def abcd_question7():
           \nw której potężne miasto wiernie stało przy legalnie obranym królu Stanisławie Leszczyńskim. \
           \n \
           \nCzyje wojska atakowały Gdańsk? \
-          \n1.Niemieckie \
+          \n- a - Niemieckie \
           \n2.Filipińskie \
           \n3.Rosyjskie \
           \n4.Pruskie \
