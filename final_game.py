@@ -1,14 +1,14 @@
-from core import game1, game2, game3, game4
+from core import Game_levels
 
 def initial_game(): 
     while True:
-        if not game1():
+        if not Game_levels.game1():
             break
-        if not game2():
+        if not Game_levels.game2():
             break
-        if not game3():
+        if not Game_levels.game3():
             break
-        if not game4():
+        if not Game_levels.game4():
             break
 
 initial_game() # Włączenie gry poprzez funkcję, która wywołuje po kolei dzielnice

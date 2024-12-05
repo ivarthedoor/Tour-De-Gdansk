@@ -7,12 +7,12 @@ def abcd_question1():
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
           \n \
           \nW którym roku rozpoczęto budowę Bazyliki Mariackiej? \
-          \n-1285 \
-          \n-1343 \
-          \n-2003 \
-          \n-867")
-    year = int(input("Odpowiedź: "))
-    if year == 1343:
+          \na. 1285 \
+          \nb. 1343 \
+          \nc. 2003 \
+          \nd. 867")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -24,12 +24,12 @@ def abcd_question2():
            \nMowa o słynnej późniejszej fontannie Neptuna. \
           \n \
           \nCzy wiesz w którym roku ukończono jej budowę? \
-          \n-1776 \
-          \n-1822 \
-          \n-1633 \
-          \n-764 p.n.e.")
-    year = int(input("Odpowiedź: "))
-    if year == 1633:
+          \na. 1776 \
+          \nb. 1822 \
+          \nc. 1633 \
+          \nd. 764 p.n.e.")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -42,12 +42,12 @@ def abcd_question3():
           \nFunkcjonowała przez ok. 350 lat wykorzystując siłę spiętrzonych wód Potoku Oliwskiego. \
           \n \
           \nZ którego roku pochodzi pierwsza wzmianka na temat tejże kuźni? \
-          \n-1597 \
-          \n-1800 \
-          \n-1112 \
-          \n-1438")
-    year = int(input("Odpowiedź: "))
-    if year == 1597:
+          \na. 1597 \
+          \nb. 1800 \
+          \nc. 1112 \
+          \nd. 1438")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "A" or "a":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -60,12 +60,12 @@ def abcd_question4():
           \nPełni rolę obiektu recepcyjnego miasta. \
           \n \
           \nW którym roku ukończono budowę pierwotnego Gdańskiego Dworu Artusa? \
-          \n-1567 \
-          \n-1481 \
-          \n-1914 \
-          \n-1474")
-    year = int(input("Odpowiedź: "))
-    if year == 1481:
+          \na. 1567 \
+          \nb. 1481 \
+          \nc. 1914 \
+          \nd. 1474")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -78,12 +78,12 @@ def abcd_question5():
           \noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej. \
           \n \
           \nW którym roku ukończono budowę Bramy Wyżynnej? \
-          \n-1475 \
-          \n-1575 \
-          \n-1675 \
-          \n-1775")
-    year = int(input("Odpowiedź: "))
-    if year == 1575:
+          \na. 1475 \
+          \nb. 1575 \
+          \nc. 1675 \
+          \nd. 1775")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -98,14 +98,12 @@ def abcd_question6(): #oliwa
           \nogród został poszerzony w kierunku południowo-zachodnim, stykając się ze starszym ogrodem klasztornym. \
           \n \
           \nO jakim zakonie mowa? \
-          \n1.Kapucynów \
-          \n2.Cystersów? \
-          \n3.Mnichów z Shaolin \
-          \n4.Franciszkanów \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 2:
+          \na. Kapucynów \
+          \nb. Cystersów \
+          \nc. Mnichów z Shaolin \
+          \nd. Franciszkanów")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -118,14 +116,12 @@ def abcd_question7():
           \nw której potężne miasto wiernie stało przy legalnie obranym królu Stanisławie Leszczyńskim. \
           \n \
           \nCzyje wojska atakowały Gdańsk? \
-          \n1.Niemieckie \
-          \n2.Filipińskie \
-          \n3.Rosyjskie \
-          \n4.Pruskie \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 3:
+          \na.Niemieckie \
+          \nb.Filipińskie \
+          \nc.Rosyjskie \
+          \nd.Pruskie")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -138,14 +134,12 @@ def abcd_question8():
           \nWyrabiano wówczas dla potrzeb kultowych amulety - postaci zwierząt, figurki bóstw i herosów. \
           \n \
           \nO jaki kamień chodzi? \
-          \n1.Opal \
-          \n2.Agat \
-          \n3.Bursztyn \
-          \n4.Krzemień \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 3:
+          \na.Opal \
+          \nb.Agat \
+          \nc.Bursztyn \
+          \nd.Krzemień")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -161,14 +155,12 @@ def abcd_question9():
           \nzostała odcięta od głównej części wyspy poprzez powstały sztucznie Kanał Smolny. \
           \n \
           \nO jaką wyspę chodzi? \
-          \n1.Sobieszewską \
-          \n2.Ołowianka2 \
-          \n3.Spichrzów \
-          \n4.Wolin \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 3:
+          \na.Sobieszewską \
+          \nb.Ołowianka2 \
+          \nc.Spichrzów \
+          \nd.Wolin")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -181,14 +173,12 @@ def abcd_question10():
           \nOprócz niepodległości i przynależności do Polski, przez długi okres swojej historii był częścią jednak do innego kraju. \
           \n \
           \nO jaki kraj chodzi? \
-          \n1.Niemcy \
-          \n2.Lichtenstein \
-          \n3.Rosja \
-          \n4.Szwecja \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 1:
+          \na.Niemcy \
+          \nb.Lichtenstein \
+          \nc.Rosja \
+          \nd.Szwecja")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "A" or "a":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -201,7 +191,7 @@ def abcd_question10():
 def tf_question1():
     final_value = True
     print("Czy Zoo w Gdańsku jest największym zoo w Polsce?")
-    answear = int(input("Podaj odpowiedź: "))
+    answear = str(input("odpowiedz: tak lub nie"))
     if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
@@ -213,7 +203,7 @@ def tf_question1():
 def tf_question2():
     final_value = True
     print("Czy miasto Gdańsk posiada tytuł Smart City?")
-    answear = int(input("Podaj odpowedż: "))
+    answear = str(input("odpowiedz: tak lub nie"))
     if answear == "tak" or "Tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
@@ -225,7 +215,7 @@ def tf_question2():
 def tf_question3():
     final_value = True
     print("Czy Adam Kazimierz Czartoryski urodził się w Gdańsku?")
-    answear = int(input("Podaj odpowuiedź: "))
+    answear = str(input("odpowiedz: tak lub nie"))
     if answear == "tak" or "Tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
@@ -237,8 +227,8 @@ def tf_question3():
 def tf_question4():
     final_value = True
     print("Czy niemieckojęzyczny fizyk i inżynier, holenderskiego pochodzenia, wynalazca termometru rtęciowego Daniel Gabriel Fahrenheit zmarł w Gdańśku?")
-    answear = int(input("Podaj odpowiedź: "))
-    if answear == "Nak" or "nie":
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Nie" or "nie":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -248,9 +238,9 @@ def tf_question4():
 
 def tf_question5():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy Gdańsk był kiedyś częścią Hanzy, czyli związku miast handlowych Europy Północnej?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -260,9 +250,9 @@ def tf_question5():
 
 def tf_question6():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy Fontanna Neptuna w Gdańsku została zbudowana w XIX wieku?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Nie" or "nie":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -272,9 +262,9 @@ def tf_question6():
 
 def tf_question7():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy w Gdańsku znajduje się najdłuższy w Europie kościół z cegły?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -284,9 +274,9 @@ def tf_question7():
 
 def tf_question8():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy w Gdańsku powstała pierwsza na świecie poczta morska?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -296,9 +286,9 @@ def tf_question8():
 
 def tf_question9():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy Westerplatte było miejscem rozpoczęcia II wojny światowej?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
@@ -308,30 +298,18 @@ def tf_question9():
 
 def tf_question10():
     final_value = True
-    print("treść pytania")
-    answear = int(input("odpowedż"))
-    if answear == "":
+    print("Czy Gdańsk był jednym z miast, w których narodził się ruch Solidarność?")
+    answear = str(input("odpowiedz: tak lub nie"))
+    if answear == "Tak" or "tak":
         print("Odpowiedź jest poprawna!")
         final_value = True
     else:
         print("Odpowiedź jest błędna!")
     return final_value
 
-# Matematyczne
-def math_question1():
-    print("To chyba jakiś wzór matematyczny")
-    main_functions.sleep_and_clear(6)
-    print("Gdy to obliczymy dowiemy się o roku budowy żurawia")
-    print("72*(2*2)+12*(2**2)+((800/4)+44)")
-    answear = int(input("to chyba  "))
-    if answear == 1444:
-        print("TAK jest!! udało się!!!")
-    else:
-        print("Kurcze coś jest nie tak!")
 
 
-
-# Wywoływanie różnych pytań (ABCD, tak/nie, matematyczne)
+# Wywoływanie różnych pytań (ABCD, tak/nie)
 def abcd_questions():
     abcd_question_list = [abcd_question1, abcd_question2,abcd_question3, abcd_question4, abcd_question5, \
                           abcd_question6, abcd_question7, abcd_question8, abcd_question9, abcd_question10]
@@ -339,17 +317,10 @@ def abcd_questions():
     return abcd_random_question()
 
     
-# def true_or_false():
-#     tf_question_list = [tf_question1, tf_question2, tf_question3, tf_question4, tf_question5, \
-#                           tf_question6, tf_question7, tf_question8, tf_question9, tf_question10]
-#     tf_question = random.choice(tf_question_list)
-#     return tf_question()
-    
-
-# def math_questions():
-#     math_question_list = [math_question1, math_question2, math_question3, math_question4, math_question5, \
-#                           math_question6, math_question7, math_question8, math_question9, math_question10]
-#     math_random_question = random.choice(math_question_list)
-#     return math_random_question()
+def true_or_false():
+    tf_question_list = [tf_question1, tf_question2, tf_question3, tf_question4, tf_question5, \
+                          tf_question6, tf_question7, tf_question8, tf_question9, tf_question10]
+    tf_question = random.choice(tf_question_list)
+    return tf_question()
 
 
