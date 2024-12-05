@@ -7,12 +7,12 @@ def abcd_question1():
           \nPotężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą. \
           \n \
           \nW którym roku rozpoczęto budowę Bazyliki Mariackiej? \
-          \n-1285 \
-          \n-1343 \
-          \n-2003 \
-          \n-867")
-    year = int(input("Odpowiedź: "))
-    if year == 1343:
+          \na. 1285 \
+          \nb. 1343 \
+          \nc. 2003 \
+          \nd. 867")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -24,12 +24,12 @@ def abcd_question2():
            \nMowa o słynnej późniejszej fontannie Neptuna. \
           \n \
           \nCzy wiesz w którym roku ukończono jej budowę? \
-          \n-1776 \
-          \n-1822 \
-          \n-1633 \
-          \n-764 p.n.e.")
-    year = int(input("Odpowiedź: "))
-    if year == 1633:
+          \na. 1776 \
+          \nb. 1822 \
+          \nc. 1633 \
+          \nd. 764 p.n.e.")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -42,12 +42,12 @@ def abcd_question3():
           \nFunkcjonowała przez ok. 350 lat wykorzystując siłę spiętrzonych wód Potoku Oliwskiego. \
           \n \
           \nZ którego roku pochodzi pierwsza wzmianka na temat tejże kuźni? \
-          \n-1597 \
-          \n-1800 \
-          \n-1112 \
-          \n-1438")
-    year = int(input("Odpowiedź: "))
-    if year == 1597:
+          \na. 1597 \
+          \nb. 1800 \
+          \nc. 1112 \
+          \nd. 1438")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "A" or "a":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -60,12 +60,12 @@ def abcd_question4():
           \nPełni rolę obiektu recepcyjnego miasta. \
           \n \
           \nW którym roku ukończono budowę pierwotnego Gdańskiego Dworu Artusa? \
-          \n-1567 \
-          \n-1481 \
-          \n-1914 \
-          \n-1474")
-    year = int(input("Odpowiedź: "))
-    if year == 1481:
+          \na. 1567 \
+          \nb. 1481 \
+          \nc. 1914 \
+          \nd. 1474")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -78,12 +78,12 @@ def abcd_question5():
           \noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej. \
           \n \
           \nW którym roku ukończono budowę Bramy Wyżynnej? \
-          \n-1475 \
-          \n-1575 \
-          \n-1675 \
-          \n-1775")
-    year = int(input("Odpowiedź: "))
-    if year == 1575:
+          \na. 1475 \
+          \nb. 1575 \
+          \nc. 1675 \
+          \nd. 1775")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -98,14 +98,12 @@ def abcd_question6(): #oliwa
           \nogród został poszerzony w kierunku południowo-zachodnim, stykając się ze starszym ogrodem klasztornym. \
           \n \
           \nO jakim zakonie mowa? \
-          \n1.Kapucynów \
-          \n2.Cystersów? \
-          \n3.Mnichów z Shaolin \
-          \n4.Franciszkanów \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 2:
+          \na. Kapucynów \
+          \nb. Cystersów \
+          \nc. Mnichów z Shaolin \
+          \nd. Franciszkanów")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "B" or "b":
         print("Odpowiedź jest poprawna!")
         return True
     else:
@@ -118,14 +116,12 @@ def abcd_question7():
           \nw której potężne miasto wiernie stało przy legalnie obranym królu Stanisławie Leszczyńskim. \
           \n \
           \nCzyje wojska atakowały Gdańsk? \
-          \n1.Niemieckie \
-          \n2.Filipińskie \
-          \n3.Rosyjskie \
-          \n4.Pruskie \
-          \n \
-          \nPodaj dokładną odpowiedź od 1 do 4")
-    answer = int(input("Odpowiedź: "))
-    if answer == 3:
+          \na.Niemieckie \
+          \nb.Filipińskie \
+          \nc.Rosyjskie \
+          \nd.Pruskie")
+    answer = str(input("Odpowiedz: a, b, c lub d"))
+    if answer == "C" or "c":
         print("Odpowiedź jest poprawna!")
         return True
     else:
