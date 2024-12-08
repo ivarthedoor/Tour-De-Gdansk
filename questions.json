@@ -27,7 +27,7 @@
         "type": "ABCD",
         "district": "Stare miasto",
         "question": "W którym roku ukończono budowę Bramy Wyżynnej?",
-        "description": "Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku.nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej".,
+        "description": "Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku.nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej",
         "options": ["a. 1475", "b. 1575", "c. 1675", "d. 1775"],
         "correct_answer": "b"
     },
