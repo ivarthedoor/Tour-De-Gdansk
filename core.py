@@ -29,7 +29,7 @@ class GameCore:
         from questions import abcd_questions
         for i in task_assingment_positions:
             if position == i:
-                if abcd_questions():
+                if abcd_questions(): !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                     sleep_and_clear(3)
                     players_points[points_index] += 10
                 else:
