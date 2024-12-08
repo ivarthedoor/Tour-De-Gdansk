@@ -1,4 +1,15 @@
 NA TERAZ
+
+-8.12 f-cja losująca Pytania
+-9.12 dokończenie klas, wbudowanie f-cji z 8.12
+-10.12 sql zaczynamy
+-11.12 sql
+-12.12 sql
+-13.12 sql kończymy
+-14.12 tablica wyników. Dopinamy ostatnie guziki
+
+
+
 - chatGPT jako koła ratunkowe - API 
 - zmiana kodu na obiektowy 
 Sprawdzić wybór odpowiedzi na pytanie - czy trzeba wpisywać 1, 2, 3 czy całą datę na przykład 

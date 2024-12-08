@@ -12,3 +12,5 @@ def sleep_and_clear(time):
     sleep(time)
     clear()
 
+
+BOARD_RANGE = (range(1, 31))
