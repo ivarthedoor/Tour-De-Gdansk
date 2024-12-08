@@ -1,5 +1,4 @@
 import random 
-import main_functions
 
 # ABCD
 def abcd_question1():

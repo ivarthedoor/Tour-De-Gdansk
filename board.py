@@ -1,12 +1,9 @@
-board_range = range(1, 31) # Zakres jednej dzielnicy
-
-class Game_board:
-    def __init__(self, board_range):
-        self.board_range = board_range
-        
+def get_board_range():
+    return (range(1, 31))
+class GameBoard:    
     def generate_board():
         from core import players_positions
-        board_field = ["____" for _ in board_range] 
+        board_field = ["____" for _ in get_board_range()] 
         player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"] # ID znaków - kulki określające graczy
         
         for i, position in enumerate(players_positions):
