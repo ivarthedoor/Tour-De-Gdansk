@@ -1,0 +1,370 @@
+import csv
+
+#zmienic na json bo Jankowi kolorki w oczy jebią
+
+questions_StareMiasto = [
+    {
+        "type": "ABCD",
+        "District": "Stare miasto",
+        "question": "W którym roku rozpoczęto budowę Bazyliki Mariackiej?",
+        "description":"Potężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą."
+        "options": ["a. 1285", "b. 1343", "c. 2003", "d. 867"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Czy wiesz w którym roku ukończono budowę fontanny Neptuna?",
+        "description": "W 1549 przed Dworem Artusa istniała bliżej nieznana studnia, być może już z metalowymi dekoracjami.",
+        "options": ["a. 1776", "b. 1822", "c. 1633", "d. 764 p.n.e."],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "W którym roku ukończono budowę pierwotnego Gdańskiego Dworu Artusa?",
+        "description": "Dwór Artusa gmach usytuowany w centrum Gdańska, przy Długim Targu 44, dawniej miejsce spotkań kupców, \nośrodek życia towarzyskiego, później giełda, obecnie oddział Muzeum Gdańska. Pełni rolę obiektu recepcyjnego miasta.",
+        "options": ["a. 1567", "b. 1481", "c. 1914", "d. 1474"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "W którym roku ukończono budowę Bramy Wyżynnej?",
+        "description": "Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku.nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej".,
+        "options": ["a. 1475", "b. 1575", "c. 1675", "d. 1775"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Czyje wojska atakowały Gdańsk 9 maja 1734 roku?",
+        "description": 
+        "options": ["a. Niemieckie", "b. Filipińskie", "c. Rosyjskie", "d. Pruskie"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "O jaki kamień chodzi, jeśli mowa o amuletach w Gdańsku?",
+        "options": ["a. Opal", "b. Agat", "c. Bursztyn", "d. Krzemień"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "O jaką wyspę chodzi, jeśli leży pomiędzy Motławą a Nową Motławą?",
+        "options": ["a. Sobieszewską", "b. Ołowianka", "c. Spichrzów", "d. Wolin"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "Do jakiego kraju należał Gdańsk przez długi okres swojej historii?",
+        "options": ["a. Niemcy", "b. Lichtenstein", "c. Rosja", "d. Szwecja"],
+        "correct_answer": "a"
+    },
+    # True/False questions
+    {"type": "TF",
+     "question": "Czy miasto Gdańsk posiada tytuł Smart City?",
+      "correct_answer": "tak"},
+    {"type": "TF", "question": "Czy Daniel Fahrenheit zmarł w Gdańsku?", "correct_answer": "nie"},
+    {"type": "TF", "question": "Czy Gdańsk był częścią Hanzy?", "correct_answer": "tak"},
+    {"type": "TF", "question": "Czy Fontanna Neptuna została zbudowana w XIX wieku?", "correct_answer": "nie"},
+    {"type": "TF", "question": "Czy w Gdańsku znajduje się najdłuższy kościół z cegły w Europie?", "correct_answer": "tak"},
+    {"type": "TF", "question": "Czy w Gdańsku powstała pierwsza na świecie poczta morska?", "correct_answer": "tak"},
+    {"type": "TF", "question": "Czy Westerplatte było miejscem rozpoczęcia II wojny światowej?", "correct_answer": "tak"},
+    {"type": "TF", "question": "Czy Gdańsk był jednym z miast, w których narodził się ruch Solidarność?", "correct_answer": "tak"}
+]
+
+
+
+
+questions_Oliwa = [
+    {
+        "type": "ABCD",
+        "question": "Z którego roku pochodzi pierwsza wzmianka na temat Kuźni Wodnej?",
+        "options": ["a. 1597", "b. 1800", "c. 1112", "d. 1438"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "TF",
+        "question": "Czy Zoo w Gdańsku jest największym zoo w Polsce?",
+        "options": ["tak", "nie"],
+        "correct_answer": "tak"
+    },
+    {
+        "type": "ABCD",
+        "question": "O jakim zakonie mowa, jeśli chodzi o Oliwski park?",
+        "options": ["a. Kapucynów", "b. Cystersów", "c. Mnichów z Shaolin", "d. Franciszkanów"],
+        "correct_answer": "b"
+    },
+]
+
+
+
+
+
+question_wrzeszcz = [
+    abcd_questions = [
+    {
+        "type": "ABCD",
+        "question": "W którym roku Wrzeszcz został przyłączony do Gdańska?",
+        "description": "Wrzeszcz to jedna z najstarszych dzielnic Gdańska, przyłączona do miasta w okresie dynamicznego rozwoju.",
+        "options": "a. 1812 | b. 1902 | c. 1926 | d. 1945",
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jak nazywa się główna ulica handlowa Wrzeszcza?",
+        "description": "Ta ulica jest sercem dzielnicy Wrzeszcz, pełnym sklepów i kawiarni.",
+        "options": "a. Ulica Grunwaldzka | b. Ulica Długa | c. Ulica Kartuska | d. Ulica Szeroka",
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jak nazywa się słynne centrum handlowe znajdujące się w Wrzeszczu?",
+        "description": "Jest to nowoczesne centrum handlowe na terenie dawnego browaru.",
+        "options": "a. Forum Gdańsk | b. Galeria Bałtycka | c. Madison | d. Riviera",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Z jaką znaną osobą związany jest Wrzeszcz?",
+        "description": "Pisarz znany z twórczości inspirowanej Gdańskiem i Wrzeszczem.",
+        "options": "a. Stefan Żeromski | b. Günter Grass | c. Jan Heweliusz | d. Bolesław Prus",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Który park znajduje się w dzielnicy Wrzeszcz?",
+        "description": "Jest to popularne miejsce spacerów i odpoczynku mieszkańców Wrzeszcza.",
+        "options": "a. Park Oliwski | b. Park Uphagena | c. Park Reagana | d. Park Jelitkowski",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jaka linia kolejowa przebiega przez Wrzeszcz?",
+        "description": "Jest to ważny węzeł komunikacyjny w Trójmieście.",
+        "options": "a. PKM | b. SKM | c. Metro | d. Pendolino",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Który z tych budynków znajduje się we Wrzeszczu?",
+        "description": "Jest to znana uczelnia techniczna.",
+        "options": "a. Uniwersytet Gdański | b. Politechnika Gdańska | c. Akademia Sztuk Pięknych | d. Wyższa Szkoła Morska",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Która dzielnica graniczy z Wrzeszczem od północy?",
+        "description": "Jest to również znana dzielnica Gdańska.",
+        "options": "a. Oliwa | b. Zaspa | c. Przymorze | d. Jelitkowo",
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jak nazywa się słynna piekarnia we Wrzeszczu?",
+        "description": "Znana z tradycyjnych wypieków.",
+        "options": "a. Piekarnia Pellowski | b. Piekarnia Nowak | c. Piekarnia Szydłowski | d. Piekarnia Kropka",
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "Która szkoła średnia znajduje się w Wrzeszczu?",
+        "description": "Jedna z najbardziej prestiżowych szkół średnich w Gdańsku.",
+        "options": "a. I LO | b. III LO | c. V LO | d. VIII LO",
+        "correct_answer": "b"
+    },
+    {
+        "type": "TF",
+        "question": "Wrzeszcz był kiedyś samodzielnym miastem przed przyłączeniem do Gdańska.",
+        "description": "Wrzeszcz rozwijał się jako osobna miejscowość, zanim stał się częścią Gdańska.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "W Wrzeszczu znajduje się budynek Politechniki Gdańskiej.",
+        "description": "Politechnika Gdańska to jedna z najważniejszych uczelni technicznych w Polsce.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "Wrzeszcz leży nad Zatoką Gdańską.",
+        "description": "Wrzeszcz nie ma bezpośredniego dostępu do Zatoki Gdańskiej.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "TF",
+        "question": "Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
+        "description": "Günter Grass, laureat Nagrody Nobla, spędził dzieciństwo w tej dzielnicy.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "Galeria Bałtycka to najstarsze centrum handlowe w Gdańsku.",
+        "description": "Galeria Bałtycka jest nowoczesnym centrum handlowym otwartym w 2007 roku.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "TF",
+        "question": "Wrzeszcz jest położony na zachód od Śródmieścia.",
+        "description": "Dzielnica Wrzeszcz znajduje się na zachód od centralnej części Gdańska.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "Ulica Wajdeloty we Wrzeszczu jest znana z kawiarni i butików.",
+        "description": "Ulica Wajdeloty to modna, klimatyczna uliczka w sercu Wrzeszcza.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "Wrzeszcz graniczy z dzielnicą Oliwa.",
+        "description": "Wrzeszcz i Oliwa to sąsiadujące dzielnice Gdańska.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "TF",
+        "question": "W Wrzeszczu nie ma żadnych zabytkowych budynków.",
+        "description": "Wrzeszcz posiada wiele historycznych kamienic i budynków z przełomu XIX i XX wieku.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "TF",
+        "question": "Wrzeszcz jest dzielnicą portową.",
+        "description": "Wrzeszcz nie ma bezpośredniego dostępu do portu.",
+        "correct_answer": "Fałsz"
+    }
+]
+
+
+question_stareprzedmiescie = [
+
+    {"type": "TF",
+     "question": "Czy Adam Kazimierz Czartoryski urodził się w Gdańsku?", 
+     "options": ["tak", "nie"],
+     "correct_answer": "tak"},
+    },
+    {
+        "type": "ABCD",
+        "question": "Jak nazywa się najstarsza zachowana brama wodna w Gdańsku?",
+        "description": "Brama ta pełniła ważną funkcję obronną i kontrolowała dostęp do portu.",
+        "options": ["a. Brama Wyżynna", "b. Brama Nizinna", "c. Brama Żuraw", "d. Brama Mariacka"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "District": "Stare Przedmieście",
+        "question": "Która ulica Starego Przedmieścia słynie z historycznego Żurawia?",
+        "description": "Żuraw Gdański to jedna z najbardziej rozpoznawalnych budowli Gdańska.",
+        "options": ["a. Długa", "b. Mariacka", "c. Chmielna", "d. Szeroka"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "question": "Który kościół jest nazywany „Koroną Gdańska"?",
+        "description": "To jeden z największych kościołów ceglanych na świecie.",
+        "options": ["a. Kościół św. Mikołaja", "b. Kościół św. Barbary", "c. Bazylika Mariacka", "d. Kościół św. Jana"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "District": "Stare Przedmieście",
+        "question": "Które z muzeów znajduje się na Starym Przedmieściu?",
+        "description": "Muzeum to prezentuje bogatą historię morską Gdańska.",
+        "options": ["a. Muzeum II Wojny Światowej", "b. Muzeum Morskie", "c. Muzeum Bursztynu", "d. Muzeum Archeologiczne"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "W którym wieku powstała Brama Nizinna?",
+        "description": "To element systemu obronnego z czasów, gdy miasto otaczały bastiony.",
+        "options": ["a. XVII", "b. XIV", "c. XIX", "d. XII"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "question": "Która z wymienionych ulic nie znajduje się na Starym Przedmieściu?",
+        "description": "Stare Przedmieście to historyczna dzielnica pełna klimatycznych uliczek.",
+        "options": ["a. Rzeźnicka", "b. Toruńska", "c. Mariacka", "d. Żabi Kruk"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jaki styl architektoniczny dominuje w budynkach Starego Przedmieścia?",
+        "description": "Styl ten charakteryzuje się zdobionymi fasadami i czerwonymi dachami.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Modernistyczny", "d. Romański"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "question": "Jak nazywa się kanał przepływający przez Stare Przedmieście?",
+        "description": "Kanał ten odgrywał ważną rolę w transporcie i handlu Gdańska.",
+        "options": ["a. Radunia", "b. Motława", "c. Nogat", "d. Wisła"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Który z gdańskich bastionów znajduje się na Starym Przedmieściu?",
+        "description": "Bastion ten jest częścią dawnych fortyfikacji miejskich.",
+        "options": ["a. Bastion Żubr", "b. Bastion Wilk", "c. Bastion Wyskok", "d. Bastion Św. Elżbiety"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "question": "Która wieża była częścią miejskiego systemu obronnego?",
+        "description": "Wieża ta miała za zadanie strzec miasta przed nieprzyjacielem.",
+        "options": ["a. Wieża Więzienna", "b. Wieża Mariacka", "c. Wieża Ratusza", "d. Wieża Zegarowa"],
+        "correct_answer": "a"
+    },
+    {
+    "type": "tf",
+    "question": "Bazylika Mariacka jest największym ceglanym kościołem w Europie.",
+    "description": "Bazylika Mariacka imponuje swoją wielkością i architekturą.",
+    "correct_answer": "Prawda"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Żuraw Gdański służył wyłącznie jako budynek mieszkalny.",
+        "description": "Żuraw pełnił funkcję dźwigu portowego.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Brama Nizinna powstała w XIX wieku.",
+        "description": "Brama Nizinna została zbudowana znacznie wcześniej.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Kanał Motławy przepływa przez Stare Przedmieście.",
+        "description": "Motława odgrywa ważną rolę w historii Gdańska.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Stare Przedmieście było kiedyś odrębnym miastem.",
+        "description": "Stare Przedmieście stanowiło część dawnych przedmieść Gdańska.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "W Gdańsku nie ma żadnych zachowanych bastionów.",
+        "description": "Bastiony Gdańska są ważnym elementem dawnych fortyfikacji.",
+        "correct_answer": "Fałsz"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Ulica Rzeźnicka znajduje się na Starym Przedmieściu.",
+        "description": "Jest to jedna z charakterystycznych ulic tej dzielnicy.",
+        "correct_answer": "Prawda"
+    },
+    {
+        "type": "tf",
+        "District": "Stare Przedmieście",
+        "question": "Bazylika Mariacka została zbudowana w XX wieku.",
+        "description": "Budowa Bazyliki Mariackiej rozpoczęła się dużo wcześniej.",
+        "correct_answer": "Fałsz"
+    }
+]    
