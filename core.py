@@ -1,22 +1,19 @@
-from main_functions import sleep_and_clear, BOARD_RANGE
+from main_functions import sleep_and_clear, BOARD_RANGE, PLAYERS_POSITIONS
 from questions_reading import questions_dispenser
 
-# players_positions = [0, 0, 0, 0]
-# task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0] # Co piąte pole 
-# players_points = [0, 0, 0, 0]
 class GameCore:
     def __init__(self):
-        self.players_positions = [0, 0, 0, 0]
+        # self.players_positions = [0, 0, 0, 0]
         self.task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0] # Co piąte pole 
         self.players_points = [0, 0, 0, 0]
 
 
     def position_reset(self): 
         """Resets pl pos"""
-        self.players_positions[0] = 0
-        self.players_positions[1] = 0
-        self.players_positions[2] = 0
-        self.players_positions[3] = 0
+        PLAYERS_POSITIONS[0] = 0
+        PLAYERS_POSITIONS[1] = 0
+        PLAYERS_POSITIONS[2] = 0
+        PLAYERS_POSITIONS[3] = 0
 
     def next_level_points(self, a: int, b: int, c: int, d: int):
         self.players_points[a] += 15
@@ -42,6 +39,6 @@ class GameCore:
         for i in range(len(players)):
             a, b = players[i]
             players_list = a, b
-            players_board = players_list, self.players_points[i]
+            # players_board = players_list, self.players_points[i]
             print(f"{players_list[0]}.{players_list[1]}: {self.players_points[i]}")
 

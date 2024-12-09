@@ -1,4 +1,4 @@
-from main_functions import BOARD_RANGE
+from main_functions import BOARD_RANGE, PLAYERS_POSITIONS
 from core import GameCore
 class GameBoard(GameCore):
     def __init__(self):
@@ -8,7 +8,7 @@ class GameBoard(GameCore):
         board_field = ["____" for _ in BOARD_RANGE] 
         player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"] # ID znaków - kulki określające graczy
         
-        for i, position in enumerate(self.players_positions):
+        for i, position in enumerate(PLAYERS_POSITIONS):
             if board_field[position] == "____":
                 board_field[position] = player_symbols[i]
             else:

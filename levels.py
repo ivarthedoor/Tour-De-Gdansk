@@ -1,18 +1,18 @@
 from core import GameCore
 from board import GameBoard
-from movement_programms import PlayerMove
-from main_functions import sleep_and_clear
+from movement_programms import move_player
+from main_functions import sleep_and_clear, PLAYERS_POSITIONS
 
-class GameLevels(GameCore):
+class GameLevels():
     def __init__(self):
         super().__init__()
         self.board = GameBoard()
-        self.move = PlayerMove()
+        self.core = GameCore()
 
     def game1(self): # Dzielnica 1
         while True:
             print("...Stare miasto...\n\n\n")
-            self.make_players()
+            self.core.make_players()
             print(f"START.{self.board.generate_board()}\n \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
@@ -21,25 +21,25 @@ class GameLevels(GameCore):
             play = play.lower()
     # Poruszanie się graczem: 
             if play == "1":
-                self.players_positions[0] = self.move.move_player(self.players_positions[0])
-                self.questions_assingment(self.players_positions[0], 0, "Stare miasto") # Jak jest na piątym polu to pojawia się pytanie 
+                PLAYERS_POSITIONS[0] = move_player(PLAYERS_POSITIONS[0])
+                self.core.questions_assingment(PLAYERS_POSITIONS[0], 0, "Stare miasto") # Jak jest na piątym polu to pojawia się pytanie 
                 print("Time for Red (2)")
                 sleep_and_clear(1)
 
             elif play == "2":
-                self.players_positions[1] = self.move.move_player(self.players_positions[1])
-                self.questions_assingment(self.players_positions[1], 1, "Stare miasto")
+                PLAYERS_POSITIONS[1] = move_player(PLAYERS_POSITIONS[1])
+                self.core.questions_assingment(PLAYERS_POSITIONS[1], 1, "Stare miasto")
                 print("Time for Green (3)")
                 sleep_and_clear(1)
 
             elif play == "3":
-                self.players_positions[2] = self.move.move_player(self.players_positions[2])
-                self.questions_assingment(self.players_positions[2], 2, "Stare miasto")
+                PLAYERS_POSITIONS[2] = move_player(PLAYERS_POSITIONS[2])
+                self.core.questions_assingment(PLAYERS_POSITIONS[2], 2, "Stare miasto")
                 print("Time for Yellow (4)")
                 sleep_and_clear(1)
             elif play == "4":
-                self.players_positions[3] = self.move.move_player(self.players_positions[3])
-                self.questions_assingment(self.players_positions[3], 3, "Stare miasto")
+                PLAYERS_POSITIONS[3] = move_player(PLAYERS_POSITIONS[3])
+                self.core.questions_assingment(PLAYERS_POSITIONS[3], 3, "Stare miasto")
                 print("Time for Blue (1)")
                 sleep_and_clear(1)
             elif play == "q":
@@ -48,33 +48,33 @@ class GameLevels(GameCore):
             else:
                 print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-            if self.players_positions[0] == 29 or self.players_positions[1] == 29 or self.players_positions[2] == 29 or self.players_positions[3] == 29:
+            if PLAYERS_POSITIONS[0] == 29 or PLAYERS_POSITIONS[1] == 29 or PLAYERS_POSITIONS[2] == 29 or PLAYERS_POSITIONS[3] == 29:
                 print(self.board.generate_board())
-                if self.players_positions[0] == 29:
-                    self.position_reset()
-                    self.next_level_points(0, 1, 2, 3)
+                if PLAYERS_POSITIONS[0] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(0, 1, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[1] == 29:
-                    self.position_reset()
-                    self.next_level_points(1, 0, 2, 3)
+                elif PLAYERS_POSITIONS[1] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(1, 0, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[2] == 29:
-                    self.position_reset()
-                    self.next_level_points(2, 1, 0, 3)
+                elif PLAYERS_POSITIONS[2] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(2, 1, 0, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[3] == 29:
-                    self.position_reset()
-                    self.next_level_points(3, 0, 1, 2)
+                elif PLAYERS_POSITIONS[3] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(3, 0, 1, 2)
                     sleep_and_clear(0.01)
                     return True
 
     def game2(self): # Dzielnica 2 
         while True:
             print("...Stare przedmieście...\n\n\n")
-            self.make_players()
+            self.core.make_players()
             print(f"START.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n \
         {self.board.generate_board()} \n \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
@@ -83,25 +83,25 @@ class GameLevels(GameCore):
             play = play.lower()
 
             if play == "1":
-                self.players_positions[0] = self.move.move_player(self.players_positions[0])
-                self.questions_assingment(self.players_positions[0], 0, "Stare Przedmieście")
+                PLAYERS_POSITIONS[0] = move_player(PLAYERS_POSITIONS[0])
+                self.core.questions_assingment(PLAYERS_POSITIONS[0], 0, "Stare Przedmieście")
                 print("Time for Red (2)")
                 sleep_and_clear(1)
 
             elif play == "2":
-                self.players_positions[1] = self.move.move_player(self.players_positions[1])
-                self.questions_assingment(self.players_positions[1], 1, "Stare Przedmieście")
+                PLAYERS_POSITIONS[1] = move_player(PLAYERS_POSITIONS[1])
+                self.core.questions_assingment(PLAYERS_POSITIONS[1], 1, "Stare Przedmieście")
                 print("Time for Green (3)")
                 sleep_and_clear(1)
 
             elif play == "3":
-                self.players_positions[2] = self.move.move_player(self.players_positions[2])
-                self.questions_assingment(self.players_positions[2], 2, "Stare Przedmieście")
+                PLAYERS_POSITIONS[2] = move_player(PLAYERS_POSITIONS[2])
+                self.core.questions_assingment(PLAYERS_POSITIONS[2], 2, "Stare Przedmieście")
                 print("Time for Yellow (4)")
                 sleep_and_clear(1)
             elif play == "4":
-                self.players_positions[3] = self.move.move_player(self.players_positions[3])
-                self.questions_assingment(self.players_positions[3], 3, "Stare Przedmieście")
+                PLAYERS_POSITIONS[3] = move_player(PLAYERS_POSITIONS[3])
+                self.core.questions_assingment(PLAYERS_POSITIONS[3], 3, "Stare Przedmieście")
                 print("Time for Blue (1)")
                 sleep_and_clear(1)
             elif play == "q":
@@ -110,33 +110,33 @@ class GameLevels(GameCore):
             else:
                 print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-            if self.players_positions[0] == 29 or self.players_positions[1] == 29 or self.players_positions[2] == 29 or self.players_positions[3] == 29:
+            if PLAYERS_POSITIONS[0] == 29 or PLAYERS_POSITIONS[1] == 29 or PLAYERS_POSITIONS[2] == 29 or PLAYERS_POSITIONS[3] == 29:
                 print(self.board.generate_board())
-                if self.players_positions[0] == 29:
-                    self.position_reset()
-                    self.next_level_points(0, 1, 2, 3)
+                if PLAYERS_POSITIONS[0] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(0, 1, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[1] == 29:
-                    self.position_reset()
-                    self.next_level_points(1, 0, 2, 3)
+                elif PLAYERS_POSITIONS[1] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(1, 0, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[2] == 29:
-                    self.position_reset()
-                    self.next_level_points(2, 1, 0, 3)
+                elif PLAYERS_POSITIONS[2] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(2, 1, 0, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[3] == 29:
-                    self.position_reset()
-                    self.next_level_points(3, 0, 1, 2)
+                elif PLAYERS_POSITIONS[3] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(3, 0, 1, 2)
                     sleep_and_clear(0.01)
                     return True
 
     def game3(self): # Dzielnica 3
         while True:
             print("...Oliwa...\n\n\n")
-            self.make_players()
+            self.core.make_players()
             print(f"START.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n  \
         {self.board.generate_board()} \n \
@@ -145,25 +145,25 @@ class GameLevels(GameCore):
             play = play.lower()
 
             if play == "1":
-                self.players_positions[0] = self.move.move_player(self.players_positions[0])
-                self.questions_assingment(self.players_positions[0], 0, "Oliwa")
+                PLAYERS_POSITIONS[0] = move_player(PLAYERS_POSITIONS[0])
+                self.core.questions_assingment(PLAYERS_POSITIONS[0], 0, "Oliwa")
                 print("Time for Red (2)")
                 sleep_and_clear(1)
 
             elif play == "2":
-                self.players_positions[1] = self.move.move_player(self.players_positions[1])
-                self.questions_assingment(self.players_positions[1], 1, "Oliwa")
+                PLAYERS_POSITIONS[1] = move_player(PLAYERS_POSITIONS[1])
+                self.core.questions_assingment(PLAYERS_POSITIONS[1], 1, "Oliwa")
                 print("Time for Green (3)")
                 sleep_and_clear(1)
 
             elif play == "3":
-                self.players_positions[2] = self.move.move_player(self.players_positions[2])
-                self.questions_assingment(self.players_positions[2], 2, "Oliwa")
+                PLAYERS_POSITIONS[2] = move_player(PLAYERS_POSITIONS[2])
+                self.core.questions_assingment(PLAYERS_POSITIONS[2], 2, "Oliwa")
                 print("Time for Yellow (4)")
                 sleep_and_clear(1)
             elif play == "4":
-                self.players_positions[3] = self.move.move_player(self.players_positions[3])
-                self.questions_assingment(self.players_positions[3], 3, "Oliwa")
+                PLAYERS_POSITIONS[3] = move_player(PLAYERS_POSITIONS[3])
+                self.core.questions_assingment(PLAYERS_POSITIONS[3], 3, "Oliwa")
                 print("Time for Blue (1)")
                 sleep_and_clear(1)
             elif play == "q":
@@ -172,33 +172,33 @@ class GameLevels(GameCore):
             else:
                 print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-            if self.players_positions[0] == 29 or self.players_positions[1] == 29 or self.players_positions[2] == 29 or self.players_positions[3] == 29:
+            if PLAYERS_POSITIONS[0] == 29 or PLAYERS_POSITIONS[1] == 29 or PLAYERS_POSITIONS[2] == 29 or PLAYERS_POSITIONS[3] == 29:
                 print(self.board.generate_board())
-                if self.players_positions[0] == 29:
-                    self.position_reset()
-                    self.next_level_points(0, 1, 2, 3)
+                if PLAYERS_POSITIONS[0] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(0, 1, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[1] == 29:
-                    self.position_reset()
-                    self.next_level_points(1, 0, 2, 3)
+                elif PLAYERS_POSITIONS[1] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(1, 0, 2, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[2] == 29:
-                    self.position_reset()
-                    self.next_level_points(2, 1, 0, 3)
+                elif PLAYERS_POSITIONS[2] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(2, 1, 0, 3)
                     sleep_and_clear(0.01)
                     return True
-                elif self.players_positions[3] == 29:
-                    self.position_reset()
-                    self.next_level_points(3, 0, 1, 2)
+                elif PLAYERS_POSITIONS[3] == 29:
+                    self.core.position_reset()
+                    self.core.next_level_points(3, 0, 1, 2)
                     sleep_and_clear(0.01)
                     return True
 
     def game4(self): # Dzielnica 4
         while True:
             print("...Wrzeszcz...\n\n\n")
-            self.make_players()
+            self.core.make_players()
             print(f"START.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
@@ -207,25 +207,25 @@ class GameLevels(GameCore):
             play = play.lower()
 
             if play == "1":
-                self.players_positions[0] = self.move.move_player(self.players_positions[0])
-                self.questions_assingment(self.players_positions[0], 0, "Wrzeszcz")
+                PLAYERS_POSITIONS[0] = move_player(PLAYERS_POSITIONS[0])
+                self.core.questions_assingment(PLAYERS_POSITIONS[0], 0, "Wrzeszcz")
                 print("Time for Red (2)")
                 sleep_and_clear(1)
 
             elif play == "2":
-                self.players_positions[1] = self.move.move_player(self.players_positions[1])
-                self.questions_assingment(self.players_positions[1], 1, "Wrzeszcz")
+                PLAYERS_POSITIONS[1] = move_player(PLAYERS_POSITIONS[1])
+                self.core.questions_assingment(PLAYERS_POSITIONS[1], 1, "Wrzeszcz")
                 print("Time for Green (3)")
                 sleep_and_clear(1)
 
             elif play == "3":
-                self.players_positions[2] = self.move.move_player(self.players_positions[2])
-                self.questions_assingment(self.players_positions[2], 2, "Wrzeszcz")
+                PLAYERS_POSITIONS[2] = move_player(PLAYERS_POSITIONS[2])
+                self.core.questions_assingment(PLAYERS_POSITIONS[2], 2, "Wrzeszcz")
                 print("Time for Yellow (4)")
                 sleep_and_clear(1)
             elif play == "4":
-                self.players_positions[3] = self.move.move_player(self.players_positions[3])
-                self.questions_assingment(self.players_positions[3], 3, "Wrzeszcz")
+                PLAYERS_POSITIONS[3] = move_player(PLAYERS_POSITIONS[3])
+                self.core.questions_assingment(PLAYERS_POSITIONS[3], 3, "Wrzeszcz")
                 print("Time for Blue (1)")
                 sleep_and_clear(1)
             elif play == "q":
@@ -234,11 +234,11 @@ class GameLevels(GameCore):
             else:
                 print("Invalid input! Please press 1, 2, 3, 4 or q.")
 
-            if any(pos == 29 for pos in self.players_positions):
+            if any(pos == 29 for pos in PLAYERS_POSITIONS):
                 print(self.board.generate_board())
-                winner_index = self.players_positions.index(29)
-                self.position_reset()
-                self.next_level_points(winner_index, *[i for i in range(4) if i != winner_index])
+                winner_index = PLAYERS_POSITIONS.index(29)
+                self.core.position_reset()
+                self.core.next_level_points(winner_index, *[i for i in range(4) if i != winner_index])
                 sleep_and_clear(0.01)
                 return True
             

@@ -168,7 +168,7 @@
         "district": "Wrzeszcz",
         "question": "Który park znajduje się w dzielnicy Wrzeszcz?",
         "description": "Jest to popularne miejsce spacerów i odpoczynku mieszkańców Wrzeszcza.",
-        "options": "a. Park Oliwski | b. Park Uphagena | c. Park Reagana | d. Park Jelitkowski",
+        "options": ["a. Park Oliwski",  "b. Park Uphagena", "c. Park Reagana",  "d. Park Jelitkowski"],
         "correct_answer": "b"
     },
     {
@@ -176,7 +176,7 @@
         "district": "Wrzeszcz",
         "question": "Jaka linia kolejowa przebiega przez Wrzeszcz?",
         "description": "Jest to ważny węzeł komunikacyjny w Trójmieście.",
-        "options": "a. PKM | b. SKM | c. Metro | d. Pendolino",
+        "options": ["a. PKM", "b. SKM", "c. Metro", "d. Pendolino"],
         "correct_answer": "b"
     },
     {
@@ -208,7 +208,7 @@
         "district": "Wrzeszcz",
         "question": "Która szkoła średnia znajduje się w Wrzeszczu?",
         "description": "Jedna z najbardziej prestiżowych szkół średnich w Gdańsku.",
-        "options": "a. I LO | b. III LO | c. V LO | d. VIII LO",
+        "options": ["a. I LO , b. III LO , c. V LO , d. VIII LO"],
         "correct_answer": "b"
     },
     {
