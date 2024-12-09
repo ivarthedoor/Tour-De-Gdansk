@@ -216,70 +216,70 @@
         "district": "Wrzeszcz",
         "question": "Wrzeszcz był kiedyś samodzielnym miastem przed przyłączeniem do Gdańska.",
         "description": "Wrzeszcz rozwijał się jako osobna miejscowość, zanim stał się częścią Gdańska.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "W Wrzeszczu znajduje się budynek Politechniki Gdańskiej.",
         "description": "Politechnika Gdańska to jedna z najważniejszych uczelni technicznych w Polsce.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Wrzeszcz leży nad Zatoką Gdańską.",
         "description": "Wrzeszcz nie ma bezpośredniego dostępu do Zatoki Gdańskiej.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
         "description": "Günter Grass, laureat Nagrody Nobla, spędził dzieciństwo w tej dzielnicy.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Galeria Bałtycka to najstarsze centrum handlowe w Gdańsku.",
         "description": "Galeria Bałtycka jest nowoczesnym centrum handlowym otwartym w 2007 roku.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Wrzeszcz jest położony na zachód od Śródmieścia.",
         "description": "Dzielnica Wrzeszcz znajduje się na zachód od centralnej części Gdańska.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Ulica Wajdeloty we Wrzeszczu jest znana z kawiarni i butików.",
         "description": "Ulica Wajdeloty to modna, klimatyczna uliczka w sercu Wrzeszcza.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Wrzeszcz graniczy z dzielnicą Oliwa.",
         "description": "Wrzeszcz i Oliwa to sąsiadujące dzielnice Gdańska.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "W Wrzeszczu nie ma żadnych zabytkowych budynków.",
         "description": "Wrzeszcz posiada wiele historycznych kamienic i budynków z przełomu XIX i XX wieku.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Wrzeszcz jest dzielnicą portową.",
         "description": "Wrzeszcz nie ma bezpośredniego dostępu do portu.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
@@ -373,56 +373,56 @@
         "district": "Stare Przedmieście",
         "question": "Bazylika Mariacka jest największym ceglanym kościołem w Europie.",
         "description": "Bazylika Mariacka imponuje swoją wielkością i architekturą.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Żuraw Gdański służył wyłącznie jako budynek mieszkalny.",
         "description": "Żuraw pełnił funkcję dźwigu portowego.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Brama Nizinna powstała w XIX wieku.",
         "description": "Brama Nizinna została zbudowana znacznie wcześniej.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Kanał Motławy przepływa przez Stare Przedmieście.",
         "description": "Motława odgrywa ważną rolę w historii Gdańska.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Stare Przedmieście było kiedyś odrębnym miastem.",
         "description": "Stare Przedmieście stanowiło część dawnych przedmieść Gdańska.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "W Gdańsku nie ma żadnych zachowanych bastionów.",
         "description": "Bastiony Gdańska są ważnym elementem dawnych fortyfikacji.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Ulica Rzeźnicka znajduje się na Starym Przedmieściu.",
         "description": "Jest to jedna z charakterystycznych ulic tej dzielnicy.",
-        "correct_answer": "Prawda"
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Bazylika Mariacka została zbudowana w XX wieku.",
         "description": "Budowa Bazyliki Mariackiej rozpoczęła się dużo wcześniej.",
-        "correct_answer": "Fałsz"
+        "correct_answer": "nie"
     }
 ]
 

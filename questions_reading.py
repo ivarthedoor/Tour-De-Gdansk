@@ -5,27 +5,40 @@ with open ('questions.json', 'r', encoding='utf-8') as file:
     questions = json.load(file)
 
 
-def questions_dispenser():
-    tf_q = []
+def questions_dispenser(district):
+    specific_district_questons_list = []
     for i in questions:
-        if i["district"] == "Stare miasto":
-            tf_q.append(i)
+        if i["district"] == district:
+            specific_district_questons_list.append(i)
 
-    rand_int = randint(0, len(tf_q))
+    if not specific_district_questons_list:
+        print("Brak pytań dla podanego rejonu.")
+        return
 
-    selected_question = questions[rand_int]
-    if selected_question['type'] == 'tf':
-        print("Wylosowane pytanie:")
-        print(selected_question["question"])
-    # print(selected_question["description"])
-        print("Odpowiedz tak lub nie")
+    rand_int = randint(0, len(specific_district_questons_list) - 1)
+    selected_question = specific_district_questons_list[rand_int]
+
+    if selected_question['type'] == "ABCD":
+        print(f"Wylosowane pytanie: {selected_question['question']}")
+        user_input_abcd = input(f"{str("\n".join(selected_question['options']))}\n")
+        answer = str(selected_question['correct_answer'])
+        if user_input_abcd.lower() == answer.lower():
+            print("Odpowiedź prawidłowa!")
+            return True
+        else:
+            print(f"Niestety, nie trafiłeś... \n \
+                    Prawidłowa odpowiedź to {selected_question['correct_answer']}")
+            return False
     else:
-        print("Wylosowane pytanie:")
-        print(selected_question["question"])
-        print(selected_question["options"])!!!!!!!!!!!!!!!!!!!!!!!!!!
+        print(f"Wylosowane pytanie: {selected_question['question']}")
+        user_input_tf = input(str("Odpowiedz tak lub nie: "))
+        answer = str(selected_question['correct_answer'])
+        if user_input_tf.lower() == answer.lower():
+            print("Odpowiedź prawidłowa!")
+            return True
+        else:
+            print(f"Niestety, nie trafiłeś... \n \
+            Prawidłowa odpowiedź to {selected_question['correct_answer']}")
+            return False
 
-"""Trzeba dopisać inputa dla juzera i porównać go 
-
-"""
-
-
+questions_dispenser("Stare miasto")
