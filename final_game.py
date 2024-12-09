@@ -1,4 +1,4 @@
-from core import GameLevels, GameCore
+from levels import GameLevels
 
 def initial_game(): 
     game = GameLevels()
