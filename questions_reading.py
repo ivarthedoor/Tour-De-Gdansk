@@ -41,4 +41,4 @@ def questions_dispenser(district):
             Prawidłowa odpowiedź to {selected_question['correct_answer']}")
             return False
 
-questions_dispenser("Stare miasto")
+# questions_dispenser("Stare miasto")
