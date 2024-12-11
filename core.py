@@ -32,9 +32,17 @@ class GameCore:
                     if self.players_points[points_index] != 0:
                         self.players_points[points_index] -= 5
         return self.players_points[points_index]
-
-    def make_players(self): # Generowanie graczy - ale jeszcze bez wyboru  ich ilosći 
-        players = [x for x in enumerate(["Blue", "Red","Green", "Yellow"], start=1)]
+    
+    def get_player_nickname(self):
+        self.blue = ['\U0001F535', input("Wprowadź nazwę niebieskiego gracza: ")]
+        self.red = ['\U0001F534', input("Wprowadź nazwę czerwonego gracza: ")]
+        self.green = ['\U0001F7E2', input("Wprowadź nazwę zielonego gracza: ")]
+        self.yellow = ['\U0001F7E1', input("Wprowadź nazwę żółtego gracza: ")]
+        return self.blue, self.red, self.green, self.yellow
+    
+    def make_players(self, blue, red, green, yellow): # Generowanie graczy - ale jeszcze bez wyboru  ich ilosći 
+       
+        players = [x for x in enumerate([blue, red, green, yellow], start=1)]
         i = 0
         for i in range(len(players)):
             a, b = players[i]

@@ -1,8 +1,13 @@
 from levels import GameLevels
+from core import GameCore
+
+
 
 def initial_game(): 
     game = GameLevels()
-    
+    core = GameCore()
+    core.get_player_nickname()
+
     while True:
         if not game.game1():
             break
