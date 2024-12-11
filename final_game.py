@@ -1,13 +1,13 @@
 from levels import GameLevels
-from core import GameCore
+from board import GameBoard
 
 
 
 def initial_game(): 
     game = GameLevels()
-    core = GameCore()
-    core.get_player_nickname()
+    board = GameBoard
 
+    board.get_player_nickname()
     while True:
         if not game.game1():
             break
