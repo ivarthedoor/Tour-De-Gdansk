@@ -1,5 +1,4 @@
 from main_functions import BOARD_RANGE, PLAYERS_POSITIONS
-# from core import GameCore
 class GameBoard():
     
     def generate_board(self):

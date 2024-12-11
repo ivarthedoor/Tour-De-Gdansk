@@ -1,8 +1,11 @@
 from levels import GameLevels
+from main_functions import sleep_and_clear
 
-
+sleep_and_clear(0)
 
 def initial_game(): 
+    print("Witaj w grze Tour The Gdańsk! Zapraszamy do wspólnej zabawy i nauki")
+    sleep_and_clear(4)
     game = GameLevels()
     while True:
         if not game.game1():

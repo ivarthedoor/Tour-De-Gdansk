@@ -40,5 +40,3 @@ def questions_dispenser(district):
             print(f"Niestety, nie trafiłeś... \n \
             Prawidłowa odpowiedź to {selected_question['correct_answer']}")
             return False
-
-# questions_dispenser("Stare miasto")

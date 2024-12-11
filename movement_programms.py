@@ -1,8 +1,8 @@
 import random
 
 
-def throw_the_dice(): 
-    throw = random.randint(1, 6) # docelowo 1, 6
+def throw_the_dice(): # Rzut kostką
+    throw = random.randint(1, 6)
     return throw
 
 

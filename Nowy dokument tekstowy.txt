@@ -1,3 +1,0 @@
-1. przeniesienie globali do klas
-2. nowy plik core'a i zmianę chociaż jednej funkcji na mniejszą
-3. Próba połączenia się z bazą i stworzeniem tabeli pytań

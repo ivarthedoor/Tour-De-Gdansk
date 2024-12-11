@@ -113,16 +113,73 @@
     {
         "type": "ABCD",
         "district": "Oliwa",
+        "question": "Jak nazywa się słynny park znajdujący się w Oliwie?",
+        "description": "Jest to jeden z najpiękniejszych parków w Gdańsku, znany z ogrodów w stylu francuskim, angielskim i japońskim. Znajduje się obok katedry oliwskiej.",
+        "options": ["a. Park Reagana", "b. Park Oliwski", "c. Park Oruński", "d. Park Haffnera"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Która słynna świątynia znajduje się w Oliwie?",
+        "description": "Jest to jedna z największych katedr w Gdańsku, słynąca z zabytkowych organów.",
+        "options": ["a. Bazylika Mariacka", "b. Katedra Oliwska", "c. Kościół Świętej Trójcy", "d. Kościół Św. Brygidy"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się wzgórze z pięknym punktem widokowym w Oliwie?",
+        "description": "To wzgórze znajduje się w Trójmiejskim Parku Krajobrazowym i oferuje panoramę na całe Trójmiasto.",
+        "options": ["a. Wzgórze Sobótki", "b. Wzgórze Pachołek", "c. Góra Gradowa", "d. Wzgórze Zielonka"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Która uczelnia ma swoją główną siedzibę w Oliwie?",
+        "description": "Jest to jedna z największych uczelni technicznych w Polsce.",
+        "options": ["a. Uniwersytet Gdański", "b. Politechnika Gdańska", "c. Akademia Morska", "d. Akademia Sztuk Pięknych"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Które zoo znajduje się w Oliwie?",
+        "description": "Jest to największy ogród zoologiczny w Polsce pod względem powierzchni.",
+        "options": ["a. Zoo w Warszawie", "b. Zoo w Oliwie", "c. Zoo we Wrocławiu", "d. Zoo w Poznaniu"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się główna ulica handlowa w Oliwie?",
+        "description": "Jest to jedna z najstarszych ulic Oliwy, przy której znajdują się zabytkowe kamienice i sklepy.",
+        "options": ["a. Ulica Długa", "b. Ulica Polanki", "c. Ulica Opata Rybińskiego", "d. Ulica Grunwaldzka"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
         "question": "Z którego roku pochodzi pierwsza wzmianka na temat Kuźni Wodnej?",
         "options": ["a. 1597", "b. 1800", "c. 1112", "d. 1438"],
         "correct_answer": "a"
     },
     {
-        "type": "tf",
+        "type": "ABCD",
         "district": "Oliwa",
-        "question": "Czy Zoo w Gdańsku jest największym zoo w Polsce?",
-        "options": ["tak", "nie"],
-        "correct_answer": "tak"
+        "question": "Jak nazywa się pałac znajdujący się w Parku Oliwskim?",
+        "description": "To barokowy pałac był siedzibą opatów oliwskich.",
+        "options": ["a. Pałac Opatów", "b. Pałac Uphagena", "c. Pałac Królewski", "d. Pałac Czartoryskich"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który potok przepływa przez Oliwę?",
+        "description": "Jest to potok mający swoje źródła w Trójmiejskim Parku Krajobrazowym.",
+        "options": ["a. Potok Oliwski", "b. Potok Jelitkowski", "c. Potok Siedlecki", "d. Potok Raduni"],
+        "correct_answer": "a"
     },
     {
         "type": "ABCD",
@@ -132,11 +189,56 @@
         "correct_answer": "b"
     },
     {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Katedra Oliwska jest najwyższym budynkiem sakralnym w Oliwie?",
+        "description": "Katedra Oliwska to słynna świątynia z barokowymi organami, której dwie wieże są charakterystycznym punktem dzielnicy.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się największe zoo w Polsce pod względem liczby zwierząt?",
+        "description": "Oliwskie zoo słynie z dużej powierzchni.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Park Oliwski został założony przez zakon cystersów?",
+        "description": "Park jako część swojego klasztoru, znajduje się obok Katedry Oliwskiej.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była kiedyś samodzielnym miastem?",
+        "description": "Oliwa rozwijała się jako osobna miejscowość, zanim została przyłączona do Gdańska w 1926 roku.",
+        "options": ["tak", "nie"],
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy na wzgórzu Pachołek w Oliwie znajduje się zabytkowa latarnia morska?",
+        "description": "Na wzgórzu Pachołek znajduje się wieża widokowa.",
+        "options": ["tak", "nie"],
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Potok Oliwski przepływa przez dzielnicę Oliwa?",
+        "description": "Potok Oliwski ma swoje źródła w Trójmiejskim Parku Krajobrazowym.",
+        "options": ["tak", "nie"],
+        "correct_answer": "tak"
+    },
+    {
         "type": "ABCD",
         "district": "Wrzeszcz",
         "question": "W którym roku Wrzeszcz został przyłączony do Gdańska?",
         "description": "Wrzeszcz to jedna z najstarszych dzielnic Gdańska, przyłączona do miasta w okresie dynamicznego rozwoju.",
-        "options": "a. 1812 | b. 1902 | c. 1926 | d. 1945",
+        "options": ["a. 1812", "b. 1902", "c. 1926", "d. 1945"],
         "correct_answer": "c"
     },
     {
@@ -144,7 +246,7 @@
         "district": "Wrzeszcz",
         "question": "Jak nazywa się główna ulica handlowa Wrzeszcza?",
         "description": "Ta ulica jest sercem dzielnicy Wrzeszcz, pełnym sklepów i kawiarni.",
-        "options": "a. Ulica Grunwaldzka | b. Ulica Długa | c. Ulica Kartuska | d. Ulica Szeroka",
+        "options": ["a. Ulica Grunwaldzka", "b. Ulica Długa", "c. Ulica Kartuska", "d. Ulica Szeroka"],
         "correct_answer": "a"
     },
     {
@@ -152,7 +254,7 @@
         "district": "Wrzeszcz",
         "question": "Jak nazywa się słynne centrum handlowe znajdujące się w Wrzeszczu?",
         "description": "Jest to nowoczesne centrum handlowe na terenie dawnego browaru.",
-        "options": "a. Forum Gdańsk | b. Galeria Bałtycka | c. Madison | d. Riviera",
+        "options": ["a. Forum Gdańsk", "b. Galeria Bałtycka", "c. Madison", "d. Riviera"],
         "correct_answer": "b"
     },
     {
@@ -160,7 +262,7 @@
         "district": "Wrzeszcz",
         "question": "Z jaką znaną osobą związany jest Wrzeszcz?",
         "description": "Pisarz znany z twórczości inspirowanej Gdańskiem i Wrzeszczem.",
-        "options": "a. Stefan Żeromski | b. Günter Grass | c. Jan Heweliusz | d. Bolesław Prus",
+        "options": ["a. Stefan Żeromski", "b. Günter Grass", "c. Jan Heweliusz", "d. Bolesław Prus"],
         "correct_answer": "b"
     },
     {
@@ -184,7 +286,7 @@
         "district": "Wrzeszcz",
         "question": "Który z tych budynków znajduje się we Wrzeszczu?",
         "description": "Jest to znana uczelnia techniczna.",
-        "options": "a. Uniwersytet Gdański | b. Politechnika Gdańska | c. Akademia Sztuk Pięknych | d. Wyższa Szkoła Morska",
+        "options": ["a. Uniwersytet Gdański", "b. Politechnika Gdańska", "c. Akademia Sztuk Pięknych", "d. Wyższa Szkoła Morska"],
         "correct_answer": "b"
     },
     {
@@ -192,7 +294,7 @@
         "district": "Wrzeszcz",
         "question": "Która dzielnica graniczy z Wrzeszczem od północy?",
         "description": "Jest to również znana dzielnica Gdańska.",
-        "options": "a. Oliwa | b. Zaspa | c. Przymorze | d. Jelitkowo",
+        "options": ["a. Oliwa", "b. Zaspa", "c. Przymorze", "d. Jelitkowo"],
         "correct_answer": "b"
     },
     {
@@ -200,56 +302,56 @@
         "district": "Wrzeszcz",
         "question": "Jak nazywa się słynna piekarnia we Wrzeszczu?",
         "description": "Znana z tradycyjnych wypieków.",
-        "options": "a. Piekarnia Pellowski | b. Piekarnia Nowak | c. Piekarnia Szydłowski | d. Piekarnia Kropka",
+        "options": ["a. Piekarnia Pellowski", "b. Piekarnia Nowak", "c. Piekarnia Szydłowski", "d. Piekarnia Kropka"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Wrzeszcz",
         "question": "Która szkoła średnia znajduje się w Wrzeszczu?",
-        "description": "Jedna z najbardziej prestiżowych szkół średnich w Gdańsku.",
-        "options": ["a. I LO , b. III LO , c. V LO , d. VIII LO"],
+        "description": "Jest to jedna z najbardziej prestiżowych szkół średnich w Gdańsku.",
+        "options": ["a. I LO", "b. III LO", "c. V LO", "d. VIII LO"],
         "correct_answer": "b"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Wrzeszcz był kiedyś samodzielnym miastem przed przyłączeniem do Gdańska.",
-        "description": "Wrzeszcz rozwijał się jako osobna miejscowość, zanim stał się częścią Gdańska.",
+        "question": "Czy Wrzeszcz był kiedyś samodzielnym miastem przed przyłączeniem do Gdańska?",
+        "description": "Pierwsze wzmianki o Wrzeszczu pochodzą z XIII wieku, kiedy to była to osada o nazwie „Vriezst” lub „Wrzesc”. Nazwa pochodzi prawdopodobnie od staropolskiego słowa „wrzos”, ponieważ teren ten porastały wrzosowiska.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "W Wrzeszczu znajduje się budynek Politechniki Gdańskiej.",
+        "question": "Czy we Wrzeszczu znajduje się budynek Politechniki Gdańskiej?",
         "description": "Politechnika Gdańska to jedna z najważniejszych uczelni technicznych w Polsce.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Wrzeszcz leży nad Zatoką Gdańską.",
-        "description": "Wrzeszcz nie ma bezpośredniego dostępu do Zatoki Gdańskiej.",
+        "question": "Czy Wrzeszcz leży nad Zatoką Gdańską?",
+        "description": "Wrzeszcz to dzielnica Gdańska położona nieco w głąb lądu",
         "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
+        "question": "Czy Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
         "description": "Günter Grass, laureat Nagrody Nobla, spędził dzieciństwo w tej dzielnicy.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Galeria Bałtycka to najstarsze centrum handlowe w Gdańsku.",
+        "question": "Czy Galeria Bałtycka to najstarsze centrum handlowe w Gdańsku?",
         "description": "Galeria Bałtycka jest nowoczesnym centrum handlowym otwartym w 2007 roku.",
         "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Wrzeszcz jest położony na zachód od Śródmieścia.",
+        "question": "Czy Wrzeszcz jest położony na zachód od Śródmieścia?",
         "description": "Dzielnica Wrzeszcz znajduje się na zachód od centralnej części Gdańska.",
         "correct_answer": "tak"
     },
@@ -263,21 +365,21 @@
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Wrzeszcz graniczy z dzielnicą Oliwa.",
-        "description": "Wrzeszcz i Oliwa to sąsiadujące dzielnice Gdańska.",
+        "question": "Czy Wrzeszcz graniczy z dzielnicą Oliwa?",
+        "description": "Wrzeszcz dzieli się na dwie części: Wrzeszcz Górny - bardziej willowy i spokojniejszy i Wrzeszcz Dolny - z dużą ilością kamienic i bardziej zurbanizowany.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "W Wrzeszczu nie ma żadnych zabytkowych budynków.",
-        "description": "Wrzeszcz posiada wiele historycznych kamienic i budynków z przełomu XIX i XX wieku.",
-        "correct_answer": "nie"
+        "question": "Czy we Wrzeszczu są zabytkowe budynki?",
+        "description": "Wrzeszcz jest dzielnicą o dużym stopniu urbanizacji.",
+        "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Wrzeszcz",
-        "question": "Wrzeszcz jest dzielnicą portową.",
+        "question": "Czy Wrzeszcz jest dzielnicą portową?",
         "description": "Wrzeszcz nie ma bezpośredniego dostępu do portu.",
         "correct_answer": "nie"
     },
@@ -371,57 +473,57 @@
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Bazylika Mariacka jest największym ceglanym kościołem w Europie.",
+        "question": "Czy Bazylika Mariacka jest największym ceglanym kościołem w Europie?",
         "description": "Bazylika Mariacka imponuje swoją wielkością i architekturą.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Żuraw Gdański służył wyłącznie jako budynek mieszkalny.",
+        "question": "Czy Żuraw Gdański służył jako budynek mieszkalny?",
         "description": "Żuraw pełnił funkcję dźwigu portowego.",
         "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Brama Nizinna powstała w XIX wieku.",
-        "description": "Brama Nizinna została zbudowana znacznie wcześniej.",
+        "question": "Czy Brama Nizinna powstała w XIX wieku?",
+        "description": "Brama Nizinna powstała dokładnie w 1626 roku. Jest to część fortyfikacji Gdańska, która miała bronić dostępu do miasta od południa.",
         "correct_answer": "nie"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Kanał Motławy przepływa przez Stare Przedmieście.",
+        "question": "Czy Kanał Motławy przepływa przez Stare Przedmieście?",
         "description": "Motława odgrywa ważną rolę w historii Gdańska.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Stare Przedmieście było kiedyś odrębnym miastem.",
+        "question": "Czy Stare Przedmieście było kiedyś odrębnym miastem?",
         "description": "Stare Przedmieście stanowiło część dawnych przedmieść Gdańska.",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "W Gdańsku nie ma żadnych zachowanych bastionów.",
-        "description": "Bastiony Gdańska są ważnym elementem dawnych fortyfikacji.",
-        "correct_answer": "nie"
-    },
-    {
-        "type": "tf",
-        "district": "Stare Przedmieście",
-        "question": "Ulica Rzeźnicka znajduje się na Starym Przedmieściu.",
-        "description": "Jest to jedna z charakterystycznych ulic tej dzielnicy.",
+        "question": "Czy w Gdańsku są jakieś zachowane bastiony?",
+        "description": "Bastiony gdańskie były częścią tzw. fortyfikacji bastionowych, które miały na celu dostosowanie obrony miasta do rozwoju artylerii. Dziś wiele z tych miejsc jest dostępnych dla zwiedzających, a ich fosy i wały są popularnymi terenami spacerowymi. ",
         "correct_answer": "tak"
     },
     {
         "type": "tf",
         "district": "Stare Przedmieście",
-        "question": "Bazylika Mariacka została zbudowana w XX wieku.",
-        "description": "Budowa Bazyliki Mariackiej rozpoczęła się dużo wcześniej.",
+        "question": "Czy ulica Rzeźnicka znajduje się na Starym Przedmieściu?",
+        "description": "Jest to jedna z charakterystycznych ulic w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Bazylika Mariacka została zbudowana w XX wieku?",
+        "description": "Budowa Bazyliki Mariackiej w Gdańsku rozpoczęła się 28 marca 1343 roku. Początkowo świątynia była budowana jako kościół w stylu gotyku ceglanego.",
         "correct_answer": "nie"
     }
 ]
