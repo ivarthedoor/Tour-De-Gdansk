@@ -2,7 +2,7 @@ from core import GameCore
 from board import GameBoard
 from time import sleep
 from movement_programms import move_player
-from main_functions import sleep_and_clear, PLAYERS_POSITIONS
+from utiles import sleep_and_clear, PLAYERS_POSITIONS
 
 class GameLevels():
     def __init__(self):

@@ -1,4 +1,4 @@
-from main_functions import BOARD_RANGE, PLAYERS_POSITIONS
+from utiles import BOARD_RANGE, PLAYERS_POSITIONS
 class GameBoard():
     
     def generate_board(self):

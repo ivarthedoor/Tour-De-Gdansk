@@ -1,4 +1,4 @@
-from main_functions import sleep_and_clear, BOARD_RANGE, PLAYERS_POSITIONS, PLAYERS_POINTS
+from utiles import sleep_and_clear, BOARD_RANGE, PLAYERS_POSITIONS, PLAYERS_POINTS
 from questions_reading import questions_dispenser
 
 class GameCore():

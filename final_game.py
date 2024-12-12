@@ -1,5 +1,5 @@
 from levels import GameLevels
-from main_functions import sleep_and_clear
+from utiles import sleep_and_clear
 
 sleep_and_clear(0)
 

@@ -1,14 +1,14 @@
 import csv
 from core import GameCore
-from main_functions import PLAYERS_POINTS
+from utiles import PLAYERS_POINTS
 
 
 # Lista danych
-player = ["\U0001F535", "chomik", 12]
-player1 = ['blue', 'kameleon', 14]
-player2 = ['red', 'kaon', 116]
-player3 = ['bl', 'kamele', 20]
-player4 = ['blu', 'kamn', 39]
+# player = ["\U0001F535", "chomik", 12]
+player1 = ['blue', 'Ivar', 40]
+player2 = ['red', 'Przemo', 15]
+player3 = ['green', 'Olek', 20]
+player4 = ['yellow', 'Jan', 35]
 
 # Funkcja do zapisania danych do pliku CSV (na początek)
 class CsvWriter(GameCore):
