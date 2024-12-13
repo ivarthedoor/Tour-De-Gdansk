@@ -1,11 +1,10 @@
-from utiles import sleep_and_clear, BOARD_RANGE, PLAYERS_POSITIONS, PLAYERS_POINTS
+from utiles import sleep_and_clear, BOARD_RANGE, PLAYERS_POINTS
 from questions_reading import questions_dispenser
+from board import GameBoard
 
-class GameCore():
+class GameCore(GameBoard):
     def __init__(self):
-        # Pobranie nazw graczy
-        # self.players_positions = [0, 0, 0, 0]
-        self.task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0] # Co piąte pole 
+        self.task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0]
         self.blue = (f"\U0001F535 - {input("Wprowadź nazwę niebieskiego gracza: ")}")
         self.red = (f"\U0001F534 - {input("Wprowadź nazwę czerwonego gracza: ")}")
         self.green = (f"\U0001F7E2 - {input("Wprowadź nazwę zielonego gracza: ")}")
@@ -15,10 +14,10 @@ class GameCore():
     
     def position_reset(self): 
     #Reset player position po przekroczeniu granicy dzielnic
-        PLAYERS_POSITIONS[0] = 0
-        PLAYERS_POSITIONS[1] = 0
-        PLAYERS_POSITIONS[2] = 0
-        PLAYERS_POSITIONS[3] = 0
+        GameBoard.players_positions[0] = 0
+        GameBoard.players_positions[1] = 0
+        GameBoard.players_positions[2] = 0
+        GameBoard.players_positions[3] = 0
 
     def next_level_points(self, a: int, b: int, c: int, d: int):
     # Punktacja graczy za poprawną odpowiedź 
