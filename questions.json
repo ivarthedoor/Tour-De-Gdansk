@@ -113,6 +113,342 @@
     {
         "type": "ABCD",
         "district": "Oliwa",
+        "question": "Jak nazywał się pierwszy opat klasztoru cystersów w Oliwie?",
+        "description": "Był pierwszym przełożonym zakonu cystersów, który osiedlił się w Oliwie w XII wieku.",
+        "options": ["a. Świętopełk II", "b. Sambor I", "c. Stanisław Olszewski", "d. Jan Grabiński"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym roku Oliwa została włączona do Gdańska?",
+        "description": "To wydarzenie miało miejsce na początku XX wieku.",
+        "options": ["a. 1907", "b. 1913", "c. 1926", "d. 1930"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Która wojna zniszczyła opactwo w Oliwie w XV wieku?",
+        "description": "Wojna ta miała duży wpływ na losy całej Pomorza Gdańskiego.",
+        "options": ["a. Wojna trzynastoletnia", "b. Wojna Dwudziestoletnia", "c. Wojna polsko-krzyżacka", "d. Wojna siedmioletnia"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywał się opat, który zainicjował budowę katedry oliwskiej?",
+        "description": "To on był inicjatorem wielu ważnych inwestycji w Oliwie.",
+        "options": ["a. Mikołaj z Dobrej", "b. Jan Grabiński", "c. Stanisław Deodat", "d. Bernard Konrad"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który styl architektoniczny dominuje w katedrze oliwskiej?",
+        "description": "Wnętrze świątyni łączy elementy wielu stylów, ale jeden jest dominujący.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Rokokowy"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie wydarzenie historyczne miało miejsce w Oliwie w 1660 roku?",
+        "description": "To ważne wydarzenie związane z historią Polski i Szwecji.",
+        "options": ["a. Bitwa pod Oliwą", "b. Podpisanie traktatu pokojowego", "c. Budowa katedry", "d. Założenie parku"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który władca Polski nadał Oliwie przywileje klasztorne?",
+        "description": "Ten władca wspierał rozwój zakonu cystersów w Polsce.",
+        "options": ["a. Kazimierz Wielki", "b. Bolesław Krzywousty", "c. Władysław Łokietek", "d. Jan III Sobieski"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie zwierzę symbolizuje herb Oliwy?",
+        "description": "Herb nawiązuje do dawnych tradycji regionu.",
+        "options": ["a. Lew", "b. Orzeł", "c. Ryba", "d. Niedźwiedź"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Które z wydarzeń było związane z Oliwą w XVII wieku?",
+        "description": "Wydarzenie miało miejsce w trakcie wojen polsko-szwedzkich.",
+        "options": ["a. Bitwa pod Oliwą", "b. Oblężenie Oliwy", "c. Zawarcie pokoju oliwskiego", "d. Powstanie gdańskie"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywała się letnia rezydencja opatów oliwskich?",
+        "description": "Rezydencja znajdowała się na terenie dzisiejszego parku.",
+        "options": ["a. Pałac w Oliwie", "b. Willa Opatów", "c. Dwór Opatów", "d. Rezydencja Oliwska"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy powstał Park Oliwski?",
+        "description": "Założenie parku związane jest z działalnością zakonu cystersów.",
+        "options": ["a. W XIII wieku", "b. W XV wieku", "c. W XVII wieku", "d. W XVIII wieku"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Która dzielnica graniczy z Oliwą od północy?",
+        "description": "Jest to dzielnica Gdańska leżąca wzdłuż brzegu Zatoki Gdańskiej.",
+        "options": ["a. Wrzeszcz", "b. Jelitkowo", "c. Zaspa", "d. Brzeźno"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaka znana aleja prowadzi przez Trójmiejski Park Krajobrazowy w Oliwie?",
+        "description": "Aleja ta jest popularnym miejscem spacerów.",
+        "options": ["a. Aleja Grunwaldzka", "b. Aleja Lipowa", "c. Aleja Polanek", "d. Aleja Radości"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który znany koncert organowy odbywa się w Oliwie co roku?",
+        "description": "Koncert ten przyciąga muzyków z całego świata.",
+        "options": ["a. Festiwal Organowy im. Bachowskiego", "b. Oliwskie Spotkania Organowe", "c. Międzynarodowy Festiwal Organowy", "d. Festiwal Muzyki Dawnej"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1627 roku?",
+        "description": "Wydarzenie to było związane z wojną polsko-szwedzką.",
+        "options": ["a. Bitwa pod Oliwą", "b. Oblężenie Oliwy", "c. Zawarcie pokoju oliwskiego", "d. Najazd szwedzki na Gdańsk"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Która świątynia znajduje się w centrum Oliwy?",
+        "description": "Jest to kościół będący dawnym opactwem cystersów.",
+        "options": ["a. Katedra Oliwska", "b. Kościół św. Jakuba", "c. Kościół św. Trójcy", "d. Bazylika Mariacka"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywał się pierwszy opat Oliwy?",
+        "description": "Opat ten związany był z założeniem klasztoru cystersów.",
+        "options": ["a. Mściwój II", "b. Jan z Jutlandii", "c. Daniel z Oliwy", "d. Henryk z Oliwy"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Które państwo było stroną w pokoju oliwskim z 1660 roku?",
+        "description": "Pokój ten kończył wojnę.",
+        "options": ["a. Szwecja", "b. Rosja", "c. Prusy", "d. Austria"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się park znajdujący się w Oliwie?",
+        "description": "Park ten jest jedną z głównych atrakcji dzielnicy.",
+        "options": ["a. Park Oliwski", "b. Park Książąt Pomorskich", "c. Park Jelitkowski", "d. Park Reagana"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy cystersi założyli klasztor w Oliwie?",
+        "description": "Było to w okresie średniowiecza.",
+        "options": ["a. W 1170 roku", "b. W 1186 roku", "c. W 1201 roku", "d. W 1224 roku"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się główna ulica Oliwy?",
+        "description": "Ulica ta prowadzi przez centrum dzielnicy.",
+        "options": ["a. Ulica Spacerowa", "b. Ulica Polanki", "c. Ulica Grunwaldzka", "d. Ulica Opata Rybińskiego"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który z królów polskich odwiedził Oliwę w XVII wieku?",
+        "description": "Król ten był zaangażowany w wojnę ze Szwecją.",
+        "options": ["a. Jan III Sobieski", "b. Zygmunt III Waza", "c. Władysław IV Waza", "d. Stefan Batory"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Które z tych wydarzeń było związane z Oliwą w XVIII wieku?",
+        "description": "Wydarzenie to dotyczyło rozwoju kultury i sztuki.",
+        "options": ["a. Budowa organów oliwskich", "b. Bitwa pod Oliwą", "c. Utworzenie pierwszej szkoły w Oliwie", "d. Założenie parku oliwskiego"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się znane wzgórze w Oliwie, z którego rozciąga się widok na Gdańsk?",
+        "description": "Wzgórze to jest częścią Trójmiejskiego Parku Krajobrazowego.",
+        "options": ["a. Góra Gradowa", "b. Wzgórze Pachołek", "c. Góra Oliwska", "d. Wzgórze Sobótka"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który rok uważa się za początek historii Oliwy?",
+        "description": "To data pierwszej pisemnej wzmianki o Oliwie.",
+        "options": ["a. 1186", "b. 1198", "c. 1224", "d. 1263"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kto był fundatorem klasztoru cystersów w Oliwie?",
+        "description": "Był to książę Pomorza Gdańskiego.",
+        "options": ["a. Świętopełk II", "b. Bogusław X", "c. Sambor I", "d. Mściwój II"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie drzewo symbolizuje Oliwę?",
+        "description": "Symbol ten odnosi się do nazwy dzielnicy.",
+        "options": ["a. Dąb", "b. Oliwka", "c. Lipka", "d. Modrzew"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który cenny zabytek sztuki sakralnej można zobaczyć w katedrze oliwskiej?",
+        "description": "To słynny instrument muzyczny.",
+        "options": ["a. Organy oliwskie", "b. Gotycki ołtarz", "c. Witraż z XV wieku", "d. Dzwon św. Jana"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Co było głównym celem zawarcia pokoju oliwskiego?",
+        "description": "Porozumienie zakończyło konflikt między Polską a Szwecją.",
+        "options": ["a. Ustalenie granic", "b. Zakończenie wojny", "c. Wymiana terytoriów", "d. Przejęcie władzy nad Gdańskiem"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1807 roku?",
+        "description": "Związane z wojną Napoleońską i wpływem na Gdańsk.",
+        "options": ["a. Bitwa pod Oliwą", "b. Podpisanie traktatu pokojowego", "c. Wizyta Napoleona Bonaparte", "d. Zajęcie Gdańska przez wojska francuskie"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W jakim stylu zbudowano katedrę w Oliwie?",
+        "description": "Styl architektoniczny katedry jest związany z okresem baroku.",
+        "options": ["a. Gotycki", "b. Renesansowy", "c. Barokowy", "d. Klasycystyczny"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy zakończono budowę katedry w Oliwie?",
+        "description": "Budowa katedry trwała przez wiele lat.",
+        "options": ["a. W XIV wieku", "b. W XV wieku", "c. W XVII wieku", "d. W XVIII wieku"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który z opatów oliwskich był odpowiedzialny za budowę pałacu w Oliwie?",
+        "description": "Rezydencja opatów była budowana w XVIII wieku.",
+        "options": ["a. Opat Augustyn", "b. Opat Bernard", "c. Opat Krzysztof", "d. Opat Michał"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywała się najstarsza część Oliwy, która była zamieszkana już w średniowieczu?",
+        "description": "Obszar ten był historycznie związany z rozwojem zakonu.",
+        "options": ["a. Stare Miasto", "b. Oliwa Górna", "c. Oliwa Dolna", "d. Oliwa Przedmieście"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym roku opactwo oliwskie zostało rozwiązane przez władze pruskie?",
+        "description": "Zakon cystersów w Oliwie został rozwiązany na początku XIX wieku.",
+        "options": ["a. 1789", "b. 1796", "c. 1810", "d. 1825"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy w Oliwie powstała pierwsza szkoła?",
+        "description": "Szkoła była częścią inicjatyw społecznych w czasach średniowiecza.",
+        "options": ["a. W XIV wieku", "b. W XV wieku", "c. W XVI wieku", "d. W XVII wieku"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1577 roku?",
+        "description": "Wydarzenie to miało miejsce w czasie konfliktu z Gdańskiem.",
+        "options": ["a. Zajęcie Oliwy przez wojska szwedzkie", "b. Zawarto traktat pokojowy", "c. Oliwa została zniszczona przez pożar", "d. Pożar w katedrze"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym roku wybudowano młyn wodny w Oliwie?",
+        "description": "Młyn wodny był ważnym obiektem gospodarczym w Oliwie.",
+        "options": ["a. 1552", "b. 1600", "c. 1700", "d. 1750"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie znaczenie miała Oliwa w czasie II wojny światowej?",
+        "description": "W czasie wojny dzielnica była częścią działań wojennych w Gdańsku.",
+        "options": ["a. Oliwa była całkowicie zniszczona", "b. Oliwa była centrum ruchu oporu", "c. Oliwa była okupowana przez wojska niemieckie", "d. Oliwa stała się strefą neutralną"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Które zwierzęta są symbolem Oliwskiego Zoo?",
+        "description": "To największe zwierzęta lądowe, które można zobaczyć w zoo.",
+        "options": ["a. Słonie", "b. Lwy", "c. Tygrysy", "d. Żyrafy"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaka popularna ścieżka rekreacyjna prowadzi przez Oliwę?",
+        "description": "Jest to część większej sieci tras w Trójmiejskim Parku Krajobrazowym.",
+        "options": ["a. Trasa Południowa", "b. Ścieżka Górska", "c. Trasa Zdrowia", "d. Szlak Wejherowski"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie muzeum znajduje się w Oliwie?",
+        "description": "To muzeum mieści się w Pałacu Opatów.",
+        "options": ["a. Muzeum Archeologiczne", "b. Muzeum Sztuki Nowoczesnej", "c. Muzeum Narodowe", "d. Muzeum Etnograficzne"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
         "question": "Jak nazywa się słynny park znajdujący się w Oliwie?",
         "description": "Jest to jeden z najpiękniejszych parków w Gdańsku, znany z ogrodów w stylu francuskim, angielskim i japońskim. Znajduje się obok katedry oliwskiej.",
         "options": ["a. Park Reagana", "b. Park Oliwski", "c. Park Oruński", "d. Park Haffnera"],
@@ -189,6 +525,46 @@
         "correct_answer": "b"
     },
     {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy Oliwa została włączona do Gdańska?",
+        "description": "Włączenie miało miejsce w XX wieku.",
+        "options": ["a. W 1918 roku", "b. W 1926 roku", "c. W 1933 roku", "d. W 1945 roku"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywał się architekt, który zaprojektował przebudowę Parku Oliwskiego w XVIII wieku?",
+        "description": "Architekt ten wprowadził elementy stylu francuskiego.",
+        "options": ["a. Andre le Notre", "b. Johann Schultz", "c. Jan Heweliusz", "d. Friedrich August Stüler"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który zakon miał swoją siedzibę w Oliwie od XII wieku?",
+        "description": "Zakon ten odegrał kluczową rolę w historii Oliwy.",
+        "options": ["a. Franciszkanie", "b. Dominikanie", "c. Cystersi", "d. Benedyktyni"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Który znany kompozytor tworzył w Oliwie w XVIII wieku?",
+        "description": "Był to twórca związany z muzyką organową.",
+        "options": ["a. Johann Sebastian Bach", "b. Georg Friedrich Händel", "c. Friedrich Wilhelm Markull", "d. André Raison"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się potok przepływający przez Oliwę?",
+        "description": "Potok ten wpada do Zatoki Gdańskiej.",
+        "options": ["a. Potok Oliwski", "b. Radunia", "c. Strzyża", "d. Kacza"],
+        "correct_answer": "a"
+    },
+    {
         "type": "tf",
         "district": "Oliwa",
         "question": "Czy Katedra Oliwska jest najwyższym budynkiem sakralnym w Oliwie?",
@@ -212,9 +588,246 @@
     {
         "type": "tf",
         "district": "Oliwa",
+        "question": "Czy Katedra Oliwska jest najwyższym budynkiem sakralnym w Oliwie?",
+        "description": "Katedra Oliwska to słynna świątynia z barokowymi organami, której dwie wieże są charakterystycznym punktem dzielnicy.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się największe zoo w Polsce pod względem liczby zwierząt?",
+        "description": "Oliwskie zoo słynie z dużej powierzchni.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Park Oliwski został założony przez zakon cystersów?",
+        "description": "Park jako część swojego klasztoru, znajduje się obok Katedry Oliwskiej.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była kiedyś wioską rolniczą?",
+        "description": "Oliwa była znana przede wszystkim z działalności rolniczej przed założeniem klasztoru.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa leży w Gdańsku?",
+        "description": "Oliwa jest dzielnicą Gdańska, położoną na południowym zachodzie miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była kiedyś samodzielnym miastem?",
+        "description": "Oliwa była niezależną gminą, jednak w XVIII wieku stała się częścią Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa jest znana z produkcji wina?",
+        "description": "Oliwa była raczej znana z działalności rolniczej, a produkcja wina nie była jej głównym zajęciem.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Katedra Oliwska jest jednym z najważniejszych zabytków w Oliwie?",
+        "description": "Katedra Oliwska to jeden z głównych symboli Oliwy i ważny zabytek Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się najstarszy zamek w Gdańsku?",
+        "description": "Oliwa nie posiada zamku, a w Gdańsku znajduje się kilka innych zamków, w tym Zamek Królewski.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa jest znana z hodowli psów?",
+        "description": "Oliwa nie jest znana z hodowli psów, choć zwierzęta były częścią życia rolniczego regionu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była w średniowieczu siedzibą biskupa gdańskiego?",
+        "description": "Oliwa była ważnym miejscem w historii Gdańska, ale nie była siedzibą biskupa gdańskiego.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa jest jednym z najstarszych miejsc w Gdańsku?",
+        "description": "Oliwa, choć była zamieszkana od średniowiecza, nie jest najstarszym miejscem w Gdańsku.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była miejscem zakupu przypraw?",
+        "description": "Oliwa była znana z rolnictwa, ale nie była głównym ośrodkiem handlu przyprawami.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była dawniej siedzibą duchowieństwa katolickiego?",
+        "description": "Oliwa była siedzibą cystersów i miała duże znaczenie w życiu religijnym Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była miejscem pielgrzymek?",
+        "description": "Oliwa była miejscem pielgrzymek ze względu na klasztor cystersów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się ogród botaniczny Uniwersytetu Gdańskiego?",
+        "description": "Ogród botaniczny Uniwersytetu Gdańskiego to jedna z atrakcji turystycznych Oliwy.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była w przeszłości miejscem spotkań gdańskich arystokratów?",
+        "description": "Oliwa była popularnym miejscem spotkań i wypoczynku dla gdańskich elit.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była w przeszłości znana z produkcji rzemiosła szklarskiego?",
+        "description": "Oliwa była bardziej znana z rolnictwa i działalności zakonnej niż z produkcji szkła.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie odbywa się festiwal muzyki organowej?",
+        "description": "Festiwal muzyki organowej w Oliwie jest jednym z najstarszych i najbardziej prestiżowych w Polsce.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie mieścił się jeden z pierwszych szpitali w Gdańsku?",
+        "description": "W Oliwie znajdowały się ważne instytucje religijne, w tym szpital dla potrzebujących.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się Pomnik Cystersów?",
+        "description": "Pomnik Cystersów upamiętnia ich obecność w Oliwie, gdzie osiedlili się w średniowieczu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była kiedyś znana z produkcji wyrobów skórzanych?",
+        "description": "W Oliwie nie było większej produkcji wyrobów skórzanych, lecz więcej uwagi poświęcono działalności religijnej.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była częścią wolnego miasta Gdańska przed 1793 rokiem?",
+        "description": "Oliwa, mimo że była blisko Gdańska, nie wchodziła w skład Wolnego Miasta Gdańska.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie odbywały się coroczne jarmarki, podczas których sprzedawano m.in. przyprawy?",
+        "description": "Oliwa była znana z jarmarków, na których handlowano różnorodnymi produktami, w tym przyprawami.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie powstał pierwszy w Gdańsku zakład fryzjerski?",
+        "description": "Oliwa była raczej centrum religijnym i rolniczym, a nie znanym ośrodkiem rzemieślniczym.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Katedra Oliwska posiada jeden z najstarszych organów w Polsce?",
+        "description": "Katedra Oliwska jest znana z unikalnych barokowych organów, które są jednymi z najstarszych w Polsce.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się Pomnik Poległych Żołnierzy II Wojny Światowej?",
+        "description": "Pomniki wojenne w Oliwie upamiętniają wydarzenia związane z II wojną światową.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie organizowano ważne wydarzenia związane z polityką w XVII wieku?",
+        "description": "Oliwa była znana przede wszystkim ze swojego charakteru religijnego i kulturalnego, a nie politycznego.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się jeden z najstarszych pomników przyrody w Polsce?",
+        "description": "W Oliwie można spotkać liczne pomniki przyrody, ale nie są one najstarsze w Polsce.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była znana w średniowieczu z hodowli ryb?",
+        "description": "Oliwa była raczej znana z działalności rolniczej, a hodowla ryb nie była jej główną cechą.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się zamek książąt pomorskich?",
+        "description": "Zamek książąt pomorskich znajdował się w Gdańsku, a nie w Oliwie.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy w Oliwie znajduje się kościół św. Michała Archanioła?",
+        "description": "Kościół św. Michała Archanioła nie znajduje się w Oliwie, ale w pobliskich rejonach Gdańska.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była kiedyś siedzibą władzy miejskiej Gdańska?",
+        "description": "Oliwa nie była nigdy siedzibą władzy miejskiej, ale stanowiła ważną część Gdańska.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
+        "question": "Czy Oliwa była w średniowieczu znana z produkcji tkanin?",
+        "description": "Oliwa nie była szczególnie znana z produkcji tkanin, bardziej rozwijała rolnictwo i życie monastyczne.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Oliwa",
         "question": "Czy Oliwa była kiedyś samodzielnym miastem?",
         "description": "Oliwa rozwijała się jako osobna miejscowość, zanim została przyłączona do Gdańska w 1926 roku.",
-        "options": ["tak", "nie"],
         "correct_answer": "tak"
     },
     {
@@ -222,7 +835,6 @@
         "district": "Oliwa",
         "question": "Czy na wzgórzu Pachołek w Oliwie znajduje się zabytkowa latarnia morska?",
         "description": "Na wzgórzu Pachołek znajduje się wieża widokowa.",
-        "options": ["tak", "nie"],
         "correct_answer": "nie"
     },
     {
@@ -230,7 +842,6 @@
         "district": "Oliwa",
         "question": "Czy Potok Oliwski przepływa przez dzielnicę Oliwa?",
         "description": "Potok Oliwski ma swoje źródła w Trójmiejskim Parku Krajobrazowym.",
-        "options": ["tak", "nie"],
         "correct_answer": "tak"
     },
     {
@@ -314,6 +925,286 @@
         "correct_answer": "b"
     },
     {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jaka rzeka przepływa przez Wrzeszcz?",
+        "description": "Rzeka ta jest jednym z ważniejszych elementów przyrodniczych w tej dzielnicy.",
+        "options": ["a. Motława", "b. Radunia", "c. Wisła", "d. Panna"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakim stylu architektonicznym wzniesiony jest dworzec kolejowy we Wrzeszczu?",
+        "description": "Dworzec jest jednym z charakterystycznych punktów tej dzielnicy.",
+        "options": ["a. Gotycki", "b. Renesansowy", "c. Modernistyczny", "d. Barokowy"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie wydarzenie miało miejsce we Wrzeszczu w 1980 roku?",
+        "description": "Wydarzenie to miało duży wpływ na historię Polski.",
+        "options": ["a. Powstanie Solidarności", "b. Wybuch II wojny światowej", "c. Przemiany ustrojowe", "d. Pierwsza manifestacja wolności słowa"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który znany pomnik znajduje się w centralnej części Wrzeszcza?",
+        "description": "Pomnik ten upamiętnia istotną postać z historii Gdańska.",
+        "options": ["a. Pomnik Jana Heweliusza", "b. Pomnik Lechii Gdańsk", "c. Pomnik Stefana Żeromskiego", "d. Pomnik Solidarności"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Która z tych ulic znajduje się we Wrzeszczu?",
+        "description": "To jedna z głównych ulic handlowych tej dzielnicy.",
+        "options": ["a. Ulica Długie Ogrody", "b. Ulica Grunwaldzka", "c. Ulica Wały Jagiellońskie", "d. Ulica Wrocławska"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakiej dzielnicy Gdańska znajduje się Galeria Bałtycka?",
+        "description": "Galeria Bałtycka jest jednym z największych centrów handlowych w Gdańsku.",
+        "options": ["a. Wrzeszcz", "b. Śródmieście", "c. Oliwa", "d. Zaspa"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie wydarzenie związane z kulturą odbywa się regularnie we Wrzeszczu?",
+        "description": "To wydarzenie przyciąga licznych miłośników sztuki i muzyki.",
+        "options": ["a. Festiwal Szekspirowski", "b. Festiwal Gdańsk Singera", "c. Gdańska Noc Muzeów", "d. Festiwal Filmowy w Gdańsku"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W którym roku Wrzeszcz został włączony do Gdańska?",
+        "description": "Wrzeszcz stał się częścią Gdańska w wyniku decyzji administracyjnych.",
+        "options": ["a. 1793", "b. 1870", "c. 1925", "d. 1950"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Która z tych ulic znajduje się na terenie Wrzeszcza?",
+        "description": "To ważna ulica, która przebiega przez centralną część dzielnicy.",
+        "options": ["a. Ulica Szeroka", "b. Ulica Chlebnicka", "c. Ulica Wajdeloty", "d. Ulica Grunwaldzka"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Kto jest autorem książki związanej z historią Wrzeszcza?",
+        "description": "Jest to znany pisarz i dziennikarz.",
+        "options": ["a. Stefan Żeromski", "b. Günter Grass", "c. Paweł Huelle", "d. Andrzej Stasiuk"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakim stylu architektonicznym zaprojektowano budynek Politechniki Gdańskiej?",
+        "description": "Jest to jeden z najbardziej charakterystycznych budynków w tej dzielnicy.",
+        "options": ["a. Art Deco", "b. Modernizm", "c. Gotyk", "d. Renesans"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Które z wymienionych świąt odbywa się we Wrzeszczu?",
+        "description": "To jedno z popularniejszych wydarzeń w dzielnicy.",
+        "options": ["a. Dzień Niepodległości", "b. Dzień Gdańska", "c. Dzień Solidarności", "d. Dzień Polonii"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakim okresie we Wrzeszczu odbywa się najwięcej festynów?",
+        "description": "Jest to okres letni, który przyciąga wielu turystów.",
+        "options": ["a. Wiosna", "b. Lato", "c. Jesień", "d. Zima"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który z tych parków znajduje się w Wrzeszczu?",
+        "description": "Jest to popularne miejsce wypoczynku dla mieszkańców Wrzeszcza.",
+        "options": ["a. Park Reagana", "b. Park Oliwski", "c. Park Wodny", "d. Park Uphagena"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jak nazywa się największe centrum handlowe w Wrzeszczu?",
+        "description": "Jest to centrum, które przyciąga mieszkańców i turystów.",
+        "options": ["a. Forum Gdańsk", "b. Galeria Bałtycka", "c. Centrum Handlowe Morena", "d. Alfa Centrum"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakiej dzielnicy Gdańska znajduje się stadion piłkarski Lechii Gdańsk?",
+        "description": "Stadion to ważny punkt na mapie Gdańska.",
+        "options": ["a. Wrzeszcz", "b. Zaspa", "c. Przymorze", "d. Oliwa"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Która z poniższych uczelni znajduje się w Gdańsku, w pobliżu Wrzeszcza?",
+        "description": "To jedna z największych uczelni w Polsce.",
+        "options": ["a. Uniwersytet Gdański", "b. Politechnika Gdańska", "c. Akademia Muzyczna", "d. Gdańska Wyższa Szkoła Humanistyczna"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jaka jest główna cecha charakterystyczna Wrzeszcza?",
+        "description": "Wrzeszcz jest znany z dynamicznego rozwoju, ale ma także swoją historyczną wartość.",
+        "options": ["a. Nowoczesna zabudowa", "b. Wiele starych kamienic", "c. Bliskość do plaży", "d. Siedziba przedsiębiorstw technologicznych"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie muzeum znajduje się w Wrzeszczu?",
+        "description": "Muzeum to gromadzi przedmioty związane z historią dzielnicy.",
+        "options": ["a. Muzeum II Wojny Światowej", "b. Muzeum Gdańska", "c. Muzeum Techniki", "d. Muzeum Solidarności"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie wydarzenie miało miejsce na terenie Wrzeszcza w 1945 roku?",
+        "description": "To ważne wydarzenie związane z końcem II wojny światowej.",
+        "options": ["a. Powstanie Gdańskiego Portu", "b. Zniszczenia Wrzeszcza w wyniku bombardowań", "c. Pożar Gdańska", "d. Wydanie Dekretu Berlińskiego"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który z tych zabytków znajduje się w Wrzeszczu?",
+        "description": "Jest to zabytek związany z historią dzielnicy.",
+        "options": ["a. Dwór Artusa", "b. Pałac Opatów Cysterskich", "c. Zamek Gdański", "d. Kamienica Uphagena"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Która z ulic w Wrzeszczu nosi nazwisko znanego gdańskiego kupca?",
+        "description": "Ulica ta jest jednym z głównych szlaków komunikacyjnych w dzielnicy.",
+        "options": ["a. Ulica Malczewskiego", "b. Ulica Jaśkowa Dolina", "c. Ulica Stefana Żeromskiego", "d. Ulica Gdańska"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Które z tych miast sąsiaduje z Wrzeszczem?",
+        "description": "Wrzeszcz graniczy z inną znaną dzielnicą Gdańska.",
+        "options": ["a. Gdynia", "b. Przymorze", "c. Zaspa", "d. Oliwa"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jak nazywa się jeden z największych ośrodków akademickich we Wrzeszczu?",
+        "description": "To uczelnia techniczna, znana z kształcenia inżynierów.",
+        "options": ["a. Uniwersytet Gdański", "b. Politechnika Gdańska", "c. Gdański Uniwersytet Medyczny", "d. Akademia Sztuk Pięknych"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W którym roku została otwarta stacja SKM we Wrzeszczu?",
+        "description": "Stacja SKM jest ważnym węzłem komunikacyjnym.",
+        "options": ["a. 1950", "b. 1970", "c. 1985", "d. 2000"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który z poniższych parków znajduje się w pobliżu Wrzeszcza?",
+        "description": "To jeden z bardziej znanych parków w Gdańsku.",
+        "options": ["a. Park Jelitkowski", "b. Park Reagana", "c. Park Stare Miasto", "d. Park Oliwski"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Kto był jednym z pierwszych prezesów Politechniki Gdańskiej?",
+        "description": "Jest to postać związana z historią gdańskiej uczelni.",
+        "options": ["a. Jan Heweliusz", "b. Paweł Huelle", "c. Stefan Żeromski", "d. Mieczysław Wojnicz"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który z tych teatrów znajduje się w okolicach Wrzeszcza?",
+        "description": "Teatr ten jest jednym z głównych ośrodków kultury w Trójmieście.",
+        "options": ["a. Teatr Wybrzeże", "b. Teatr Miejski", "c. Teatr Szekspirowski", "d. Teatr Gdański"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie wydarzenie miało miejsce we Wrzeszczu w 1944 roku?",
+        "description": "To jedno z ważniejszych wydarzeń w kontekście wojennej historii Gdańska.",
+        "options": ["a. Wyzwolenie Wrzeszcza przez wojska radzieckie", "b. Niemieckie bombardowania Wrzeszcza", "c. Założenie obozu przejściowego", "d. Zakończenie II wojny światowej"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie znane muzeum mieści się we Wrzeszczu?",
+        "description": "To muzeum jest znane z gromadzenia przedmiotów związanych z historią Gdańska.",
+        "options": ["a. Muzeum II Wojny Światowej", "b. Muzeum Gdańska", "c. Muzeum Solidarności", "d. Muzeum Historyczne Gdańska"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakim okresie budowano osiedle na terenie Wrzeszcza?",
+        "description": "Osiedle to powstało w jednym z ważniejszych okresów dla historii Gdańska.",
+        "options": ["a. Lata 30. XX wieku", "b. Lata 50. XX wieku", "c. Lata 70. XX wieku", "d. Lata 80. XX wieku"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W którym roku powstała pierwsza szkoła średnia we Wrzeszczu?",
+        "description": "Szkoła ta miała duży wpływ na rozwój kulturalny dzielnicy.",
+        "options": ["a. 1820", "b. 1850", "c. 1900", "d. 1915"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Który z gdańskich mostów znajduje się blisko Wrzeszcza?",
+        "description": "Most ten jest jednym z głównych punktów komunikacyjnych w Gdańsku.",
+        "options": ["a. Most Zimowy", "b. Most Tczewski", "c. Most Jelitkowski", "d. Most Graniczny"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jaka jest główna atrakcja turystyczna Wrzeszcza?",
+        "description": "Jest to miejsce, które przyciąga turystów z całego Trójmiasta.",
+        "options": ["a. Pałac Opatów Cysterskich", "b. Park Reagana", "c. Galeria Bałtycka", "d. Dworzec Gdański"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jakie wydarzenie jest organizowane we Wrzeszczu co roku?",
+        "description": "Wydarzenie to odbywa się z okazji rocznicy ważnego wydarzenia z historii Gdańska.",
+        "options": ["a. Gdańska Noc Muzeów", "b. Festiwal Muzyki Nowoczesnej", "c. Gdańska Paradzie Kwiatów", "d. Festiwal Rzemiosła"],
+        "correct_answer": "a"
+    },
+    {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Czy Wrzeszcz był kiedyś samodzielnym miastem przed przyłączeniem do Gdańska?",
@@ -328,6 +1219,86 @@
         "correct_answer": "tak"
     },
     {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Kiedy odbyła się pierwsza edycja festiwalu Wrzeszcz Jazz Festival?",
+        "description": "Festiwal jest jednym z ważniejszych wydarzeń kulturalnych w dzielnicy.",
+        "options": ["a. 2005", "b. 2000", "c. 2010", "d. 2015"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jak nazywa się popularne centrum handlowe w Wrzeszczu?",
+        "description": "Centrum handlowe, które jest ważnym punktem na mapie zakupowej Trójmiasta.",
+        "options": ["a. Galeria Bałtycka", "b. Galeria Przymorze", "c. Forum Gdańsk", "d. Manufaktura Gdańska"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jak nazywa się jeden z najsłynniejszych zabytków Wrzeszcza, znany z barokowej architektury?",
+        "description": "Zabytek ten ma duże znaczenie w historii Gdańska.",
+        "options": ["a. Dwór Artusa", "b. Kościół św. Jana", "c. Pałac Opatów Cysterskich", "d. Kościół św. Mikołaja"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "W jakim roku rozpoczęto budowę Gdańskiego Teatru Wybrzeże?",
+        "description": "Teatr Wybrzeże jest jednym z głównych teatrów w Trójmieście.",
+        "options": ["a. 1947", "b. 1954", "c. 1960", "d. 1972"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Które z wymienionych nazwisk nie jest związane z Wrzeszczem?",
+        "description": "To pytanie sprawdza znajomość osób związanych z dzielnicą.",
+        "options": ["a. Tadeusz Kantor", "b. Paweł Huelle", "c. Jerzy Grotowski", "d. Adam Mickiewicz"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jaki jest jeden z głównych elementów przyrody w Wrzeszczu?",
+        "description": "Wrzeszcz jest znany z bogatej flory i fauny.",
+        "options": ["a. Wzgórza zachodnie", "b. Park Reagana", "c. Jezioro Wrzeszcz", "d. Gdański Las"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Kiedy zrealizowano projekt budowy nowej stacji kolejowej we Wrzeszczu?",
+        "description": "Nowa stacja miała na celu usprawnienie transportu w dzielnicy.",
+        "options": ["a. 1980", "b. 1990", "c. 2000", "d. 2010"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jaki architekt zaprojektował budynek Politechniki Gdańskiej?",
+        "description": "To jeden z najważniejszych budynków akademickich w Gdańsku.",
+        "options": ["a. Jacek Kuroń", "b. Stefan Kwiatkowski", "c. Tadeusz Zieliński", "d. Adolf Loos"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Jak nazywa się znana restauracja w Wrzeszczu, która specjalizuje się w kuchni regionalnej?",
+        "description": "Restauracja ta jest jednym z popularniejszych miejsc do odwiedzenia przez turystów.",
+        "options": ["a. Karczma Gdańska", "b. Restauracja Na Złotej", "c. Restauracja Artus", "d. Bar Mleczny Wrzeszcz"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Wrzeszcz",
+        "question": "Które z poniższych muzeów znajduje się na terenie Wrzeszcza?",
+        "description": "Muzeum to gromadzi eksponaty związane z historią i kulturą Gdańska.",
+        "options": ["a. Muzeum Narodowe w Gdańsku", "b. Muzeum II Wojny Światowej", "c. Muzeum Gdańska", "d. Muzeum Polskiego Państwa Podziemnego"],
+        "correct_answer": "b"
+    },    
+    {
         "type": "tf",
         "district": "Wrzeszcz",
         "question": "Czy Wrzeszcz leży nad Zatoką Gdańską?",
@@ -339,6 +1310,181 @@
         "district": "Wrzeszcz",
         "question": "Czy Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
         "description": "Günter Grass, laureat Nagrody Nobla, spędził dzieciństwo w tej dzielnicy.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz leży nad Zatoką Gdańską?",
+        "description": "Wrzeszcz to dzielnica Gdańska położona nieco w głąb lądu",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Günter Grass, autor 'Blaszanego bębenka', urodził się we Wrzeszczu.",
+        "description": "Günter Grass, laureat Nagrody Nobla, spędził dzieciństwo w tej dzielnicy.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się Gdański Teatr Wybrzeże?",
+        "description": "Gdański Teatr Wybrzeże to jedna z najstarszych instytucji teatralnych w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz był kiedyś częścią miasta Gdańska?",
+        "description": "Wrzeszcz stał się częścią Gdańska dopiero po II wojnie światowej.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Park Reagana znajduje się w Wrzeszczu?",
+        "description": "Park Reagana to popularne miejsce wypoczynku w Gdańsku, jednak nie znajduje się w Wrzeszczu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz leży w pobliżu Sopotu?",
+        "description": "Wrzeszcz i Sopot są blisko siebie, ale oddzielają je inne dzielnice Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się gdański Uniwersytet?",
+        "description": "Uniwersytet Gdański znajduje się w Gdańsku, ale nie w Wrzeszczu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz jest częścią Gdańska, który leży na Mierzei Wiślanej?",
+        "description": "Wrzeszcz znajduje się wewnątrz Gdańska, który jest oddzielony od Mierzei Wiślanej.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się główny dworzec kolejowy Gdańska?",
+        "description": "Wrzeszcz ma swoje własne stacje kolejowe, ale główny dworzec znajduje się w Gdańsku Śródmieściu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz to dzielnica gdańska, która była częścią Prus?",
+        "description": "Wrzeszcz był częścią Prus w XVIII wieku, kiedy Gdańsk należał do Prus.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz był kiedyś samodzielnym miastem?",
+        "description": "Wrzeszcz był kiedyś samodzielnym miastem, ale został włączony do Gdańska w 1926 roku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się tylko mieszkania i sklepy?",
+        "description": "Wrzeszcz jest znany nie tylko z zabudowy mieszkaniowej, ale i z wielu instytucji kulturalnych, edukacyjnych i rekreacyjnych.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz jest dzielnicą gdańska, która była częścią Wolnego Miasta Gdańska?",
+        "description": "Wrzeszcz był częścią Wolnego Miasta Gdańska przed II wojną światową.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz leży w pobliżu słynnych plaż w Gdańsku?",
+        "description": "Wrzeszcz znajduje się blisko morza, ale głównie jest to dzielnica miejska bez bezpośredniego dostępu do plaży.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się teatr?",
+        "description": "Wrzeszcz ma Gdański Teatr Wybrzeże, który jest ważnym punktem kulturalnym w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz jest znany z intensywnej zabudowy przemysłowej?",
+        "description": "Wrzeszcz w przeszłości był dzielnicą przemysłową, ale dziś jest głównie dzielnicą mieszkalną i usługową.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się wyłącznie zabudowa mieszkaniowa?",
+        "description": "Wrzeszcz to dzielnica z różnorodną zabudową, w tym z obiektami usługowymi i przemysłowymi.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajduje się gdańska Politechnika?",
+        "description": "Politechnika Gdańska znajduje się w Wrzeszczu, będąc jednym z głównych ośrodków akademickich w regionie.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Park Reagana znajduje się w Wrzeszczu?",
+        "description": "Park Reagana to duży park w Gdańsku, ale nie znajduje się w Wrzeszczu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz jest znany z parków?",
+        "description": "Wrzeszcz posiada kilka parków, w tym Park Uphagena.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz ma swoje jezioro?",
+        "description": "Wrzeszcz nie posiada jeziora, ale jest blisko innych akwenów wodnych w Gdańsku.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu znajdował się kiedyś fort?",
+        "description": "Wrzeszcz w przeszłości miał znaczenie wojskowe, a w okolicach dzielnicy znajduje się kilka historycznych fortów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz jest jednym z najstarszych osiedli w Gdańsku?",
+        "description": "Wrzeszcz jest jedną z najstarszych dzielnic Gdańska, z historią sięgającą średniowiecza.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy w Wrzeszczu jest duża liczba sklepów spożywczych?",
+        "description": "Wrzeszcz ma bogatą ofertę sklepów spożywczych, od małych sklepów po duże sieci handlowe.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Wrzeszcz",
+        "question": "Czy Wrzeszcz znajduje się w bezpośrednim sąsiedztwie z Gdańskiem Śródmieściem?",
+        "description": "Wrzeszcz jest oddzielony od Gdańska Śródmieścia, ale znajduje się blisko niego.",
         "correct_answer": "tak"
     },
     {
