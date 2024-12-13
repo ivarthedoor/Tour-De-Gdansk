@@ -1,11 +1,11 @@
-from utiles import BOARD_RANGE
 class GameBoard():
     players_positions = [0, 0, 0, 0]
     players_points = [0, 0, 0, 0]
+    board_range = (range(1, 31))
 
     def generate_board(self):
-        board_field = ["____" for _ in BOARD_RANGE] 
-        player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"] # ID znaków - kulki określające graczy
+        board_field = ["____" for _ in self.board_range] 
+        player_symbols = ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"] # niebieski/czerwony/zielony/żółty
         
         for i, position in enumerate(self.players_positions):
             if board_field[position] == "____":

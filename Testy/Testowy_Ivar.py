@@ -9,4 +9,12 @@ ascii = """
 
 
 # ["\U0001F535", "\U0001F534", "\U0001F7E2", "\U0001F7E1"]
-print(ascii)
+# print(ascii)
+
+
+
+
+lista = [x for x in enumerate(["Paweł", "Robert", "Damian", "Cyprian"], start=1)]
+for i in range(len(lista)):
+    a, b = lista[i]
+    print(f"{a}.{b}")

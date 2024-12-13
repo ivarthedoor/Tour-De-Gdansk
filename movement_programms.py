@@ -3,6 +3,7 @@ import random
 
 def throw_the_dice(): # Rzut kostką
     throw = random.randint(1, 6)
+    # throw = 4
     return throw
 
 

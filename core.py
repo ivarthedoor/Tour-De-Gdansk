@@ -1,16 +1,17 @@
-from utiles import sleep_and_clear, BOARD_RANGE
+from utiles import sleep_and_clear
 from questions_reading import questions_dispenser
 from board import GameBoard
 
 class GameCore(GameBoard):
+    players_list = None
     def __init__(self):
         super().__init__()
-        self.task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0]
-        self.blue = (f"\U0001F535 - {input("Wprowadź nazwę niebieskiego gracza: ")}")
-        self.red = (f"\U0001F534 - {input("Wprowadź nazwę czerwonego gracza: ")}")
-        self.green = (f"\U0001F7E2 - {input("Wprowadź nazwę zielonego gracza: ")}")
-        self.yellow = (f"\U0001F7E1 - {input("Wprowadź nazwę żółtego gracza: ")}")
-        self.player_data = None
+        self.task_assingment_positions = [i - 1 for i in self.board_range if i % 5 == 0]
+        self.blue = (f"\U0001F535 {input("Wprowadź nazwę niebieskiego gracza: ")}")
+        self.red = (f"\U0001F534 {input("Wprowadź nazwę czerwonego gracza: ")}")
+        self.green = (f"\U0001F7E2 {input("Wprowadź nazwę zielonego gracza: ")}")
+        self.yellow = (f"\U0001F7E1 {input("Wprowadź nazwę żółtego gracza: ")}")
+        
         sleep_and_clear(1)
     
     def position_reset(self): 
@@ -43,12 +44,12 @@ class GameCore(GameBoard):
     def make_players(self): 
     # Generowanie graczy 
         players = [x for x in enumerate([self.blue, self.red, self.green, self.yellow], start=1)]
+        self.player_data = []
         i = 0
         for i in range(len(players)):
             a, b = players[i]
-            players_list = a, b
-            self.player_data = (f"{players_list[0]}.{players_list[1]}: {self.players_points[i]}\n")
-            print(f"{players_list[0]}.{players_list[1]}: {self.players_points[i]}\n")
-        self.player_data = [players_list[1], self.players_points[i]]
+            points = self.players_points[i]
+            self.player_data.append([b, points])
+            print(f"{a}.{b}: {points}")
         return self.player_data
             
