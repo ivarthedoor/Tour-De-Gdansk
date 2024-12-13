@@ -1,6 +1,6 @@
 import csv
 from core import GameCore
-from utiles import PLAYERS_POINTS
+from board import GameBoard
 
 
 # Lista danych
@@ -14,13 +14,13 @@ player4 = ['yellow', 'Jan', 35]
 class CsvWriter(GameCore):
     def __init__(self):
         super().__init__()
-        self.game_core = GameCore()
+        self.board = GameBoard()
 
     def write_to_csv(self):
         with open('ranking.csv', 'a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(["Nazwa", "Wynik"])  # Nagłówki
-            writer.writerow(self.game_core.player_data)  # Dodajemy dane
+            writer.writerow(GameCore.player_data)  # Dodajemy dane
 
     # Funkcja sortująca dane w pliku CSV
     def sort_csv_by_column(self):

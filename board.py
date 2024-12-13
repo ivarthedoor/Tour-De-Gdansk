@@ -1,7 +1,7 @@
 from utiles import BOARD_RANGE
 class GameBoard():
-    def __init__(self):
-        self.players_positions = [0, 0, 0, 0]
+    players_positions = [0, 0, 0, 0]
+    players_points = [0, 0, 0, 0]
 
     def generate_board(self):
         board_field = ["____" for _ in BOARD_RANGE] 

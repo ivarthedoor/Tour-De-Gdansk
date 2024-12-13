@@ -1,9 +1,10 @@
-from utiles import sleep_and_clear, BOARD_RANGE, PLAYERS_POINTS
+from utiles import sleep_and_clear, BOARD_RANGE
 from questions_reading import questions_dispenser
 from board import GameBoard
 
 class GameCore(GameBoard):
     def __init__(self):
+        super().__init__()
         self.task_assingment_positions = [i - 1 for i in BOARD_RANGE if i % 5 == 0]
         self.blue = (f"\U0001F535 - {input("Wprowadź nazwę niebieskiego gracza: ")}")
         self.red = (f"\U0001F534 - {input("Wprowadź nazwę czerwonego gracza: ")}")
@@ -14,17 +15,17 @@ class GameCore(GameBoard):
     
     def position_reset(self): 
     #Reset player position po przekroczeniu granicy dzielnic
-        GameBoard.players_positions[0] = 0
-        GameBoard.players_positions[1] = 0
-        GameBoard.players_positions[2] = 0
-        GameBoard.players_positions[3] = 0
+        self.players_positions[0] = 0
+        self.players_positions[1] = 0
+        self.players_positions[2] = 0
+        self.players_positions[3] = 0
 
     def next_level_points(self, a: int, b: int, c: int, d: int):
     # Punktacja graczy za poprawną odpowiedź 
-        PLAYERS_POINTS[a] += 15
-        PLAYERS_POINTS[b] += 5
-        PLAYERS_POINTS[c] += 5
-        PLAYERS_POINTS[d] += 5
+        self.players_points[a] += 15
+        self.players_points[b] += 5
+        self.players_points[c] += 5
+        self.players_points[d] += 5
 
     def questions_assingment(self, position: int, points_index: int, district: str)->int:  
     # Losowanie pytania co piąte pole 
@@ -32,12 +33,12 @@ class GameCore(GameBoard):
             if position == i:
                 if questions_dispenser(district):
                     sleep_and_clear(3)
-                    PLAYERS_POINTS[points_index] += 10
+                    self.players_points[points_index] += 10
                 else:
                     sleep_and_clear(3)
-                    if PLAYERS_POINTS[points_index] != 0:
-                        PLAYERS_POINTS[points_index] -= 5
-        return PLAYERS_POINTS[points_index]
+                    if self.players_points[points_index] != 0:
+                        self.players_points[points_index] -= 5
+        return self.players_points[points_index]
     
     def make_players(self): 
     # Generowanie graczy 
@@ -46,8 +47,8 @@ class GameCore(GameBoard):
         for i in range(len(players)):
             a, b = players[i]
             players_list = a, b
-            self.player_data = (f"{players_list[0]}.{players_list[1]}: {PLAYERS_POINTS[i]}\n")
-            print(f"{players_list[0]}.{players_list[1]}: {PLAYERS_POINTS[i]}\n")
-        self.player_data = [players_list[1], PLAYERS_POINTS[i]]
+            self.player_data = (f"{players_list[0]}.{players_list[1]}: {self.players_points[i]}\n")
+            print(f"{players_list[0]}.{players_list[1]}: {self.players_points[i]}\n")
+        self.player_data = [players_list[1], self.players_points[i]]
         return self.player_data
             
