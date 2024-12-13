@@ -1,5 +1,6 @@
 from core import GameCore
 from board import GameBoard
+from data_adding_program import CsvWriter
 from time import sleep
 from movement_programms import move_player
 from utiles import sleep_and_clear
@@ -136,7 +137,7 @@ class GameLevels():
                 self.core.position_reset()
                 self.core.next_level_points(winner_index, *[i for i in range(4) if i != winner_index])
                 sleep_and_clear(0.01)
-                # print(self.core.make_players())
+                self.core.end_game_and_save()
                 for i in self.core.player_data:
                     print(i)
                 return False

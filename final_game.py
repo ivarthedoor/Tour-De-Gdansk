@@ -8,12 +8,12 @@ def initial_game():
     # sleep_and_clear(4)
     game = GameLevels()
     while True:
-        if not game.game1():
-            break
-        if not game.game2():
-            break
-        if not game.game3():
-            break
+        # if not game.game1():
+        #     break
+        # if not game.game2():
+        #     break
+        # if not game.game3():
+        #     break
         if not game.game4():
             break
 

@@ -1,8 +1,10 @@
 from utiles import sleep_and_clear
 from questions_reading import questions_dispenser
 from board import GameBoard
+from data_adding_program import CsvWriter
 
 class GameCore(GameBoard):
+    csv_writer = CsvWriter()
     players_list = None
     def __init__(self):
         super().__init__()
@@ -52,4 +54,9 @@ class GameCore(GameBoard):
             self.player_data.append([b, points])
             print(f"{a}.{b}: {points}")
         return self.player_data
-            
+
+    def end_game_and_save(self):
+        csv_writer = CsvWriter()
+        for player in self.player_data:
+            csv_writer.write_to_csv(player)  # Przekazujemy dane graczy
+        csv_writer.sort_csv_by_column()  # Sortujemy wyniki

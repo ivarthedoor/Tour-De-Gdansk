@@ -1,47 +1,47 @@
 import csv
-from core import GameCore
-from board import GameBoard
+
 
 
 # Lista danych
 # player = ["\U0001F535", "chomik", 12]
-player1 = ['blue', 'Ivar', 40]
-player2 = ['red', 'Przemo', 15]
-player3 = ['green', 'Olek', 20]
-player4 = ['yellow', 'Jan', 35]
+# player1 = ['blue', 'Ivar', 40]
+# player2 = ['red', 'Przemo', 15]
+# player3 = ['green', 'Olek', 20]
+# player4 = ['yellow', 'Jan', 35]
 
 # Funkcja do zapisania danych do pliku CSV (na początek)
-class CsvWriter(GameCore):
-    def __init__(self):
-        super().__init__()
-        self.board = GameBoard()
-
-    def write_to_csv(self):
+class CsvWriter:
+    def write_to_csv(self, player_data):
         with open('ranking.csv', 'a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow(["Nazwa", "Wynik"])  # Nagłówki
-            writer.writerow(GameCore.player_data)  # Dodajemy dane
+            # Dodajemy nagłówki tylko raz, jeśli plik jest pusty
+            if file.tell() == 0:
+                writer.writerow(["Nazwa", "Wynik"])  # Nagłówki
+            writer.writerow(player_data)  # Dodajemy dane gracza
 
-    # Funkcja sortująca dane w pliku CSV
     def sort_csv_by_column(self):
-        # Wczytaj dane z pliku CSV
-        with open('ranking.csv', 'r', encoding='utf-8') as file:
-            reader = csv.DictReader(file)
-            data = list(reader)  # Konwertuj na listę słowników
-        
-        # Posortuj dane według kolumny 'Wartość' (należy przekształcić na int)
-        sorted_data = sorted(data, key=lambda row: int(row["Wynik"]), reverse=True)  # Sortowanie malejąco
-        
-        # Zapisz posortowane dane z powrotem do pliku CSV
-        with open('ranking.csv', 'w', newline='', encoding='utf-8') as file:
-            writer = csv.DictWriter(file, fieldnames=reader.fieldnames)
-            writer.writeheader()  # Zapisz nagłówki kolumn
-            writer.writerows(sorted_data)  # Zapisz posortowane wiersze
+        try:
+            with open('ranking.csv', 'r', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                data = list(reader)
+
+            if not data:  # Jeśli brak danych
+                print("Plik jest pusty, brak danych do sortowania.")
+                return
+
+            sorted_data = sorted(data, key=lambda row: int(row["Wynik"]), reverse=True)
+
+            with open('ranking.csv', 'w', newline='', encoding='utf-8') as file:
+                writer = csv.DictWriter(file, fieldnames=["Nazwa", "Wynik"])
+                writer.writeheader()
+                writer.writerows(sorted_data)
+        except Exception as e:
+            print(f"Wystąpił błąd podczas sortowania: {e}")
 
 
 
 
 
-    write_to_csv()
-    sort_csv_by_column()
+    # write_to_csv()
+    # sort_csv_by_column()
 
