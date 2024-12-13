@@ -136,6 +136,9 @@ class GameLevels(GameCore):
                 self.questions_assingment(self.board.players_positions[0], 0, "Wrzeszcz")
                 if self.board.players_positions[0] != 29:
                     print("Teraz kolej " + self.red + " (2)")
+                else:
+                    self.questions_assingment(self.board.players_positions[0], 0, "Wrzeszcz")
+                    self.next_level_points(0, 1, 2, 3)
                 sleep_and_clear(2)
 
             elif play == "2":
@@ -143,6 +146,9 @@ class GameLevels(GameCore):
                 self.questions_assingment(self.board.players_positions[1], 1, "Wrzeszcz")
                 if self.board.players_positions[1] != 29:
                     print("Teraz kolej " + self.green + " (3)")
+                else:
+                    self.questions_assingment(self.board.players_positions[1], 1, "Wrzeszcz")
+                    self.next_level_points(1, 0, 2, 3)
                 sleep_and_clear(2)
 
             elif play == "3":
@@ -150,6 +156,9 @@ class GameLevels(GameCore):
                 self.questions_assingment(self.board.players_positions[2], 2, "Wrzeszcz")
                 if self.board.players_positions[2] != 29:
                     print("Teraz kolej " + self.yellow + " (4)")
+                else:
+                    self.questions_assingment(self.board.players_positions[2], 2, "Wrzeszcz")
+                    self.next_level_points(2, 1, 0, 3)
                 sleep_and_clear(2)
 
             elif play == "4":
@@ -157,6 +166,9 @@ class GameLevels(GameCore):
                 self.questions_assingment(self.board.players_positions[3], 3, "Wrzeszcz")
                 if self.board.players_positions[3] != 29:
                     print("Teraz kolej " + self.blue + " (1)")
+                else:
+                    self.questions_assingment(self.board.players_positions[3], 3, "Wrzeszcz")
+                    self.next_level_points(3, 1, 2, 0)
                 sleep_and_clear(2)
                 
             
