@@ -2,11 +2,12 @@ from datetime import datetime
 from board import GameBoard
 from data_adding_program import CsvWriter
 from utiles import sleep_and_clear
-from questions_reading import questions_dispenser
+from questions_reading import GameQuestions
 
 
 class GameCore(GameBoard):
     csv_writer = CsvWriter()
+    questions_disp = GameQuestions()
     def __init__(self):
         self.task_assingment_positions = [i - 1 for i in self.board_range if i % 5 == 0]
     # Nadanie nazw przez użytkowników
@@ -34,7 +35,7 @@ class GameCore(GameBoard):
     # Pytanie przypisane jest co piąte pole 
         for i in self.task_assingment_positions:
             if position == i:
-                if questions_dispenser(district):
+                if self.questions_disp.questions_dispenser(district):
                     sleep_and_clear(3)
                     self.players_points[points_index] += 10
                 else:
