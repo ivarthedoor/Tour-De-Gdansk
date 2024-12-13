@@ -1,3 +1,5 @@
+from datetime import datetime
+
 ascii = """
 ------WYNIKI------
      _\U0001F535_
@@ -13,8 +15,12 @@ ascii = """
 
 
 
+from datetime import datetime
 
-lista = [x for x in enumerate(["Paweł", "Robert", "Damian", "Cyprian"], start=1)]
-for i in range(len(lista)):
-    a, b = lista[i]
-    print(f"{a}.{b}")
+# Aktualna data i czas z formatowaniem
+aktualna_data = datetime.now()
+sformatowana_data = aktualna_data.strftime("%Y-%m-%d %H:%M:%S")
+print(sformatowana_data)  # Wyjście: "2024-12-13 14:30:45"
+
+
+
