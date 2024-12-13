@@ -126,9 +126,50 @@ class GameLevels(GameCore):
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         {self.board.generate_board()}.META\n")
+            
 
-            if not self.level_movement_mechanics("Wrzeszcz"):
-                return False
+            play = input("Wpisz 1 żeby ruszyć niebieskim pionkiem, 2 czerwonym, 3 zielonym i 4 żółtym, albo wpisz Q żeby opuścić grę: \n")
+            play = play.lower()
+
+            if play == "1":
+                self.board.players_positions[0] = move_player(self.board.players_positions[0])
+                self.questions_assingment(self.board.players_positions[0], 0, "Wrzeszcz")
+                if self.board.players_positions[0] != 29:
+                    print("Teraz kolej " + self.red + " (2)")
+                sleep_and_clear(2)
+
+            elif play == "2":
+                self.board.players_positions[1] = move_player(self.board.players_positions[1])
+                self.questions_assingment(self.board.players_positions[1], 1, "Wrzeszcz")
+                if self.board.players_positions[1] != 29:
+                    print("Teraz kolej " + self.green + " (3)")
+                sleep_and_clear(2)
+
+            elif play == "3":
+                self.board.players_positions[2] = move_player(self.board.players_positions[2])
+                self.questions_assingment(self.board.players_positions[2], 2, "Wrzeszcz")
+                if self.board.players_positions[2] != 29:
+                    print("Teraz kolej " + self.yellow + " (4)")
+                sleep_and_clear(2)
+
+            elif play == "4":
+                self.board.players_positions[3] = move_player(self.board.players_positions[3])
+                self.questions_assingment(self.board.players_positions[3], 3, "Wrzeszcz")
+                if self.board.players_positions[3] != 29:
+                    print("Teraz kolej " + self.blue + " (1)")
+                sleep_and_clear(2)
+                
+            
+
+            elif play == "q": # Zakończenie gry
+                sleep_and_clear(1)
+                # return False
+            else:
+                print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
+                sleep(2)
+                # return True
+                # if not self.level_movement_mechanics("Wrzeszcz"):
+                #     return False
 
             
             if self.next_level_movement_mechanics():
