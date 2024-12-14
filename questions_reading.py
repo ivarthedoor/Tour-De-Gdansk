@@ -26,7 +26,7 @@ class GameQuestions:
                 return True
             else:
                 print(f"Niestety, nie trafiłeś... \n \
-                        Prawidłowa odpowiedź to {selected_question['correct_answer']}")
+                Prawidłowa odpowiedź to {selected_question['correct_answer']}")
                 return False
         else:
             print(f"Wylosowane pytanie: {selected_question['question']}")
