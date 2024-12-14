@@ -108,18 +108,18 @@ class GameLevels(GameCore):
 
     def level_1(self):
         print("             Witamy w grze 'Tour De Gdańsk'!\n \
-        Rozpoczynasz wyjątkową podróż przez serce Gdańska - miasta pełnego historii, tajemnic i niezwykłych miejsc.\n \
-        Cztery dzielnice czekają na odkrycie, a każda z nich skrywa zagadki i wyzwania, które sprawdzą Twoją wiedzę, spryt i szczęście.")
+        Rozpoczynacie wyjątkową podróż przez serce Gdańska - miasta pełnego historii, tajemnic i niezwykłych miejsc.\n \
+        Cztery dzielnice czekają na odkrycie, a każda z nich skrywa zagadki i wyzwania, które sprawdzą Waszą wiedzę, spryt i szczęście.")
         sleep_and_clear(12)
-        print("         Czy uda Ci się zdobyć przewagę i dotrzeć do mety jako pierwszy?\n \
+        print("         Czy uda Wam się zdobyć przewagę i dotrzeć do mety jako pierwszy?\n \
         Przygotuj się na super przygodę - czas zwiedzić Gdańsk i zapisać się w historii tego miasta!")
         sleep_and_clear(10)
-        print("         Rozpoczynasz swoją podróż w sercu Gdańska - na Starym Mieście.\n \
-        Spacerując wśród historycznych kamienic i uliczek, poczujesz ducha przeszłości.\n \
-        Stąd wyruszysz, odkrywając zarówno urokliwe zakątki, jak i trudne pytania, które sprawdzą, jak dobrze znasz to miejsce.")
+        print("         Rozpoczynacie Waszą podróż w sercu Gdańska - na Starym Mieście.\n \
+        Spacerując wśród historycznych kamienic i uliczek, poczujecie ducha przeszłości.\n \
+        Stąd wyruszycie, odkrywając zarówno urokliwe zakątki, jak i trudne pytania, które sprawdzą, jak dobrze znacie to miejsce.")
         sleep_and_clear(12)
-        print("         Pamiętaj, każda odpowiedź przybliża Cię do zwycięstwa, ale bądź ostrożny - nie brakuje tu pułapek!\n \
-        Powodzenia, podróżniku!")
+        print("         Pamiętajcie, każda odpowiedź przybliża Was do zwycięstwa, ale bądźcie ostrożny - nie brakuje tu pułapek!\n \
+        Powodzenia, podróżnicy!")
         sleep_and_clear(8)
         while True:
             print("...Stare Miasto...\n\n")
@@ -135,12 +135,12 @@ class GameLevels(GameCore):
                 return True
 
     def level_2(self):
-        print("         Gratulacje! Pierwszy poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
-        print("         Twoja wędrówka prowadzi Cię na Stare Przedmieście, dawną bramę Gdańska.\n \
+        print("         Gratulacje! Pierwszy poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.\n")
+        print("         Wasza wędrówka prowadzi Was na Stare Przedmieście, dawną bramę Gdańska.\n \
         To tutaj zaczynały się historie kupców i rzemieślników, którzy budowali potęgę miasta.\n \
         Wśród malowniczych widoków i śladów przeszłości ukryte są kolejne wyzwania. ")
         sleep_and_clear(12)
-        print("         Każdy krok może być decydujący - czy uda Ci się odnaleźć właściwą drogę?\n \
+        print("         Każdy krok może być decydujący - czy uda Wam się odnaleźć właściwą drogę?\n \
         Czas przekroczyć granice Starego Miasta i ruszyć ku nowym przygodom!")
         sleep_and_clear(8)
         while True:
@@ -157,13 +157,13 @@ class GameLevels(GameCore):
                 return True
 
     def level_3(self):
-        print("         Gratulacje! Drugi poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
-        print("         Witaj w Oliwie, miejscu pełnym zieleni i harmonii.\n \
+        print("         Gratulacje! Drugi poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.\n")
+        print("         Witajcie w Oliwie, miejscu pełnym zieleni i harmonii.\n \
         To dzielnica znana z pięknych parków i monumentalnej katedry, gdzie historia miesza się z ciszą i spokojem.\n \
-        Ale nie daj się zwieść tej sielance - Oliwa skrywa wyzwania, które potrafią zaskoczyć nawet najtwardszych graczy.")
+        Ale nie dajcie się zwieść tej sielance - Oliwa skrywa wyzwania, które potrafią zaskoczyć nawet najtwardszych graczy.")
         sleep_and_clear(12)
-        print("         Czy uda Ci się przejść przez te tereny, nie tracąc przewagi? Czas pokaże!\n \
-        Niech Oliwa odsłoni przed Tobą swoje tajemnice.")
+        print("         Czy uda Wam się przejść przez te tereny, nie tracąc przewagi? Czas pokaże!\n \
+        Niech Oliwa odsłoni przed Waszą swoje tajemnice.")
         sleep_and_clear(8)
         while True:
             print("...Oliwa...\n\n")
@@ -179,12 +179,12 @@ class GameLevels(GameCore):
                 return True
 
     def level_4(self):
-        print("         Gratulacje! Trzeci poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
-        print("         Docierasz do Wrzeszcza - serca nowoczesnego Gdańska, gdzie historia spotyka współczesność.\n \
-        To tutaj, w tętniącym życiem centrum, Twoje umiejętności zostaną wystawione na ostatnią próbę.\n \
-        Zgiełk miasta nie pozwala się zatrzymać, a każdy krok może zadecydować o Twoim sukcesie.")
+        print("         Gratulacje! Trzeci poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.\n")
+        print("         Docieracie do Wrzeszcza - serca nowoczesnego Gdańska, gdzie historia spotyka współczesność.\n \
+        To tutaj, w tętniącym życiem centrum, Wasze umiejętności zostaną wystawione na ostatnią próbę.\n \
+        Zgiełk miasta nie pozwala się zatrzymać, a każdy krok może zadecydować o Waszym sukcesie.")
         sleep_and_clear(12)
-        print("         Czy uda Ci się wyprzedzić rywali i dotrzeć do mety? Wrzeszcz czeka na śmiałków, którzy odważą się zmierzyć z jego wyzwaniami!")
+        print("         Czy uda Wam się dotrzeć do mety? Wrzeszcz czeka na śmiałków, którzy odważą się zmierzyć z jego wyzwaniami!")
         sleep_and_clear(6)
         while True:
             print("...Wrzeszcz...\n\n")

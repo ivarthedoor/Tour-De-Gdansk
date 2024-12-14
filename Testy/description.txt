@@ -86,7 +86,10 @@ START.____.____.____.____.____.____.____.____.____.____.
 
 
 Jeszcze pomysł na ascii na zakończenie
-
+Installation and How to run:
+Clone the repository or download the files.
+Make sure Python 3.x is installed on your system.
+Go to the project directory (for example VSCode) and run the game by executing the final_game.py script.
 
     ------WYNIKI------
      _A_
