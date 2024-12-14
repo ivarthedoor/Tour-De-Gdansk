@@ -2,574 +2,1188 @@
     {
         "type": "ABCD",
         "district": "Stare miasto",
-        "question": "W którym roku rozpoczęto budowę Bazyliki Mariackiej?",
-        "description":"Potężne jej mury i wieże wznoszą się wysoko nad panoramą miasta oraz nad rozległą okolicą.",
-        "options": ["a. 1285", "b. 1343", "c. 2003", "d. 867"],
+        "question": "W którym roku wybudowano Kościół Świętego Brygidy w Gdańsku?",
+        "description": "Kościół ten jest znany z pięknych witraży i wyjątkowej architektury gotyckiej.",
+        "options": ["a. 1375", "b. 1393", "c. 1452", "d. 1485"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Stare miasto",
-        "question": "Czy wiesz w którym roku ukończono budowę fontanny Neptuna?",
-        "description": "W 1549 przed Dworem Artusa istniała bliżej nieznana studnia, być może już z metalowymi dekoracjami.",
-        "options": ["a. 1776", "b. 1822", "c. 1633", "d. 764 p.n.e."],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "W którym roku ukończono budowę pierwotnego Gdańskiego Dworu Artusa?",
-        "description": "Dwór Artusa gmach usytuowany w centrum Gdańska, przy Długim Targu 44, dawniej miejsce spotkań kupców, \nośrodek życia towarzyskiego, później giełda, obecnie oddział Muzeum Gdańska. Pełni rolę obiektu recepcyjnego miasta.",
-        "options": ["a. 1567", "b. 1481", "c. 1914", "d. 1474"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "W którym roku ukończono budowę Bramy Wyżynnej?",
-        "description": "Brama Wyżynna, dawniej także „Brama Wysoka”. Renesansowa brama miejska w Gdańsku.nDo 1895 znajdowała się w ciągu szesnastowiecznych fortyfikacji, pomiędzy Bastionem św. Elżbiety i Bastionem Karowym noraz stanowiła główną bramę wjazdową do miasta, otwierającą ciąg tzw. Drogi Królewskiej",
-        "options": ["a. 1475", "b. 1575", "c. 1675", "d. 1775"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "Czyje wojska atakowały Gdańsk 9 maja 1734 roku?",
-        "description": "9 maja 1734 roku Gdańszczanie pokonali w bitwie szturmujące Górę Gradową wojska.To było największe zwycięstwo gdańskiego oręża w osiemnastym stuleciu i ważny epizod wojny o sukcesję polską,w której potężne miasto wiernie stało przy legalnie obranym królu Stanisławie Leszczyńskim.",
-        "options": ["a. Niemieckie", "b. Filipińskie", "c. Rosyjskie", "d. Pruskie"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "O jaki kamień chodzi, jeśli mowa o amuletach w Gdańsku?",
-        "description": "Najstarsze materiały świadczące o znajomości tego kamienia i jego obróbce w rejonie Gdańska pochodzą z okresu 8 - 4 tys. lat p.n.e. i wiążą się z przypisywaną mu magiczną siłą.Wyrabiano wówczas dla potrzeb kultowych amulety - postaci zwierząt, figurki bóstw i herosów.",
-        "options": ["a. Opal", "b. Agat", "c. Bursztyn", "d. Krzemień"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "O jaką wyspę chodzi, jeśli leży pomiędzy Motławą a Nową Motławą?",
-        "description": "Wyspa jest położona pomiędzy Motławą a jej przekopem - Nową Motławą. Leży w centrum Śródmieścia, od wschodu połączona z Długimi Ogrodami poprzez Most Stągiewny, od południa ze Starym Przedmieściem, od zachodu poprzez Most Krowi i Most Zielony z Głównym Miastem. Od północy wyspa sąsiaduje z wyspą Ołowianką. Dodatkowo południowa część wyspy, na której składowano niegdyś towary łatwopalne,została odcięta od głównej części wyspy poprzez powstały sztucznie Kanał Smolny",
-        "options": ["a. Sobieszewską", "b. Ołowianka", "c. Spichrzów", "d. Wolin"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Stare miasto",
-        "question": "Do jakiego kraju należał Gdańsk przez długi okres swojej historii?",
-        "options": ["a. Niemcy", "b. Lichtenstein", "c. Rosja", "d. Szwecja"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy miasto Gdańsk posiada tytuł Smart City?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy Daniel Fahrenheit zmarł w Gdańsku?",
-        "correct_answer": "nie"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy Gdańsk był częścią Hanzy?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy Fontanna Neptuna została zbudowana w XIX wieku?",
-        "correct_answer": "nie"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy w Gdańsku znajduje się najdłuższy kościół z cegły w Europie?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy w Gdańsku powstała pierwsza na świecie poczta morska?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy Westerplatte było miejscem rozpoczęcia II wojny światowej?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "tf",
-        "district": "Stare miasto",
-        "question": "Czy Gdańsk był jednym z miast, w których narodził się ruch Solidarność?",
-        "correct_answer": "tak"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywał się pierwszy opat klasztoru cystersów w Oliwie?",
-        "description": "Był pierwszym przełożonym zakonu cystersów, który osiedlił się w Oliwie w XII wieku.",
-        "options": ["a. Świętopełk II", "b. Sambor I", "c. Stanisław Olszewski", "d. Jan Grabiński"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "W którym roku Oliwa została włączona do Gdańska?",
-        "description": "To wydarzenie miało miejsce na początku XX wieku.",
-        "options": ["a. 1907", "b. 1913", "c. 1926", "d. 1930"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Która wojna zniszczyła opactwo w Oliwie w XV wieku?",
-        "description": "Wojna ta miała duży wpływ na losy całej Pomorza Gdańskiego.",
-        "options": ["a. Wojna trzynastoletnia", "b. Wojna Dwudziestoletnia", "c. Wojna polsko-krzyżacka", "d. Wojna siedmioletnia"],
+        "question": "Jak nazywa się zabytkowy budynek w Gdańsku, który pełnił funkcję ratusza w okresie średniowiecza?",
+        "description": "Ratusz był ważnym punktem administracyjnym w Gdańsku, zbudowany w stylu gotyckim.",
+        "options": ["a. Ratusz Gdański", "b. Dwór Artusa", "c. Pałac Opatów", "d. Kamienica Zielona"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywał się opat, który zainicjował budowę katedry oliwskiej?",
-        "description": "To on był inicjatorem wielu ważnych inwestycji w Oliwie.",
-        "options": ["a. Mikołaj z Dobrej", "b. Jan Grabiński", "c. Stanisław Deodat", "d. Bernard Konrad"],
+        "district": "Stare miasto",
+        "question": "W którym roku Gdańsk otrzymał prawa miejskie?",
+        "description": "Prawa miejskie stanowiły fundament rozwoju Gdańska jako ważnego ośrodka handlowego.",
+        "options": ["a. 1236", "b. 1254", "c. 1303", "d. 1355"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który styl architektoniczny dominuje w katedrze oliwskiej?",
-        "description": "Wnętrze świątyni łączy elementy wielu stylów, ale jeden jest dominujący.",
-        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Rokokowy"],
+        "district": "Stare miasto",
+        "question": "Który z poniższych kościołów w Gdańsku jest największym kościołem ceglanego w Europie?",
+        "description": "Kościół Mariacki jest jedną z największych gotyckich świątyń w Polsce i Europie.",
+        "options": ["a. Kościół Św. Brygidy", "b. Kościół Mariacki", "c. Kościół Św. Katarzyny", "d. Kościół Św. Mikołaja"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jaką funkcję pełnił Dwór Artusa w Gdańsku?",
+        "description": "Dwór Artusa był miejscem spotkań gdańskich kupców i elit, a także pełnił rolę centrum życia towarzyskiego.",
+        "options": ["a. Miejsce obrad rady miasta", "b. Siedziba władzy królewskiej", "c. Centrum handlowe", "d. Miejsce spotkań kupców i elit"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jak nazywa się symbol Gdańska przedstawiający postać mitologiczną?",
+        "description": "Postać ta jest jednym z rozpoznawalnych symboli Gdańska i często widoczna na miejskich placach.",
+        "options": ["a. Neptun", "b. Hercules", "c. Apollo", "d. Zeus"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy miało miejsce pierwsze zniszczenie Gdańska w wyniku działań wojennych?",
+        "description": "Gdańsk był wielokrotnie niszczony przez wojny, a pierwsze większe zniszczenia miały miejsce w średniowieczu.",
+        "options": ["a. 1300", "b. 1410", "c. 1466", "d. 1577"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy wzniesiono pierwszą część Gdańskiego Żurawia?",
+        "description": "Gdański Żuraw był jednym z największych i najstarszych dźwigów portowych w średniowieczu.",
+        "options": ["a. 1360", "b. 1395", "c. 1450", "d. 1520"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Która z poniższych bram Gdańska była główną bramą miejską do XVIII wieku?",
+        "description": "Brama ta stanowiła główny punkt wejściowy do miasta.",
+        "options": ["a. Brama Mariacka", "b. Brama Stągiewna", "c. Brama Wyżynna", "d. Brama Długouliczna"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku zakończono budowę Wielkiego Młyna w Gdańsku?",
+        "description": "Wielki Młyn to jeden z największych młynów średniowiecznych w Europie.",
+        "options": ["a. 1480", "b. 1505", "c. 1575", "d. 1620"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jaka funkcję pełnił Dwór Artusa w Gdańsku?",
+        "description": "Dwór Artusa był miejscem spotkań kupców i elit miejskich, a także pełnił funkcję reprezentacyjną.",
+        "options": ["a. Siedziba króla", "b. Dom handlowy", "c. Miejsce spotkań kupców", "d. Szkoła wyższa"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Które z poniższych miejsc w Gdańsku służyło niegdyś jako szpital?",
+        "description": "W Gdańsku zachowało się wiele budynków, które pełniły funkcje szpitalne w średniowieczu.",
+        "options": ["a. Szpital Świętego Ducha", "b. Kościół Świętej Katarzyny", "c. Pałac Opatów", "d. Klasztor Dominikanów"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy po raz pierwszy wzniesiono Brama Wyżynna?",
+        "description": "Brama Wyżynna była jedną z głównych bram Gdańska i stanowiła element systemu obronnego miasta.",
+        "options": ["a. 1496", "b. 1555", "c. 1581", "d. 1600"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku otwarto pierwszy port w Gdańsku?",
+        "description": "Port w Gdańsku ma bardzo długą historię i był jednym z najważniejszych portów w Europie.",
+        "options": ["a. X w.", "b. 1227", "c. 1250", "d. 1300"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy zbudowano Kościół św. Mikołaja w Gdańsku?",
+        "description": "Kościół św. Mikołaja w Gdańsku jest jednym z najstarszych kościołów w mieście.",
+        "options": ["a. 1210", "b. 1270", "c. 1300", "d. 1350"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W jakim stylu architektonicznym zbudowano Brama Stągiewną?",
+        "description": "Brama Stągiewna w Gdańsku jest przykładem architektury gotyckiej.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Klasycystyczny"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W jakim roku zniszczono podczas II wojny światowej większość zabytków Starego Miasta w Gdańsku?",
+        "description": "W czasie II wojny światowej Gdańsk ucierpiał na skutek zniszczeń.",
+        "options": ["a. 1940", "b. 1943", "c. 1945", "d. 1942"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Który król Polski nadał Gdańskowi prawa miejskie?",
+        "description": "Prawa miejskie nadano Gdańskowi przez króla Polski.",
+        "options": ["a. Kazimierz Wielki", "b. Władysław Łokietek", "c. Zygmunt Stary", "d. August II Mocny"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku odbudowano większość Starego Miasta w Gdańsku?",
+        "description": "Po zniszczeniach wojennych, Stare Miasto zostało odbudowane w drugiej połowie XX wieku.",
+        "options": ["a. 1946", "b. 1950", "c. 1960", "d. 1975"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jakie wydarzenie miało miejsce w Gdańsku w 1980 roku?",
+        "description": "W 1980 roku w Gdańsku wybuchły strajki, które miały kluczowe znaczenie dla historii Polski.",
+        "options": ["a. Utworzenie Solidarności", "b. Wyzwolenie Gdańska z rąk niemieckich", "c. Początek II wojny światowej", "d. Odbudowa Gdańska po zniszczeniach"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku wzniesiono Bramę Stągiewną na Wyspie Spichrzów?",
+        "description": "Brama Stągiewna pełniła funkcję obronną w dawnych czasach.",
+        "options": ["a. 1517", "b. 1600", "c. 1576", "d. 1453"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jak nazywa się główna ulica w Starym Mieście Gdańska?",
+        "description": "Ulica ta była niegdyś głównym szlakiem handlowym miasta.",
+        "options": ["a. Ulica Długa", "b. Ulica Mariacka", "c. Ulica Wały Jagiellońskie", "d. Ulica Spichrzowa"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku zakończono budowę Kościoła Mariackiego w Gdańsku?",
+        "description": "Kościół Mariacki to jeden z największych kościołów ceglanego w Europie.",
+        "options": ["a. 1492", "b. 1475", "c. 1360", "d. 1542"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jakie wydarzenie miało miejsce na Długim Targu w Gdańsku w 1793 roku?",
+        "description": "Długi Targ to jedno z najważniejszych miejsc w Gdańsku, które było świadkiem wielu ważnych wydarzeń.",
+        "options": ["a. Wybuch powstania gdańskiego", "b. Wizyta króla Stanisława Augusta Poniatowskiego", "c. Przejęcie Gdańska przez Prusy", "d. Zawarcie pokoju z Rosją"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jak nazywa się zabytkowy budynek w Gdańsku, który pełnił funkcję ratusza w okresie średniowiecza?",
+        "description": "Ratusz był ważnym punktem administracyjnym w Gdańsku, zbudowany w stylu gotyckim.",
+        "options": ["a. Ratusz Gdański", "b. Dwór Artusa", "c. Pałac Opatów", "d. Kamienica Zielona"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku Gdańsk otrzymał prawa miejskie?",
+        "description": "Prawa miejskie stanowiły fundament rozwoju Gdańska jako ważnego ośrodka handlowego.",
+        "options": ["a. 1236", "b. 1254", "c. 1303", "d. 1355"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Który z poniższych kościołów w Gdańsku jest największym kościołem ceglanego w Europie?",
+        "description": "Kościół Mariacki jest jedną z największych gotyckich świątyń w Polsce i Europie.",
+        "options": ["a. Kościół Św. Brygidy", "b. Kościół Mariacki", "c. Kościół Św. Katarzyny", "d. Kościół Św. Mikołaja"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jaką funkcję pełnił Dwór Artusa w Gdańsku?",
+        "description": "Dwór Artusa był miejscem spotkań gdańskich kupców i elit, a także pełnił rolę centrum życia towarzyskiego.",
+        "options": ["a. Miejsce obrad rady miasta", "b. Siedziba władzy królewskiej", "c. Centrum handlowe", "d. Miejsce spotkań kupców i elit"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jak nazywa się symbol Gdańska przedstawiający postać mitologiczną?",
+        "description": "Postać ta jest jednym z rozpoznawalnych symboli Gdańska i często widoczna na miejskich placach.",
+        "options": ["a. Neptun", "b. Hercules", "c. Apollo", "d. Zeus"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy miało miejsce pierwsze zniszczenie Gdańska w wyniku działań wojennych?",
+        "description": "Gdańsk był wielokrotnie niszczony przez wojny, a pierwsze większe zniszczenia miały miejsce w średniowieczu.",
+        "options": ["a. 1300", "b. 1410", "c. 1466", "d. 1577"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy wzniesiono pierwszą część Gdańskiego Żurawia?",
+        "description": "Gdański Żuraw był jednym z największych i najstarszych dźwigów portowych w średniowieczu.",
+        "options": ["a. 1360", "b. 1395", "c. 1450", "d. 1520"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Która z poniższych bram Gdańska była główną bramą miejską do XVIII wieku?",
+        "description": "Brama ta stanowiła główny punkt wejściowy do miasta.",
+        "options": ["a. Brama Mariacka", "b. Brama Stągiewna", "c. Brama Wyżynna", "d. Brama Długouliczna"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku zakończono budowę Wielkiego Młyna w Gdańsku?",
+        "description": "Wielki Młyn to jeden z największych młynów średniowiecznych w Europie.",
+        "options": ["a. 1480", "b. 1505", "c. 1575", "d. 1620"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jaka funkcję pełnił Dwór Artusa w Gdańsku?",
+        "description": "Dwór Artusa był miejscem spotkań kupców i elit miejskich, a także pełnił funkcję reprezentacyjną.",
+        "options": ["a. Siedziba króla", "b. Dom handlowy", "c. Miejsce spotkań kupców", "d. Szkoła wyższa"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Które z poniższych miejsc w Gdańsku służyło niegdyś jako szpital?",
+        "description": "W Gdańsku zachowało się wiele budynków, które pełniły funkcje szpitalne w średniowieczu.",
+        "options": ["a. Szpital Świętego Ducha", "b. Kościół Świętej Katarzyny", "c. Pałac Opatów", "d. Klasztor Dominikanów"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy po raz pierwszy wzniesiono Brama Wyżynna?",
+        "description": "Brama Wyżynna była jedną z głównych bram Gdańska i stanowiła element systemu obronnego miasta.",
+        "options": ["a. 1496", "b. 1555", "c. 1581", "d. 1600"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku otwarto pierwszy port w Gdańsku?",
+        "description": "Port w Gdańsku ma bardzo długą historię i był jednym z najważniejszych portów w Europie.",
+        "options": ["a. X w.", "b. 1227", "c. 1250", "d. 1300"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Kiedy zbudowano Kościół św. Mikołaja w Gdańsku?",
+        "description": "Kościół św. Mikołaja w Gdańsku jest jednym z najstarszych kościołów w mieście.",
+        "options": ["a. 1210", "b. 1270", "c. 1300", "d. 1350"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W jakim stylu architektonicznym zbudowano Brama Stągiewną?",
+        "description": "Brama Stągiewna w Gdańsku jest przykładem architektury gotyckiej.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Klasycystyczny"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W jakim roku zniszczono podczas II wojny światowej większość zabytków Starego Miasta w Gdańsku?",
+        "description": "W czasie II wojny światowej Gdańsk ucierpiał na skutek zniszczeń.",
+        "options": ["a. 1940", "b. 1943", "c. 1945", "d. 1942"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Który król Polski nadał Gdańskowi prawa miejskie?",
+        "description": "Prawa miejskie nadano Gdańskowi przez króla Polski.",
+        "options": ["a. Kazimierz Wielki", "b. Władysław Łokietek", "c. Zygmunt Stary", "d. August II Mocny"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "W którym roku odbudowano większość Starego Miasta w Gdańsku?",
+        "description": "Po zniszczeniach wojennych, Stare Miasto zostało odbudowane w drugiej połowie XX wieku.",
+        "options": ["a. 1946", "b. 1950", "c. 1960", "d. 1975"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare miasto",
+        "question": "Jakie wydarzenie miało miejsce w Gdańsku w 1980 roku?",
+        "description": "W 1980 roku w Gdańsku wybuchły strajki, które miały kluczowe znaczenie dla historii Polski.",
+        "options": ["a. Utworzenie Solidarności", "b. Wyzwolenie Gdańska z rąk niemieckich", "c. Początek II wojny światowej", "d. Odbudowa Gdańska po zniszczeniach"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Długi Targ jest jednym z najważniejszych punktów turystycznych Starego Miasta w Gdańsku?",
+        "description": "Długi Targ to centralny punkt Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Złota Brama znajduje się na Długim Targu?",
+        "description": "Złota Brama to jeden z najbardziej charakterystycznych zabytków Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Bazylika Mariacka w Gdańsku jest jednym z największych kościołów ceglastych na świecie?",
+        "description": "Bazylika Mariacka to ogromna świątynia w centrum Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stary Żuraw w Gdańsku był kiedyś wykorzystywany do transportu towarów?",
+        "description": "Stary Żuraw to jeden z symboli Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Fontanna Neptuna znajduje się na Długim Targu?",
+        "description": "Fontanna Neptuna to popularna atrakcja turystyczna.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się słynna Ratusz Głównego Miasta?",
+        "description": "Ratusz Głównego Miasta to jeden z głównych punktów Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Brama Wyżynna jest jednym z symboli Gdańska?",
+        "description": "Brama Wyżynna to ważny zabytek w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście znajduje się ulica Mariacka?",
+        "description": "Ulica Mariacka to jedna z najbardziej malowniczych ulic w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku odbywa się coroczny Festiwal Solidarności?",
+        "description": "Festiwal Solidarności to wydarzenie związane z historią Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku zostało w dużej mierze odbudowane po II wojnie światowej?",
+        "description": "Stare Miasto w Gdańsku zostało zniszczone w czasie wojny.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Ratusz Starego Miasta?",
+        "description": "Ratusz Starego Miasta to zabytkowy budynek w centrum Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście Gdańska znajduje się słynna ulica Długa?",
+        "description": "Ulica Długa to jedna z głównych atrakcji turystycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Muzeum Bursztynu?",
+        "description": "Muzeum Bursztynu jest popularnym miejscem turystycznym.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście Gdańska znajdują się liczne kamienice z XVII wieku?",
+        "description": "Kamienice w Gdańsku są bogate w historię i architekturę.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Pomnik Jana Heweliusza?",
+        "description": "Pomnik Jana Heweliusza upamiętnia jednego z najsłynniejszych gdańszczan.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Wieża Wiatrów?",
+        "description": "Wieża Wiatrów jest jednym z historycznych budynków w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się słynna Bazylika Św. Katarzyny?",
+        "description": "Bazylika Św. Katarzyny to zabytkowy kościół w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk ma swoją historyczną dzielnicę – Główne Miasto?",
+        "description": "Główne Miasto to część Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Brama Targowa?",
+        "description": "Brama Targowa jest jednym z najważniejszych zabytków Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Pomnik Króla Jana III Sobieskiego?",
+        "description": "Pomnik Króla Jana III Sobieskiego jest jednym z historycznych punktów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk słynie z tradycji produkcji bursztynu?",
+        "description": "Bursztyn od wieków stanowił część historii miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście znajduje się Gdańska Opera?",
+        "description": "Gdańska Opera to jedno z ważniejszych miejsc kulturalnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajdowała się kiedyś średniowieczna Twierdza?",
+        "description": "Twierdza Gdańska była jednym z kluczowych punktów obronnych miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Muzeum II Wojny Światowej?",
+        "description": "Muzeum II Wojny Światowej jest jednym z głównych punktów turystycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku można zwiedzać Katedrę Oliwską?",
+        "description": "Katedra Oliwska to jeden z najważniejszych obiektów sakralnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku odbywa się coroczny Jarmark Dominikański?",
+        "description": "Jarmark Dominikański to wydarzenie o długiej tradycji.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Muzeum Morskie?",
+        "description": "Muzeum Morskie w Gdańsku pokazuje historię morską regionu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku jest wpisane na Listę Światowego Dziedzictwa UNESCO?",
+        "description": "Stare Miasto jest jednym z zabytków o dużym znaczeniu historycznym.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się wspaniała Katedra Gdańska?",
+        "description": "Katedra Gdańska to jeden z najstarszych i najważniejszych kościołów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku jest popularnym miejscem na spacery turystów?",
+        "description": "Stare Miasto to część Gdańska, którą odwiedzają tysiące turystów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się siedziba Rady Miasta?",
+        "description": "Rada Miasta Gdańska znajduje się w budynku na Starym Mieście.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się znane Muzeum Sztuki Nowoczesnej?",
+        "description": "Muzeum Sztuki Nowoczesnej to jedno z ważniejszych miejsc kulturalnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk był kiedyś stolicą Prus?",
+        "description": "Gdańsk był jednym z najważniejszych miast w Prusach.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk był kiedyś częścią Rzeczypospolitej?",
+        "description": "Gdańsk był ważnym miastem Rzeczypospolitej.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk słynie z produkcji wyrobów z bursztynu?",
+        "description": "Gdańsk jest znany z wyrobów z bursztynu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Długi Targ jest jednym z najważniejszych punktów turystycznych Starego Miasta w Gdańsku?",
+        "description": "Długi Targ to centralny punkt Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Złota Brama znajduje się na Długim Targu?",
+        "description": "Złota Brama to jeden z najbardziej charakterystycznych zabytków Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Bazylika Mariacka w Gdańsku jest jednym z największych kościołów ceglastych na świecie?",
+        "description": "Bazylika Mariacka to ogromna świątynia w centrum Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stary Żuraw w Gdańsku był kiedyś wykorzystywany do transportu towarów?",
+        "description": "Stary Żuraw to jeden z symboli Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Fontanna Neptuna znajduje się na Długim Targu?",
+        "description": "Fontanna Neptuna to popularna atrakcja turystyczna.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się słynna Ratusz Głównego Miasta?",
+        "description": "Ratusz Głównego Miasta to jeden z głównych punktów Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Brama Wyżynna jest jednym z symboli Gdańska?",
+        "description": "Brama Wyżynna to ważny zabytek w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście znajduje się ulica Mariacka?",
+        "description": "Ulica Mariacka to jedna z najbardziej malowniczych ulic w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku odbywa się coroczny Festiwal Solidarności?",
+        "description": "Festiwal Solidarności to wydarzenie związane z historią Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku zostało w dużej mierze odbudowane po II wojnie światowej?",
+        "description": "Stare Miasto w Gdańsku zostało zniszczone w czasie wojny.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Ratusz Starego Miasta?",
+        "description": "Ratusz Starego Miasta to zabytkowy budynek w centrum Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście Gdańska znajduje się słynna ulica Długa?",
+        "description": "Ulica Długa to jedna z głównych atrakcji turystycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Muzeum Bursztynu?",
+        "description": "Muzeum Bursztynu jest popularnym miejscem turystycznym.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Starym Mieście Gdańska znajdują się liczne kamienice z XVII wieku?",
+        "description": "Kamienice w Gdańsku są bogate w historię i architekturę.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Pomnik Jana Heweliusza?",
+        "description": "Pomnik Jana Heweliusza upamiętnia jednego z najsłynniejszych gdańszczan.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Wieża Wiatrów?",
+        "description": "Wieża Wiatrów jest jednym z historycznych budynków w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się słynna Bazylika Św. Katarzyny?",
+        "description": "Bazylika Św. Katarzyny to zabytkowy kościół w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk ma swoją historyczną dzielnicę – Główne Miasto?",
+        "description": "Główne Miasto to część Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Brama Targowa?",
+        "description": "Brama Targowa jest jednym z najważniejszych zabytków Starego Miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście w Gdańsku znajduje się Pomnik Króla Jana III Sobieskiego?",
+        "description": "Pomnik Króla Jana III Sobieskiego jest jednym z historycznych punktów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk słynie z tradycji produkcji bursztynu?",
+        "description": "Bursztyn od wieków stanowił część historii miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy na Starym Mieście znajduje się Gdańska Opera?",
+        "description": "Gdańska Opera to jedno z ważniejszych miejsc kulturalnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajdowała się kiedyś średniowieczna Twierdza?",
+        "description": "Twierdza Gdańska była jednym z kluczowych punktów obronnych miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Muzeum II Wojny Światowej?",
+        "description": "Muzeum II Wojny Światowej jest jednym z głównych punktów turystycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku można zwiedzać Katedrę Oliwską?",
+        "description": "Katedra Oliwska to jeden z najważniejszych obiektów sakralnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku odbywa się coroczny Jarmark Dominikański?",
+        "description": "Jarmark Dominikański to wydarzenie o długiej tradycji.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się Muzeum Morskie?",
+        "description": "Muzeum Morskie w Gdańsku pokazuje historię morską regionu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku jest wpisane na Listę Światowego Dziedzictwa UNESCO?",
+        "description": "Stare Miasto jest jednym z zabytków o dużym znaczeniu historycznym.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się wspaniała Katedra Gdańska?",
+        "description": "Katedra Gdańska to jeden z najstarszych i najważniejszych kościołów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Stare Miasto w Gdańsku jest popularnym miejscem na spacery turystów?",
+        "description": "Stare Miasto to część Gdańska, którą odwiedzają tysiące turystów.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się siedziba Rady Miasta?",
+        "description": "Rada Miasta Gdańska znajduje się w budynku na Starym Mieście.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy w Gdańsku znajduje się znane Muzeum Sztuki Nowoczesnej?",
+        "description": "Muzeum Sztuki Nowoczesnej to jedno z ważniejszych miejsc kulturalnych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk był kiedyś stolicą Prus?",
+        "description": "Gdańsk był jednym z najważniejszych miast w Prusach.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk był kiedyś częścią Rzeczypospolitej?",
+        "description": "Gdańsk był ważnym miastem Rzeczypospolitej.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Miasto",
+        "question": "Czy Gdańsk słynie z produkcji wyrobów z bursztynu?",
+        "description": "Gdańsk jest znany z wyrobów z bursztynu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jakie wydarzenie historyczne miało miejsce w Oliwie w 1660 roku?",
-        "description": "To ważne wydarzenie związane z historią Polski i Szwecji.",
-        "options": ["a. Bitwa pod Oliwą", "b. Podpisanie traktatu pokojowego", "c. Budowa katedry", "d. Założenie parku"],
+        "question": "W którym roku powstała Katedra w Oliwie?",
+        "description": "Katedra Oliwska to jeden z najważniejszych zabytków Gdańska.",
+        "options": ["a. 1160", "b. 1320", "c. 1500", "d. 1230"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Który władca Polski nadał Oliwie przywileje klasztorne?",
-        "description": "Ten władca wspierał rozwój zakonu cystersów w Polsce.",
-        "options": ["a. Kazimierz Wielki", "b. Bolesław Krzywousty", "c. Władysław Łokietek", "d. Jan III Sobieski"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jakie zwierzę symbolizuje herb Oliwy?",
-        "description": "Herb nawiązuje do dawnych tradycji regionu.",
-        "options": ["a. Lew", "b. Orzeł", "c. Ryba", "d. Niedźwiedź"],
+        "question": "Jak nazywa się główny park w Oliwie?",
+        "description": "Park Oliwski to rozległy teren z pięknymi ogrodami i stawami.",
+        "options": ["a. Park Dolinka", "b. Park Miejski", "c. Park Oliwski", "d. Park Wschodni"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Które z wydarzeń było związane z Oliwą w XVII wieku?",
-        "description": "Wydarzenie miało miejsce w trakcie wojen polsko-szwedzkich.",
-        "options": ["a. Bitwa pod Oliwą", "b. Oblężenie Oliwy", "c. Zawarcie pokoju oliwskiego", "d. Powstanie gdańskie"],
+        "question": "Jaka rzeka przepływa przez Oliwę?",
+        "description": "Rzeka, która przepływa przez Oliwę, jest ważnym elementem jej historii.",
+        "options": ["a. Wisła", "b. Motława", "c. Radunia", "d. Nogat"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jak nazywała się letnia rezydencja opatów oliwskich?",
-        "description": "Rezydencja znajdowała się na terenie dzisiejszego parku.",
-        "options": ["a. Pałac w Oliwie", "b. Willa Opatów", "c. Dwór Opatów", "d. Rezydencja Oliwska"],
+        "question": "W jakim stylu zbudowano Katedrę Oliwską?",
+        "description": "Katedra Oliwska jest znana ze swojej architektury gotyckiej.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Rococo"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Kiedy powstał Park Oliwski?",
-        "description": "Założenie parku związane jest z działalnością zakonu cystersów.",
-        "options": ["a. W XIII wieku", "b. W XV wieku", "c. W XVII wieku", "d. W XVIII wieku"],
+        "question": "Co charakteryzuje zabytkowy zegar astronomiczny w Katedrze Oliwskiej?",
+        "description": "Zegar astronomiczny w Oliwie jest jednym z najstarszych w Polsce.",
+        "options": ["a. Pokazuje fazy księżyca", "b. Wskazuje kierunki świata", "c. Odlicza czas do północy", "d. Oblicza daty świąt religijnych"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kto był fundatorem pałacu w Oliwie?",
+        "description": "Pałac w Oliwie został wybudowany przez bogatych magnatów.",
+        "options": ["a. Jan III Sobieski", "b. Jan Heweliusz", "c. Abp. Daniel O'Connell", "d. Abp. Henryk Kossowski"],
         "correct_answer": "d"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Która dzielnica graniczy z Oliwą od północy?",
-        "description": "Jest to dzielnica Gdańska leżąca wzdłuż brzegu Zatoki Gdańskiej.",
-        "options": ["a. Wrzeszcz", "b. Jelitkowo", "c. Zaspa", "d. Brzeźno"],
+        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1807 roku?",
+        "description": "W tym roku Oliwa stała się częścią Księstwa Warszawskiego.",
+        "options": ["a. Bitwa pod Oliwą", "b. Uroczystość podpisania pokoju", "c. Przejęcie pałacu przez Prusaków", "d. Otwarcie pierwszej linii kolejowej"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jaka znana aleja prowadzi przez Trójmiejski Park Krajobrazowy w Oliwie?",
-        "description": "Aleja ta jest popularnym miejscem spacerów.",
-        "options": ["a. Aleja Grunwaldzka", "b. Aleja Lipowa", "c. Aleja Polanek", "d. Aleja Radości"],
+        "question": "W jakim wieku powstał Pałac Opatów w Oliwie?",
+        "description": "Pałac Opatów w Oliwie to klasycystyczna budowla z XVIII wieku.",
+        "options": ["a. XVII", "b. XVIII", "c. XIX", "d. XX"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Który znany koncert organowy odbywa się w Oliwie co roku?",
-        "description": "Koncert ten przyciąga muzyków z całego świata.",
-        "options": ["a. Festiwal Organowy im. Bachowskiego", "b. Oliwskie Spotkania Organowe", "c. Międzynarodowy Festiwal Organowy", "d. Festiwal Muzyki Dawnej"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1627 roku?",
-        "description": "Wydarzenie to było związane z wojną polsko-szwedzką.",
-        "options": ["a. Bitwa pod Oliwą", "b. Oblężenie Oliwy", "c. Zawarcie pokoju oliwskiego", "d. Najazd szwedzki na Gdańsk"],
+        "question": "Jakie elementy wystroju można podziwiać w Katedrze Oliwskiej?",
+        "description": "Katedra Oliwska jest znana ze swoich organów oraz barokowego wystroju.",
+        "options": ["a. Barokowe organy", "b. Nowoczesne witraże", "c. Renesansowe freski", "d. Rzeźby gotyckie"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Która świątynia znajduje się w centrum Oliwy?",
-        "description": "Jest to kościół będący dawnym opactwem cystersów.",
-        "options": ["a. Katedra Oliwska", "b. Kościół św. Jakuba", "c. Kościół św. Trójcy", "d. Bazylika Mariacka"],
+        "question": "Które zwierzęta można spotkać w Oliwie?",
+        "description": "Oliwa jest znana z wielu miejsc, w których można obserwować dziką przyrodę.",
+        "options": ["a. Lisy", "b. Żubry", "c. Niedźwiedzie", "d. Lwy"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jak nazywał się pierwszy opat Oliwy?",
-        "description": "Opat ten związany był z założeniem klasztoru cystersów.",
-        "options": ["a. Mściwój II", "b. Jan z Jutlandii", "c. Daniel z Oliwy", "d. Henryk z Oliwy"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Które państwo było stroną w pokoju oliwskim z 1660 roku?",
-        "description": "Pokój ten kończył wojnę.",
-        "options": ["a. Szwecja", "b. Rosja", "c. Prusy", "d. Austria"],
+        "question": "Kiedy powstał pierwszy klasztor w Oliwie?",
+        "description": "Pierwszy klasztor w Oliwie założyli cystersi.",
+        "options": ["a. XIII wiek", "b. XIV wiek", "c. XVI wiek", "d. XVII wiek"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jak nazywa się park znajdujący się w Oliwie?",
-        "description": "Park ten jest jedną z głównych atrakcji dzielnicy.",
-        "options": ["a. Park Oliwski", "b. Park Książąt Pomorskich", "c. Park Jelitkowski", "d. Park Reagana"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Kiedy cystersi założyli klasztor w Oliwie?",
-        "description": "Było to w okresie średniowiecza.",
-        "options": ["a. W 1170 roku", "b. W 1186 roku", "c. W 1201 roku", "d. W 1224 roku"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się główna ulica Oliwy?",
-        "description": "Ulica ta prowadzi przez centrum dzielnicy.",
-        "options": ["a. Ulica Spacerowa", "b. Ulica Polanki", "c. Ulica Grunwaldzka", "d. Ulica Opata Rybińskiego"],
+        "question": "Jakie zbiory można zobaczyć w Oliwskim Muzeum?",
+        "description": "Oliwskie Muzeum ma bogatą kolekcję dotyczącą historii Gdańska i Oliwy.",
+        "options": ["a. Zbiory sztuki nowoczesnej", "b. Zbiory archeologiczne", "c. Zbiory archeologii morskiej", "d. Zbiory związane z cystersami"],
         "correct_answer": "d"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Który z królów polskich odwiedził Oliwę w XVII wieku?",
-        "description": "Król ten był zaangażowany w wojnę ze Szwecją.",
-        "options": ["a. Jan III Sobieski", "b. Zygmunt III Waza", "c. Władysław IV Waza", "d. Stefan Batory"],
+        "question": "W jakim roku odbyła się ostatnia wielka renowacja Katedry Oliwskiej?",
+        "description": "Renowacja Katedry była konieczna po wojnach i zniszczeniach.",
+        "options": ["a. 1700", "b. 1950", "c. 1970", "d. 2000"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Które z tych wydarzeń było związane z Oliwą w XVIII wieku?",
-        "description": "Wydarzenie to dotyczyło rozwoju kultury i sztuki.",
-        "options": ["a. Budowa organów oliwskich", "b. Bitwa pod Oliwą", "c. Utworzenie pierwszej szkoły w Oliwie", "d. Założenie parku oliwskiego"],
+        "question": "Jaki charakter mają organy w Katedrze Oliwskiej?",
+        "description": "Organy w Oliwie są jednymi z najstarszych i najbardziej znanych w Polsce.",
+        "options": ["a. Barokowy", "b. Renesansowy", "c. Rococo", "d. Klasycystyczny"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jak nazywa się znane wzgórze w Oliwie, z którego rozciąga się widok na Gdańsk?",
-        "description": "Wzgórze to jest częścią Trójmiejskiego Parku Krajobrazowego.",
-        "options": ["a. Góra Gradowa", "b. Wzgórze Pachołek", "c. Góra Oliwska", "d. Wzgórze Sobótka"],
+        "question": "Kiedy zbudowano Mostek Oliwski?",
+        "description": "Mostek Oliwski łączy dwie części parku Oliwskiego.",
+        "options": ["a. XVIII wiek", "b. XIX wiek", "c. XX wiek", "d. XVII wiek"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Który rok uważa się za początek historii Oliwy?",
-        "description": "To data pierwszej pisemnej wzmianki o Oliwie.",
-        "options": ["a. 1186", "b. 1198", "c. 1224", "d. 1263"],
+        "question": "Kiedy powstała Oliwska Górka?",
+        "description": "Oliwska Górka to miejsce historyczne związane z dawnością tej okolicy.",
+        "options": ["a. XIII wiek", "b. XVI wiek", "c. XIX wiek", "d. XX wiek"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Kto był fundatorem klasztoru cystersów w Oliwie?",
-        "description": "Był to książę Pomorza Gdańskiego.",
-        "options": ["a. Świętopełk II", "b. Bogusław X", "c. Sambor I", "d. Mściwój II"],
+        "question": "Jaki był cel budowy Pałacu Opatów w Oliwie?",
+        "description": "Pałac Opatów w Oliwie był siedzibą opata zakonu cystersów.",
+        "options": ["a. Pałac dla królów", "b. Rezydencja opata cysterskiego", "c. Zamek dla wojsk pruskich", "d. Gmach administracyjny"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaki zamek był zlokalizowany w Oliwie przed XIII wiekiem?",
+        "description": "W Oliwie w średniowieczu znajdował się zamek, który odgrywał kluczową rolę.",
+        "options": ["a. Zamek Gdański", "b. Zamek Oliwski", "c. Zamek Królewski", "d. Zamek Pruski"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Co wznosi się na szczycie góry Oliwskiej?",
+        "description": "Oliwska Górka była ważnym punktem widokowym i sakralnym.",
+        "options": ["a. Kościół", "b. Zamek", "c. Latarnia", "d. Pomnik"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym wieku założono ogrody w Parku Oliwskim?",
+        "description": "Ogrody Parku Oliwskiego zostały zaprojektowane w stylu angielskim.",
+        "options": ["a. XVI", "b. XVIII", "c. XIX", "d. XX"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaki charakter miała architektura w Oliwie w XIX wieku?",
+        "description": "W XIX wieku Oliwa rozwinęła się pod względem budownictwa rezydencjonalnego.",
+        "options": ["a. Neogotycki", "b. Klasycystyczny", "c. Barokowy", "d. Eklektyczny"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Co łączy Oliwę z Gdańskiem?",
+        "description": "Oliwa jest jedną z dzielnic Gdańska, ale ma swoją odrębną historię.",
+        "options": ["a. Rzeka", "b. Kolejka wąskotorowa", "c. Most", "d. Trasa rowerowa"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W której części Gdańska znajduje się Oliwa?",
+        "description": "Oliwa to część Gdańska, która rozwinęła się jako wieś, a potem dzielnica.",
+        "options": ["a. Wschodnia", "b. Zachodnia", "c. Północna", "d. Południowa"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Jakie drzewo symbolizuje Oliwę?",
-        "description": "Symbol ten odnosi się do nazwy dzielnicy.",
-        "options": ["a. Dąb", "b. Oliwka", "c. Lipka", "d. Modrzew"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który cenny zabytek sztuki sakralnej można zobaczyć w katedrze oliwskiej?",
-        "description": "To słynny instrument muzyczny.",
-        "options": ["a. Organy oliwskie", "b. Gotycki ołtarz", "c. Witraż z XV wieku", "d. Dzwon św. Jana"],
+        "question": "W którym roku powstał pierwszy klasztor cystersów w Oliwie?",
+        "description": "Pierwszy klasztor cystersów w Oliwie był jednym z najstarszych tego typu w Polsce.",
+        "options": ["a. 1168", "b. 1186", "c. 1215", "d. 1301"],
         "correct_answer": "a"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Co było głównym celem zawarcia pokoju oliwskiego?",
-        "description": "Porozumienie zakończyło konflikt między Polską a Szwecją.",
-        "options": ["a. Ustalenie granic", "b. Zakończenie wojny", "c. Wymiana terytoriów", "d. Przejęcie władzy nad Gdańskiem"],
+        "question": "Jakie zwierzęta można zobaczyć w oliwskim ogrodzie zoologicznym?",
+        "description": "Ogród zoologiczny w Oliwie jest domem dla wielu gatunków zwierząt.",
+        "options": ["a. Żółwie", "b. Lwy", "c. Tygrysy", "d. Zajęcy"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się główna aleja w Parku Oliwskim?",
+        "description": "W Parku Oliwskim znajduje się aleja, która jest jednym z najważniejszych elementów krajobrazowych.",
+        "options": ["a. Aleja Różana", "b. Aleja Kasztanowa", "c. Aleja Lipowa", "d. Aleja Dębowa"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy zakończono budowę pałacu Opatów w Oliwie?",
+        "description": "Pałac Opatów to wyjątkowy zabytek architektury w Oliwie.",
+        "options": ["a. 1620", "b. 1672", "c. 1746", "d. 1803"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaki styl architektoniczny dominuje w oliwskim Pałacu Opatów?",
+        "description": "Pałac Opatów w Oliwie jest znany z architektury w stylu barokowym.",
+        "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Klasycystyczny"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy odbyła się wielka renowacja Katedry Oliwskiej?",
+        "description": "Katedra Oliwska była kilkakrotnie renowana, aby przywrócić jej dawny blask.",
+        "options": ["a. 1650", "b. 1700", "c. 1945", "d. 1974"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się znany zespół organów w Katedrze Oliwskiej?",
+        "description": "Organy w Katedrze Oliwskiej są jednymi z najstarszych i najwspanialszych w Polsce.",
+        "options": ["a. Organy Brucknera", "b. Organy Heveliusza", "c. Organy Marii Panny", "d. Organy Oliwskie"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym roku w Oliwie powstał pierwszy ogród botaniczny?",
+        "description": "Ogród botaniczny w Oliwie to jedno z piękniejszych miejsc w Gdańsku.",
+        "options": ["a. 1890", "b. 1903", "c. 1920", "d. 1935"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jaką nazwę nosi główny klasztor cystersów w Oliwie?",
+        "description": "Klasztor cystersów w Oliwie jest jednym z najstarszych w Polsce.",
+        "options": ["a. Klasztor św. Michała", "b. Klasztor św. Jana", "c. Klasztor św. Marii", "d. Klasztor św. Bernarda"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym wieku powstał Pałac Opatów?",
+        "description": "Pałac Opatów jest znanym przykładem barokowej architektury.",
+        "options": ["a. XVI", "b. XVII", "c. XVIII", "d. XIX"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się najstarsza ulica w Oliwie?",
+        "description": "Oliwa ma wiele historycznych ulic, a niektóre z nich mają ponad 500 lat.",
+        "options": ["a. Ulica Polan", "b. Ulica Gdańska", "c. Ulica Oliwska", "d. Ulica Cystersów"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Co znajduje się w centrum Parku Oliwskiego?",
+        "description": "W centrum parku znajduje się miejsce, które przyciąga turystów i mieszkańców.",
+        "options": ["a. Staw", "b. Pałac", "c. Teatr", "d. Katedra"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie święto jest szczególnie obchodzone w Katedrze Oliwskiej?",
+        "description": "Katedra Oliwska ma wiele wydarzeń związanych z kalendarzem liturgicznym.",
+        "options": ["a. Boże Narodzenie", "b. Święto Matki Boskiej Oliwskiej", "c. Wielkanoc", "d. Wniebowzięcie Najświętszej Marii Panny"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W którym roku w Oliwie założono ogród zoologiczny?",
+        "description": "Ogród zoologiczny w Oliwie to jedno z najważniejszych miejsc w regionie.",
+        "options": ["a. 1920", "b. 1936", "c. 1950", "d. 1961"],
         "correct_answer": "b"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
         "question": "Jakie wydarzenie miało miejsce w Oliwie w 1807 roku?",
-        "description": "Związane z wojną Napoleońską i wpływem na Gdańsk.",
-        "options": ["a. Bitwa pod Oliwą", "b. Podpisanie traktatu pokojowego", "c. Wizyta Napoleona Bonaparte", "d. Zajęcie Gdańska przez wojska francuskie"],
+        "description": "W Oliwie miała miejsce istotna zmiana administracyjna związana z wojną.",
+        "options": ["a. Bitwa pod Oliwą", "b. Przejęcie władzy przez Prusaków", "c. Otwarcie Kolei Wąskotorowej", "d. Zawarte porozumienie pokojowe"],
         "correct_answer": "d"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "W jakim stylu zbudowano katedrę w Oliwie?",
-        "description": "Styl architektoniczny katedry jest związany z okresem baroku.",
-        "options": ["a. Gotycki", "b. Renesansowy", "c. Barokowy", "d. Klasycystyczny"],
+        "question": "Jakie miejsce w Oliwie jest uznawane za symbol tej dzielnicy?",
+        "description": "W Oliwie znajduje się wiele historycznych miejsc, ale jedno jest szczególnie znane.",
+        "options": ["a. Pałac Opatów", "b. Katedra Oliwska", "c. Zamek Oliwski", "d. Mostek Oliwski"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jak nazywa się popularny festiwal odbywający się w Oliwie?",
+        "description": "W Oliwie odbywają się różne festiwale, które przyciągają turystów.",
+        "options": ["a. Festiwal Organowy", "b. Festiwal Sztuki Barokowej", "c. Oliwski Festiwal Muzyczny", "d. Festiwal Światła"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Jakie wydarzenie miało miejsce w 1945 roku w Oliwie?",
+        "description": "W 1945 roku Oliwa przeżyła okres zmian administracyjnych po zakończeniu wojny.",
+        "options": ["a. Zakończenie II wojny światowej", "b. Zniszczenia wojenne", "c. Zmiana przynależności do Polski", "d. Pożar Katedry Oliwskiej"],
         "correct_answer": "c"
     },
     {
         "type": "ABCD",
         "district": "Oliwa",
-        "question": "Kiedy zakończono budowę katedry w Oliwie?",
-        "description": "Budowa katedry trwała przez wiele lat.",
-        "options": ["a. W XIV wieku", "b. W XV wieku", "c. W XVII wieku", "d. W XVIII wieku"],
+        "question": "Jaki typ ogrodów znajduje się w Parku Oliwskim?",
+        "description": "Park Oliwski ma charakterystyczny układ ogrodów.",
+        "options": ["a. Angielski", "b. Włoski", "c. Francuski", "d. Japoński"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "Kiedy otwarto pierwszą linię kolejową z Gdańska do Oliwy?",
+        "description": "Kolej odgrywała kluczową rolę w rozwoju Oliwy.",
+        "options": ["a. 1843", "b. 1855", "c. 1881", "d. 1900"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Oliwa",
+        "question": "W jakiej części Gdańska znajduje się Oliwa?",
+        "description": "Oliwa to część Gdańska, która jest oddzielona od centrum miasta.",
+        "options": ["a. Południowa", "b. Wschodnia", "c. Zachodnia", "d. Północna"],
         "correct_answer": "d"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który z opatów oliwskich był odpowiedzialny za budowę pałacu w Oliwie?",
-        "description": "Rezydencja opatów była budowana w XVIII wieku.",
-        "options": ["a. Opat Augustyn", "b. Opat Bernard", "c. Opat Krzysztof", "d. Opat Michał"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywała się najstarsza część Oliwy, która była zamieszkana już w średniowieczu?",
-        "description": "Obszar ten był historycznie związany z rozwojem zakonu.",
-        "options": ["a. Stare Miasto", "b. Oliwa Górna", "c. Oliwa Dolna", "d. Oliwa Przedmieście"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "W którym roku opactwo oliwskie zostało rozwiązane przez władze pruskie?",
-        "description": "Zakon cystersów w Oliwie został rozwiązany na początku XIX wieku.",
-        "options": ["a. 1789", "b. 1796", "c. 1810", "d. 1825"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Kiedy w Oliwie powstała pierwsza szkoła?",
-        "description": "Szkoła była częścią inicjatyw społecznych w czasach średniowiecza.",
-        "options": ["a. W XIV wieku", "b. W XV wieku", "c. W XVI wieku", "d. W XVII wieku"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jakie wydarzenie miało miejsce w Oliwie w 1577 roku?",
-        "description": "Wydarzenie to miało miejsce w czasie konfliktu z Gdańskiem.",
-        "options": ["a. Zajęcie Oliwy przez wojska szwedzkie", "b. Zawarto traktat pokojowy", "c. Oliwa została zniszczona przez pożar", "d. Pożar w katedrze"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "W którym roku wybudowano młyn wodny w Oliwie?",
-        "description": "Młyn wodny był ważnym obiektem gospodarczym w Oliwie.",
-        "options": ["a. 1552", "b. 1600", "c. 1700", "d. 1750"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jakie znaczenie miała Oliwa w czasie II wojny światowej?",
-        "description": "W czasie wojny dzielnica była częścią działań wojennych w Gdańsku.",
-        "options": ["a. Oliwa była całkowicie zniszczona", "b. Oliwa była centrum ruchu oporu", "c. Oliwa była okupowana przez wojska niemieckie", "d. Oliwa stała się strefą neutralną"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Które zwierzęta są symbolem Oliwskiego Zoo?",
-        "description": "To największe zwierzęta lądowe, które można zobaczyć w zoo.",
-        "options": ["a. Słonie", "b. Lwy", "c. Tygrysy", "d. Żyrafy"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jaka popularna ścieżka rekreacyjna prowadzi przez Oliwę?",
-        "description": "Jest to część większej sieci tras w Trójmiejskim Parku Krajobrazowym.",
-        "options": ["a. Trasa Południowa", "b. Ścieżka Górska", "c. Trasa Zdrowia", "d. Szlak Wejherowski"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jakie muzeum znajduje się w Oliwie?",
-        "description": "To muzeum mieści się w Pałacu Opatów.",
-        "options": ["a. Muzeum Archeologiczne", "b. Muzeum Sztuki Nowoczesnej", "c. Muzeum Narodowe", "d. Muzeum Etnograficzne"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się słynny park znajdujący się w Oliwie?",
-        "description": "Jest to jeden z najpiękniejszych parków w Gdańsku, znany z ogrodów w stylu francuskim, angielskim i japońskim. Znajduje się obok katedry oliwskiej.",
-        "options": ["a. Park Reagana", "b. Park Oliwski", "c. Park Oruński", "d. Park Haffnera"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Która słynna świątynia znajduje się w Oliwie?",
-        "description": "Jest to jedna z największych katedr w Gdańsku, słynąca z zabytkowych organów.",
-        "options": ["a. Bazylika Mariacka", "b. Katedra Oliwska", "c. Kościół Świętej Trójcy", "d. Kościół Św. Brygidy"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się wzgórze z pięknym punktem widokowym w Oliwie?",
-        "description": "To wzgórze znajduje się w Trójmiejskim Parku Krajobrazowym i oferuje panoramę na całe Trójmiasto.",
-        "options": ["a. Wzgórze Sobótki", "b. Wzgórze Pachołek", "c. Góra Gradowa", "d. Wzgórze Zielonka"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Która uczelnia ma swoją główną siedzibę w Oliwie?",
-        "description": "Jest to jedna z największych uczelni technicznych w Polsce.",
-        "options": ["a. Uniwersytet Gdański", "b. Politechnika Gdańska", "c. Akademia Morska", "d. Akademia Sztuk Pięknych"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Które zoo znajduje się w Oliwie?",
-        "description": "Jest to największy ogród zoologiczny w Polsce pod względem powierzchni.",
-        "options": ["a. Zoo w Warszawie", "b. Zoo w Oliwie", "c. Zoo we Wrocławiu", "d. Zoo w Poznaniu"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się główna ulica handlowa w Oliwie?",
-        "description": "Jest to jedna z najstarszych ulic Oliwy, przy której znajdują się zabytkowe kamienice i sklepy.",
-        "options": ["a. Ulica Długa", "b. Ulica Polanki", "c. Ulica Opata Rybińskiego", "d. Ulica Grunwaldzka"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Z którego roku pochodzi pierwsza wzmianka na temat Kuźni Wodnej?",
-        "options": ["a. 1597", "b. 1800", "c. 1112", "d. 1438"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się pałac znajdujący się w Parku Oliwskim?",
-        "description": "To barokowy pałac był siedzibą opatów oliwskich.",
-        "options": ["a. Pałac Opatów", "b. Pałac Uphagena", "c. Pałac Królewski", "d. Pałac Czartoryskich"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który potok przepływa przez Oliwę?",
-        "description": "Jest to potok mający swoje źródła w Trójmiejskim Parku Krajobrazowym.",
-        "options": ["a. Potok Oliwski", "b. Potok Jelitkowski", "c. Potok Siedlecki", "d. Potok Raduni"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "O jakim zakonie mowa, jeśli chodzi o Oliwski park?",
-        "options": ["a. Kapucynów", "b. Cystersów", "c. Mnichów z Shaolin", "d. Franciszkanów"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Kiedy Oliwa została włączona do Gdańska?",
-        "description": "Włączenie miało miejsce w XX wieku.",
-        "options": ["a. W 1918 roku", "b. W 1926 roku", "c. W 1933 roku", "d. W 1945 roku"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywał się architekt, który zaprojektował przebudowę Parku Oliwskiego w XVIII wieku?",
-        "description": "Architekt ten wprowadził elementy stylu francuskiego.",
-        "options": ["a. Andre le Notre", "b. Johann Schultz", "c. Jan Heweliusz", "d. Friedrich August Stüler"],
-        "correct_answer": "b"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który zakon miał swoją siedzibę w Oliwie od XII wieku?",
-        "description": "Zakon ten odegrał kluczową rolę w historii Oliwy.",
-        "options": ["a. Franciszkanie", "b. Dominikanie", "c. Cystersi", "d. Benedyktyni"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Który znany kompozytor tworzył w Oliwie w XVIII wieku?",
-        "description": "Był to twórca związany z muzyką organową.",
-        "options": ["a. Johann Sebastian Bach", "b. Georg Friedrich Händel", "c. Friedrich Wilhelm Markull", "d. André Raison"],
-        "correct_answer": "c"
-    },
-    {
-        "type": "ABCD",
-        "district": "Oliwa",
-        "question": "Jak nazywa się potok przepływający przez Oliwę?",
-        "description": "Potok ten wpada do Zatoki Gdańskiej.",
-        "options": ["a. Potok Oliwski", "b. Radunia", "c. Strzyża", "d. Kacza"],
-        "correct_answer": "a"
-    },
-    {
-        "type": "tf",
-        "district": "Oliwa",
-        "question": "Czy Katedra Oliwska jest najwyższym budynkiem sakralnym w Oliwie?",
-        "description": "Katedra Oliwska to słynna świątynia z barokowymi organami, której dwie wieże są charakterystycznym punktem dzielnicy.",
-        "correct_answer": "tak"
     },
     {
         "type": "tf",
@@ -1617,6 +2231,318 @@
         "correct_answer": "a"
     },
     {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Która ulica Starego Przedmieścia jest znana z gotyckiej architektury i wysokich kamienic?",
+        "description": "Ulica ta jest jednym z głównych ciągów komunikacyjnych na Starym Przedmieściu.",
+        "options": ["a. Długa", "b. Mariacka", "c. Szeroka", "d. Wysoka"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie zwierzę znajduje się w herbie Starego Przedmieścia?",
+        "description": "Herb ten symbolizuje tradycję i historię dzielnicy.",
+        "options": ["a. Lew", "b. Orzeł", "c. Wilk", "d. Żubr"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Który z gdańskich kościołów był miejscem koronacji władców Prus Królewskich?",
+        "description": "To miejsce było świadkiem wielu ważnych wydarzeń historycznych.",
+        "options": ["a. Kościół św. Mikołaja", "b. Bazylika Mariacka", "c. Kościół św. Barbary", "d. Kościół św. Jana"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z wymienionych zabytków Starego Przedmieścia zostało zbudowane w stylu gotyckim?",
+        "description": "Zabytek ten jest jednym z najbardziej charakterystycznych dla Gdańska.",
+        "options": ["a. Żuraw", "b. Ratusz Głównego Miasta", "c. Brama Wyżynna", "d. Kościół Mariacki"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z wymienionych historycznych budynków znajdowało się w pobliżu Bramy Wyżynnej?",
+        "description": "Brama ta była jedną z głównych bram miejskich Gdańska.",
+        "options": ["a. Ratusz Głównego Miasta", "b. Dwór Artusa", "c. Dom Schützenhof", "d. Kościół św. Mikołaja"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Na którym placu Starego Przedmieścia znajduje się pomnik Jana III Sobieskiego?",
+        "description": "Pomnik ten upamiętnia wielkiego polskiego króla.",
+        "options": ["a. Plac Solidarności", "b. Plac Długosza", "c. Plac Targ Rybny", "d. Plac św. Katarzyny"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Która ulica prowadzi bezpośrednio do Bramy Żuraw?",
+        "description": "Ta ulica jest jednym z głównych punktów turystycznych w Gdańsku.",
+        "options": ["a. Długa", "b. Szeroka", "c. Motławska", "d. Targ Rybny"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie jest pochodzenie nazwy Stare Przedmieście?",
+        "description": "Nazwa ta odnosi się do jednej z najstarszych części Gdańska.",
+        "options": ["a. Od funkcji przedmieścia", "b. Od bliskości kościoła", "c. Od handlu", "d. Od miasta, które zostało zniszczone"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z wymienionych miejsc pełniło funkcję obronną w okresie średniowiecza?",
+        "description": "To miejsce było częścią systemu obronnego Starego Przedmieścia.",
+        "options": ["a. Wieża Więzienna", "b. Brama Nizinna", "c. Bastion Wilk", "d. Kościół św. Barbary"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z budynków na Starym Przedmieściu było siedzibą gdańskich kupców?",
+        "description": "Było to miejsce spotkań i handlu dla wielu pokoleń mieszkańców Gdańska.",
+        "options": ["a. Dwór Artusa", "b. Żuraw", "c. Ratusz Głównego Miasta", "d. Kościół św. Jana"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Kiedy powstała Brama Nizinna?",
+        "description": "Brama ta została zbudowana w okresie, kiedy Gdańsk rozwijał się pod względem militarnym.",
+        "options": ["a. XIV w.", "b. XVI w.", "c. XVIII w.", "d. XIII w."],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jaki ważny festiwal odbywa się corocznie na Starym Przedmieściu?",
+        "description": "Festiwal ten przyciąga turystów z całego świata.",
+        "options": ["a. Festiwal Muzyki Organowej", "b. Festiwal Filmowy", "c. Jarmark Dominikański", "d. Festiwal Bursztynu"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "W jakim roku miała miejsce wielka przebudowa Starego Przedmieścia po II wojnie światowej?",
+        "description": "Po wojnie, Stare Przedmieście zostało odbudowane, aby przywrócić mu dawny blask.",
+        "options": ["a. 1947", "b. 1953", "c. 1945", "d. 1960"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "W którym miejscu Gdańska znajdowała się gdańska Giełda?",
+        "description": "Giełda była jednym z ważnych punktów handlowych Gdańska w średniowieczu.",
+        "options": ["a. Targ Rybny", "b. Plac Targowy", "c. Długi Targ", "d. Plac Wałowy"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Kto był autorem planu odbudowy Starego Przedmieścia po II wojnie światowej?",
+        "description": "Architekt ten zaprojektował odbudowę miasta w zgodzie z jego historycznym wyglądem.",
+        "options": ["a. Tadeusz Zieliński", "b. Antoni Józef Zajdler", "c. Bolesław Stelmach", "d. Władysław Pieńkowski"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie funkcje pełnił Żuraw Gdański w przeszłości?",
+        "description": "Była to budowla, która miała na celu ułatwienie załadunku i rozładunku towarów w porcie.",
+        "options": ["a. Pomnik", "b. Brama miejska", "c. Dźwig portowy", "d. Miejsce spotkań kupców"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie miasto zostało zaprzyjaźnione z Gdańskiem na początku XXI wieku?",
+        "description": "Miasto to ma wielką tradycję handlową i współpracuje z Gdańskiem w wielu dziedzinach.",
+        "options": ["a. Rotterdam", "b. Gdynia", "c. Kopenhaga", "d. Szanghaj"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie znaczenie miała Radunia dla Starego Przedmieścia?",
+        "description": "Radunia była kanałem, który łączył miasto z portem, ułatwiając transport towarów.",
+        "options": ["a. Była kanałem wodnym", "b. Była drogą lądową", "c. Była rynkiem handlowym", "d. Była bramą miejską"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Co znajduje się w miejscu, w którym niegdyś stała Brama Wyżynna?",
+        "description": "Brama ta stanowiła element systemu obronnego Gdańska.",
+        "options": ["a. Miejsce pamięci", "b. Park miejski", "c. Skwer", "d. Nowoczesna budowla handlowa"],
+        "correct_answer": "c"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie zwierzę jest symbolem portu gdańskiego na Starym Przedmieściu?",
+        "description": "Jest to symbol, który od wieków towarzyszy Gdańskowi i jego historii morskiej.",
+        "options": ["a. Delfin", "b. Orzeł", "c. Łabędź", "d. Foka"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z wymienionych muzeów mieści się na Starym Przedmieściu?",
+        "description": "Muzeum to prezentuje wystawy dotyczące historii transportu morskiego w Gdańsku.",
+        "options": ["a. Muzeum Narodowe", "b. Muzeum II Wojny Światowej", "c. Muzeum Gdańska", "d. Muzeum Morskie"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Kiedy rozpoczęto budowę Bazyliki Mariackiej w Gdańsku?",
+        "description": "Bazylika jest jednym z największych kościołów ceglanego typu w Europie.",
+        "options": ["a. XIII w.", "b. XIV w.", "c. XV w.", "d. XVI w."],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Co znajdowało się na terenie Starego Przedmieścia przed rozbudową miasta?",
+        "description": "Przed rozbudową, teren ten był często zajmowany przez działalność wojskową.",
+        "options": ["a. Pole bitewne", "b. Cmentarz", "c. Przemysł rzemieślniczy", "d. Klasztor"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jak nazywała się pierwsza szkoła założona w Gdańsku?",
+        "description": "Szkoła ta została założona w czasach średniowiecza.",
+        "options": ["a. Szkoła Mariacka", "b. Szkoła św. Jana", "c. Szkoła Wyżynna", "d. Szkoła Gdańska"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "W jakiej dzielnicy Gdańska znajduje się dawny dworzec kolejowy z XIX wieku?",
+        "description": "Budowla ta była jednym z kluczowych punktów komunikacyjnych miasta w przeszłości.",
+        "options": ["a. Stare Przedmieście", "b. Wrzeszcz", "c. Zaspa", "d. Gdańsk Południe"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie wydarzenie miało miejsce na Starym Przedmieściu w 1980 roku?",
+        "description": "To wydarzenie miało ogromne znaczenie dla historii Polski i Gdańska.",
+        "options": ["a. Powstanie Solidarności", "b. Bitwa pod Gdańskiem", "c. Wizyta papieża Jana Pawła II", "d. Obchody rocznicy niepodległości"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "W którym roku zakończono odbudowę Starego Przedmieścia po zniszczeniach II wojny światowej?",
+        "description": "Rekonstruowanie dzielnicy trwało przez wiele lat po wojnie.",
+        "options": ["a. 1949", "b. 1951", "c. 1954", "d. 1960"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie wydarzenie kulturalne odbywa się na Starym Przedmieściu co roku?",
+        "description": "Jest to festiwal, który łączy kulturę, sztukę i tradycję gdańską.",
+        "options": ["a. Festiwal Solidarity", "b. Jarmark Dominikański", "c. Festiwal Morskich Opowieści", "d. Festiwal Piosenki Żeglarskiej"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie znaczenie miała Gdańska Akademia Handlowa?",
+        "description": "Akademia ta była ośrodkiem edukacyjnym, który kształcił przyszłych liderów gospodarczych miasta.",
+        "options": ["a. Uczyła prawa", "b. Kształciła w zakresie handlu i finansów", "c. Była szkołą techniczną", "d. Uczyła sztuki wojennej"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Kiedy powstał pierwszy most w Gdańsku?",
+        "description": "Most ten łączył Stare Przedmieście z inną częścią Gdańska.",
+        "options": ["a. XIII w.", "b. XIV w.", "c. XV w.", "d. XVI w."],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie znaczenie miał Zamek Gdański w historii Starego Przedmieścia?",
+        "description": "Zamek był siedzibą władzy i centralnym punktem obronnym w średniowieczu.",
+        "options": ["a. Był siedzibą książąt pomorskich", "b. Był klasztorem", "c. Był twierdzą wojskową", "d. Był biblioteką"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jaką funkcję pełniła Brama Opatowska w Gdańsku?",
+        "description": "Brama ta była jednym z kluczowych punktów obronnych miasta.",
+        "options": ["a. Brama wodna", "b. Brama lądowa", "c. Brama handlowa", "d. Brama militarna"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Jakie wydarzenie z historii Gdańska miało miejsce w Starym Przedmieściu w XVIII wieku?",
+        "description": "Było to wydarzenie związane z rozwojem Gdańska jako ważnego portu handlowego.",
+        "options": ["a. Zakończenie budowy Bazyliki Mariackiej", "b. Wprowadzenie w życie konstytucji Gdańska", "c. Zawarcie sojuszu z Królem Szwecji", "d. Rozbudowa portu i wzniesienie nowych doków"],
+        "correct_answer": "d"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Co oznacza nazwa 'Stare Przedmieście' w kontekście gdańskim?",
+        "description": "To jedna z najstarszych dzielnic Gdańska, która pełniła funkcje przedmiejskie.",
+        "options": ["a. Było to przedmieście zamieszkałe przez kupców", "b. Było to przedmieście wjazdowe do miasta", "c. Było to przedmieście wzniesione po wojnach", "d. Było to przedmieście w okolicach fabryk"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Kto jest autorem pomnika w Gdańsku, który przedstawia Grunwaldzki Krzyż?",
+        "description": "Pomnik ten upamiętnia ważną bitwę w historii Polski.",
+        "options": ["a. Andrzej Strumiłło", "b. Konstanty Laszczka", "c. Czesław Kłos", "d. Marian Konieczny"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "W jakim roku Gdańsk otrzymał prawa miejskie?",
+        "description": "Wydarzenie to miało fundamentalne znaczenie dla rozwoju Gdańska jako miasta portowego.",
+        "options": ["a. 1237", "b. 1263", "c. 1308", "d. 1384"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Które z poniższych budynków znajduje się na Starym Przedmieściu?",
+        "description": "Budowla ta była niegdyś siedzibą miejskich władz Gdańska.",
+        "options": ["a. Ratusz Głównego Miasta", "b. Ratusz Starego Miasta", "c. Pałac Prezydencki", "d. Pałac Królewski"],
+        "correct_answer": "a"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Co było głównym produktem eksportowym Gdańska w średniowieczu?",
+        "description": "Miasto było znane z handlu tym surowcem.",
+        "options": ["a. Zboża", "b. Bursztyn", "c. Tkaniny", "d. Drewno"],
+        "correct_answer": "b"
+    },
+    {
+        "type": "ABCD",
+        "district": "Stare Przedmieście",
+        "question": "Który z poniższych gdańskich kościołów należy do zespołu sakralnego Starego Przedmieścia?",
+        "description": "Jest to jeden z najstarszych kościołów w Gdańsku.",
+        "options": ["a. Kościół św. Mikołaja", "b. Kościół św. Barbary", "c. Kościół św. Jana", "d. Kościół św. Katarzyny"],
+        "correct_answer": "c"
+    },
+    {
         "type": "tf",
         "district": "Stare Przedmieście",
         "question": "Czy Bazylika Mariacka jest największym ceglanym kościołem w Europie?",
@@ -1671,7 +2597,329 @@
         "question": "Czy Bazylika Mariacka została zbudowana w XX wieku?",
         "description": "Budowa Bazyliki Mariackiej w Gdańsku rozpoczęła się 28 marca 1343 roku. Początkowo świątynia była budowana jako kościół w stylu gotyku ceglanego.",
         "correct_answer": "nie"
-    }
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było jednym z najstarszych przedmieść Gdańska?",
+        "description": "Stare Przedmieście to jedno z najstarszych przedmieść Gdańska, z bogatą historią i wieloma zabytkami.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się Brama Wyżynna?",
+        "description": "Brama Wyżynna to jedna z charakterystycznych bram wjazdowych do Gdańska, znajdująca się w pobliżu Starego Przedmieścia.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było zamieszkane głównie przez rzemieślników i kupców?",
+        "description": "Przedmieścia Gdańska, w tym Stare Przedmieście, były zamieszkiwane przez rzemieślników, kupców oraz ludzi związanych z handlem i produkcją.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się Muzeum Gdańska?",
+        "description": "Muzeum Gdańska to jedno z ważniejszych muzeów w mieście, znajdujące się w różnych częściach Gdańska, w tym w pobliżu Starego Przedmieścia.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było zamknięte dla turystów po II wojnie światowej?",
+        "description": "Po zniszczeniach II wojny światowej część Starego Przedmieścia była przez wiele lat nieudostępniona turystom, a odbudowa trwała przez długie lata.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście leży tuż obok Długiego Targu?",
+        "description": "Stare Przedmieście graniczy z Długim Targiem, jednym z najważniejszych placów w Gdańsku, pełnym zabytków i atrakcji turystycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było świadkiem wielu ważnych wydarzeń historycznych?",
+        "description": "Stare Przedmieście, dzięki swojemu położeniu, było świadkiem wielu wydarzeń historycznych, w tym wojen i zmian politycznych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się zabytkowy Kościół Świętej Katarzyny?",
+        "description": "Kościół Świętej Katarzyny to jeden z ważniejszych kościołów Gdańska, znajdujący się na Starym Przedmieściu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było w średniowieczu częścią Gdańska?",
+        "description": "Stare Przedmieście było integralną częścią średniowiecznego Gdańska, pełniąc rolę głównie handlową i rzemieślniczą.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest dzisiaj popularnym miejscem turystycznym?",
+        "description": "Dzięki swojej historii, licznym zabytkom i bliskości do centrum miasta, Stare Przedmieście jest dziś jednym z najczęściej odwiedzanych miejsc w Gdańsku.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się jeden z najstarszych młynów wodnych w Gdańsku?",
+        "description": "Na Starym Przedmieściu znajduje się młyn, który ma długą historię, sięgającą średniowiecza.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było w średniowieczu głównym centrum handlowym Gdańska?",
+        "description": "W średniowieczu Stare Przedmieście było jednym z głównych ośrodków handlowych, z wieloma warsztatami i sklepami.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się zamek książąt pomorskich?",
+        "description": "Zamek książąt pomorskich znajduje się w pobliżu Starego Przedmieścia, choć nie bezpośrednio w tej dzielnicy.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było w XVII wieku centrum kultury w Gdańsku?",
+        "description": "W XVII wieku, dzięki rozkwitowi rzemiosła, kupiectwa i sztuki, Stare Przedmieście miało duży wpływ na życie kulturalne Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście zostało w dużej mierze zniszczone podczas II wojny światowej?",
+        "description": "Podczas II wojny światowej Stare Przedmieście zostało znacznie zniszczone, a odbudowa trwała przez wiele lat.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było znane z produkcji bursztynu?",
+        "description": "Gdańsk, w tym Stare Przedmieście, słynął z produkcji i handlu bursztynem, który był jednym z głównych towarów eksportowych.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście miało forteczną zabudowę w średniowieczu?",
+        "description": "W średniowieczu Stare Przedmieście było otoczone murami obronnymi, które miały chronić miasto przed atakami.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest miejscem, w którym odbywają się coroczne jarmarki gdańskie?",
+        "description": "Coroczne jarmarki gdańskie odbywają się w okolicach Starego Przedmieścia, przyciągając turystów i mieszkańców miasta.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście zostało objęte ochroną jako zabytek?",
+        "description": "Ze względu na swoją historyczną wartość, Stare Przedmieście zostało objęte ochroną prawną jako zabytek.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajdują się liczne kamienice z XVIII wieku?",
+        "description": "Stare Przedmieście jest pełne zabytkowych kamienic, w tym wielu z XVIII wieku, które przetrwały wojny i inne zmiany.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest jednym z głównych punktów turystycznych Gdańska?",
+        "description": "Tak, Stare Przedmieście to jeden z najważniejszych punktów turystycznych Gdańska, przyciągający turystów z całego świata.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście leży na lewym brzegu Motławy?",
+        "description": "Stare Przedmieście znajduje się na lewym brzegu rzeki Motławy, tuż obok Starego Miasta Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się Pałac Opatów?",
+        "description": "Pałac Opatów, znany z barokowej architektury, znajduje się w pobliżu Starego Przedmieścia.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było kiedyś częścią hanzeatyckiej Gdańskiej Ligi Hanzeatyckiej?",
+        "description": "Stare Przedmieście było częścią hanzeatyckiego Gdańska, będąc jednym z głównych miejsc handlowych w regionie.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajdują się fragmenty średniowiecznych murów miejskich?",
+        "description": "Na Starym Przedmieściu można znaleźć fragmenty średniowiecznych murów miejskich, które kiedyś otaczały Gdańsk.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było w średniowieczu głównym centrum produkcji w Gdańsku?",
+        "description": "W średniowieczu Stare Przedmieście było znane z licznych warsztatów rzemieślniczych i produkcji, szczególnie w zakresie odzieży i rzemiosła.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było zamieszkane głównie przez ubogich mieszkańców Gdańska?",
+        "description": "Stare Przedmieście było głównie zamieszkane przez rzemieślników, którzy żyli w dość skromnych warunkach, ale niekoniecznie byli ubodzy.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest jednym z najstarszych obszarów Gdańska?",
+        "description": "Stare Przedmieście jest jednym z najstarszych obszarów Gdańska, mającym długą historię sięgającą średniowiecza.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było częścią wschodniego obszaru Gdańska?",
+        "description": "Stare Przedmieście znajduje się na zachodnim brzegu Motławy, a nie wschodnim obszarze Gdańska.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy w czasach średniowiecza Stare Przedmieście było zamknięte za murami obronnymi?",
+        "description": "Stare Przedmieście było częścią Gdańska, która była obwarowana murami obronnymi w średniowieczu.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście leży na terenie dawnego portu w Gdańsku?",
+        "description": "Stare Przedmieście znajduje się blisko portu, ale nie bezpośrednio na jego terenie.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście zostało odbudowane po II wojnie światowej?",
+        "description": "Po zniszczeniach wojennych, Stare Przedmieście zostało odbudowane, chociaż wiele budynków nie przetrwało.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było w przeszłości obszarem przemysłowym?",
+        "description": "Stare Przedmieście było głównie obszarem mieszkalnym i handlowym, ale miało również swoją część przemysłową.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajdują się ruiny średniowiecznych budynków?",
+        "description": "Na Starym Przedmieściu znajduje się kilka ruin i fragmentów budynków z czasów średniowiecza.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście było zamieszkane przez obcokrajowców już w średniowieczu?",
+        "description": "Stare Przedmieście było jednym z centrów handlowych Gdańska, gdzie mieszkało wielu obcokrajowców, zwłaszcza z krajów bałtyckich i niemieckich.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się wciąż funkcjonująca winiarnia?",
+        "description": "Stare Przedmieście jest znane z historii produkcji wina, ale obecnie nie ma tam tradycyjnych winiarni.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście posiada liczne pomniki i tablice upamiętniające ważne wydarzenia historyczne?",
+        "description": "Na Starym Przedmieściu znajduje się wiele pomników i tablic upamiętniających ważne wydarzenia z historii Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest jednym z bardziej zielonych obszarów Gdańska?",
+        "description": "Stare Przedmieście, choć historyczne, nie jest jednym z najbardziej zielonych obszarów Gdańska, ale posiada parki i skwery.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy w okolicach Starego Przedmieścia znajduje się słynna ulica Mariacka?",
+        "description": "Ulica Mariacka, jedna z najbardziej znanych ulic Gdańska, znajduje się w pobliżu Starego Przedmieścia.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście w Gdańsku jest popularnym miejscem na spacery?",
+        "description": "Stare Przedmieście jest popularnym miejscem spacerów zarówno dla turystów, jak i mieszkańców Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu znajduje się słynna ulica Grodzka?",
+        "description": "Ulica Grodzka znajduje się w centrum Gdańska, a nie bezpośrednio na Starym Przedmieściu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście jest znane z licznych gdańskich kamienic?",
+        "description": "Stare Przedmieście jest pełne pięknych, zabytkowych kamienic, które reprezentują różne style architektoniczne.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy Stare Przedmieście w XIX wieku stało się częścią rozwoju przemysłowego Gdańska?",
+        "description": "Stare Przedmieście zaczęło w XIX wieku przechodzić zmiany, związane z rozwojem przemysłowym i modernizacją Gdańska.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu można znaleźć liczne kawiarnie i restauracje serwujące tradycyjne dania gdańskie?",
+        "description": "Stare Przedmieście, dzięki swojej turystycznej popularności, oferuje liczne kawiarnie i restauracje serwujące tradycyjne dania gdańskie.",
+        "correct_answer": "tak"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy w Starym Przedmieściu znajduje się Biblioteka Gdańska?",
+        "description": "Biblioteka Gdańska znajduje się w centrum Gdańska, ale nie bezpośrednio na Starym Przedmieściu.",
+        "correct_answer": "nie"
+    },
+    {
+        "type": "tf",
+        "district": "Stare Przedmieście",
+        "question": "Czy na Starym Przedmieściu wznosi się średniowieczna wieża obronna?",
+        "description": "Na Starym Przedmieściu nie ma średniowiecznej wieży obronnej, choć istnieją inne elementy obronne, jak mury.",
+        "correct_answer": "nie"
+    }       
 ]
 
 
