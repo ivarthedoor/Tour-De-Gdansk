@@ -17,28 +17,28 @@ class GameLevels(GameCore):
         
         if play == "1":
             self.board.players_positions[0] = move_player(self.board.players_positions[0])
-            self.questions_assingment(self.board.players_positions[0], 0, district)
+            self.points_for_questions(self.board.players_positions[0], 0, district)
             print("Teraz kolej " + self.red + " (2)")
             sleep_and_clear(2)
             return True
 
         elif play == "2":
             self.board.players_positions[1] = move_player(self.board.players_positions[1])
-            self.questions_assingment(self.board.players_positions[1], 1, district)
+            self.points_for_questions(self.board.players_positions[1], 1, district)
             print("Teraz kolej " + self.green + " (3)")
             sleep_and_clear(2)
             return True
 
         elif play == "3":
             self.board.players_positions[2] = move_player(self.board.players_positions[2])
-            self.questions_assingment(self.board.players_positions[2], 2, district)
+            self.points_for_questions(self.board.players_positions[2], 2, district)
             print("Teraz kolej " + self.yellow + " (4)")
             sleep_and_clear(2)
             return True
 
         elif play == "4":
             self.board.players_positions[3] = move_player(self.board.players_positions[3])
-            self.questions_assingment(self.board.players_positions[3], 3, district)
+            self.points_for_questions(self.board.players_positions[3], 3, district)
             print("Teraz kolej " + self.blue + " (1)")
             sleep_and_clear(2)
             return True
@@ -133,42 +133,30 @@ class GameLevels(GameCore):
 
             if play == "1":
                 self.board.players_positions[0] = move_player(self.board.players_positions[0])
-                self.questions_assingment(self.board.players_positions[0], 0, "Wrzeszcz")
+                self.points_for_questions(self.board.players_positions[0], 0, "Wrzeszcz")
                 if self.board.players_positions[0] != 29:
                     print("Teraz kolej " + self.red + " (2)")
-                else:
-                    self.questions_assingment(self.board.players_positions[0], 0, "Wrzeszcz")
-                    self.next_level_points(0, 1, 2, 3)
                 sleep_and_clear(2)
 
             elif play == "2":
                 self.board.players_positions[1] = move_player(self.board.players_positions[1])
-                self.questions_assingment(self.board.players_positions[1], 1, "Wrzeszcz")
+                self.points_for_questions(self.board.players_positions[1], 1, "Wrzeszcz")
                 if self.board.players_positions[1] != 29:
                     print("Teraz kolej " + self.green + " (3)")
-                else:
-                    self.questions_assingment(self.board.players_positions[1], 1, "Wrzeszcz")
-                    self.next_level_points(1, 0, 2, 3)
                 sleep_and_clear(2)
 
             elif play == "3":
                 self.board.players_positions[2] = move_player(self.board.players_positions[2])
-                self.questions_assingment(self.board.players_positions[2], 2, "Wrzeszcz")
+                self.points_for_questions(self.board.players_positions[2], 2, "Wrzeszcz")
                 if self.board.players_positions[2] != 29:
                     print("Teraz kolej " + self.yellow + " (4)")
-                else:
-                    self.questions_assingment(self.board.players_positions[2], 2, "Wrzeszcz")
-                    self.next_level_points(2, 1, 0, 3)
                 sleep_and_clear(2)
 
             elif play == "4":
                 self.board.players_positions[3] = move_player(self.board.players_positions[3])
-                self.questions_assingment(self.board.players_positions[3], 3, "Wrzeszcz")
+                self.points_for_questions(self.board.players_positions[3], 3, "Wrzeszcz")
                 if self.board.players_positions[3] != 29:
                     print("Teraz kolej " + self.blue + " (1)")
-                else:
-                    self.questions_assingment(self.board.players_positions[3], 3, "Wrzeszcz")
-                    self.next_level_points(3, 1, 2, 0)
                 sleep_and_clear(2)
                 
             

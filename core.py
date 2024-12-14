@@ -31,15 +31,13 @@ class GameCore(GameBoard):
         self.players_points[c] += 5
         self.players_points[d] += 5
 
-    def questions_assingment(self, position: int, points_index: int, district: str):  
+    def points_for_questions(self, position: int, points_index: int, district: str):  
     # Pytanie przypisane jest co piąte pole 
         for i in self.task_assingment_positions:
             if position == i:
                 if self.questions_disp.questions_dispenser(district):
-                    sleep_and_clear(3)
                     self.players_points[points_index] += 10
                 else:
-                    sleep_and_clear(3)
                     if self.players_points[points_index] != 0:
                         self.players_points[points_index] -= 5
         return self.players_points[points_index]

@@ -12,8 +12,8 @@ def initial_game():
         #     break
         # if not game.game2():
         #     break
-        # if not game.game3():
-        #     break
+        if not game.game3():
+            break
         if not game.game4():
             break
 
