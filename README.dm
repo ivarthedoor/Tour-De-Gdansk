@@ -5,7 +5,7 @@ Description:
 Tour De Gdańsk is an interactive board game for 4 players, the goal of which is to travel through different districts in the city of Gdańsk. 
 Players answer quiz questions to earn points and progress through each district. 
 The game is divided into four districts, each with its own set of challenges and questions. The first player to reach the finish line ends the entire game and gets the final question. 
-After answering, each player gets the appropriate number of points and the winner is the one who gets the most points..
+After answering, each player gets the appropriate number of points and the winner is the one who gets the most points.
 
 Features:
 Interactive gameplay: Players roll the dice to move around the board, answering quiz questions that appear when they land on specific spaces.
@@ -30,9 +30,6 @@ Installation:
 Clone the repository or download the files.
 Make sure Python 3.x is installed on your system.
 Go to the project directory and run the game by executing the final_game.py script.
-bash
-Copy the code
-python final_game.py
 
 
 Game flow:
