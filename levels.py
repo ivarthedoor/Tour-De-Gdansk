@@ -37,7 +37,8 @@ class GameLevels(GameCore):
             return True, sleep_and_clear(3)
 
         elif play == "q":
-            return False, sleep_and_clear(3)
+            sleep_and_clear(3)
+            return False
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
             return True, sleep_and_clear(3)
@@ -75,7 +76,8 @@ class GameLevels(GameCore):
             return True, sleep_and_clear(3)
 
         elif play == "q":
-            return False, sleep_and_clear(3)
+            sleep_and_clear(3)
+            return False
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
             return True, sleep_and_clear(3)
