@@ -74,7 +74,7 @@ class GameLevels(GameCore):
                 print("Teraz kolej " + self.blue + " (1)")
             return True, sleep_and_clear(3)
 
-        elif play == "q": 
+        elif play == "q":
             return False, sleep_and_clear(3)
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
