@@ -4,8 +4,6 @@ from time import sleep
 from movement_programms import move_player
 from utils import sleep_and_clear
 
-# Z ajkiegoś powodu ostatni ruch gracza (kończońcy grę), nie przyznaje punktów, oraz wyświetla się komunikat ruchu następnego gracz.
-# Trzeba to poprawić
 class GameLevels(GameCore):
     def __init__(self):
         super().__init__()
@@ -39,7 +37,7 @@ class GameLevels(GameCore):
             print("Teraz kolej " + self.blue + " (1)")
             return True, sleep_and_clear(3)
 
-        elif play == "q": # Zakończenie gry
+        elif play == "q":
             return False, sleep_and_clear(3)
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
@@ -77,7 +75,7 @@ class GameLevels(GameCore):
                 print("Teraz kolej " + self.blue + " (1)")
             return True, sleep_and_clear(3)
 
-        elif play == "q": # Zakończenie gry
+        elif play == "q": 
             return False, sleep_and_clear(3)
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
@@ -107,23 +105,23 @@ class GameLevels(GameCore):
                 sleep_and_clear(0.01)
                 return True
 
-    def game1(self):
+    def level_1(self):
         while True:
-            print("...Stare miasto...\n\n")
+            print("...Stare Miasto...\n\n")
             self.make_players()
             print(f"\nSTART.{self.board.generate_board()}\n \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.META\n")
 
-            if not self.level_movement_mechanics("Stare miasto"):
+            if not self.level_movement_mechanics("Stare Miasto"):
                 return False
             if self.next_level_movement_mechanics():
                 return True
 
-    def game2(self): 
+    def level_2(self): 
         while True:
-            print("...Stare przedmieście...\n\n")
+            print("...Stare Przedmieście...\n\n")
             self.make_players()
             print(f"\nSTART.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.\n \
         {self.board.generate_board()} \n \
@@ -135,7 +133,7 @@ class GameLevels(GameCore):
             if self.next_level_movement_mechanics():
                 return True
 
-    def game3(self):
+    def level_3(self):
         while True:
             print("...Oliwa...\n\n")
             self.make_players()
@@ -149,7 +147,7 @@ class GameLevels(GameCore):
             if self.next_level_movement_mechanics():
                 return True
 
-    def game4(self):
+    def level_4(self):
         while True:
             print("...Wrzeszcz...\n\n")
             self.make_players()

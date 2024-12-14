@@ -3,7 +3,6 @@ from random import randint
 
 with open ('questions.json', 'r', encoding='utf-8') as file:
     questions = json.load(file)
-
 class GameQuestions:
     def questions_dispenser(self, district):
         specific_district_questons_list = []

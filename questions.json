@@ -1,7 +1,7 @@
 [
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku wybudowano Kościół Świętego Brygidy w Gdańsku?",
         "description": "Kościół ten jest znany z pięknych witraży i wyjątkowej architektury gotyckiej.",
         "options": ["a. 1375", "b. 1393", "c. 1452", "d. 1485"],
@@ -9,7 +9,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jak nazywa się zabytkowy budynek w Gdańsku, który pełnił funkcję ratusza w okresie średniowiecza?",
         "description": "Ratusz był ważnym punktem administracyjnym w Gdańsku, zbudowany w stylu gotyckim.",
         "options": ["a. Ratusz Gdański", "b. Dwór Artusa", "c. Pałac Opatów", "d. Kamienica Zielona"],
@@ -17,7 +17,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku Gdańsk otrzymał prawa miejskie?",
         "description": "Prawa miejskie stanowiły fundament rozwoju Gdańska jako ważnego ośrodka handlowego.",
         "options": ["a. 1236", "b. 1254", "c. 1303", "d. 1355"],
@@ -25,7 +25,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Który z poniższych kościołów w Gdańsku jest największym kościołem ceglanego w Europie?",
         "description": "Kościół Mariacki jest jedną z największych gotyckich świątyń w Polsce i Europie.",
         "options": ["a. Kościół Św. Brygidy", "b. Kościół Mariacki", "c. Kościół Św. Katarzyny", "d. Kościół Św. Mikołaja"],
@@ -33,7 +33,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jaką funkcję pełnił Dwór Artusa w Gdańsku?",
         "description": "Dwór Artusa był miejscem spotkań gdańskich kupców i elit, a także pełnił rolę centrum życia towarzyskiego.",
         "options": ["a. Miejsce obrad rady miasta", "b. Siedziba władzy królewskiej", "c. Centrum handlowe", "d. Miejsce spotkań kupców i elit"],
@@ -41,7 +41,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jak nazywa się symbol Gdańska przedstawiający postać mitologiczną?",
         "description": "Postać ta jest jednym z rozpoznawalnych symboli Gdańska i często widoczna na miejskich placach.",
         "options": ["a. Neptun", "b. Hercules", "c. Apollo", "d. Zeus"],
@@ -49,7 +49,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy miało miejsce pierwsze zniszczenie Gdańska w wyniku działań wojennych?",
         "description": "Gdańsk był wielokrotnie niszczony przez wojny, a pierwsze większe zniszczenia miały miejsce w średniowieczu.",
         "options": ["a. 1300", "b. 1410", "c. 1466", "d. 1577"],
@@ -57,7 +57,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy wzniesiono pierwszą część Gdańskiego Żurawia?",
         "description": "Gdański Żuraw był jednym z największych i najstarszych dźwigów portowych w średniowieczu.",
         "options": ["a. 1360", "b. 1395", "c. 1450", "d. 1520"],
@@ -65,7 +65,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Która z poniższych bram Gdańska była główną bramą miejską do XVIII wieku?",
         "description": "Brama ta stanowiła główny punkt wejściowy do miasta.",
         "options": ["a. Brama Mariacka", "b. Brama Stągiewna", "c. Brama Wyżynna", "d. Brama Długouliczna"],
@@ -73,7 +73,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku zakończono budowę Wielkiego Młyna w Gdańsku?",
         "description": "Wielki Młyn to jeden z największych młynów średniowiecznych w Europie.",
         "options": ["a. 1480", "b. 1505", "c. 1575", "d. 1620"],
@@ -81,7 +81,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jaka funkcję pełnił Dwór Artusa w Gdańsku?",
         "description": "Dwór Artusa był miejscem spotkań kupców i elit miejskich, a także pełnił funkcję reprezentacyjną.",
         "options": ["a. Siedziba króla", "b. Dom handlowy", "c. Miejsce spotkań kupców", "d. Szkoła wyższa"],
@@ -89,7 +89,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Które z poniższych miejsc w Gdańsku służyło niegdyś jako szpital?",
         "description": "W Gdańsku zachowało się wiele budynków, które pełniły funkcje szpitalne w średniowieczu.",
         "options": ["a. Szpital Świętego Ducha", "b. Kościół Świętej Katarzyny", "c. Pałac Opatów", "d. Klasztor Dominikanów"],
@@ -97,7 +97,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy po raz pierwszy wzniesiono Brama Wyżynna?",
         "description": "Brama Wyżynna była jedną z głównych bram Gdańska i stanowiła element systemu obronnego miasta.",
         "options": ["a. 1496", "b. 1555", "c. 1581", "d. 1600"],
@@ -105,7 +105,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku otwarto pierwszy port w Gdańsku?",
         "description": "Port w Gdańsku ma bardzo długą historię i był jednym z najważniejszych portów w Europie.",
         "options": ["a. X w.", "b. 1227", "c. 1250", "d. 1300"],
@@ -113,7 +113,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy zbudowano Kościół św. Mikołaja w Gdańsku?",
         "description": "Kościół św. Mikołaja w Gdańsku jest jednym z najstarszych kościołów w mieście.",
         "options": ["a. 1210", "b. 1270", "c. 1300", "d. 1350"],
@@ -121,7 +121,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W jakim stylu architektonicznym zbudowano Brama Stągiewną?",
         "description": "Brama Stągiewna w Gdańsku jest przykładem architektury gotyckiej.",
         "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Klasycystyczny"],
@@ -129,7 +129,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W jakim roku zniszczono podczas II wojny światowej większość zabytków Starego Miasta w Gdańsku?",
         "description": "W czasie II wojny światowej Gdańsk ucierpiał na skutek zniszczeń.",
         "options": ["a. 1940", "b. 1943", "c. 1945", "d. 1942"],
@@ -137,7 +137,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Który król Polski nadał Gdańskowi prawa miejskie?",
         "description": "Prawa miejskie nadano Gdańskowi przez króla Polski.",
         "options": ["a. Kazimierz Wielki", "b. Władysław Łokietek", "c. Zygmunt Stary", "d. August II Mocny"],
@@ -145,7 +145,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku odbudowano większość Starego Miasta w Gdańsku?",
         "description": "Po zniszczeniach wojennych, Stare Miasto zostało odbudowane w drugiej połowie XX wieku.",
         "options": ["a. 1946", "b. 1950", "c. 1960", "d. 1975"],
@@ -153,7 +153,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jakie wydarzenie miało miejsce w Gdańsku w 1980 roku?",
         "description": "W 1980 roku w Gdańsku wybuchły strajki, które miały kluczowe znaczenie dla historii Polski.",
         "options": ["a. Utworzenie Solidarności", "b. Wyzwolenie Gdańska z rąk niemieckich", "c. Początek II wojny światowej", "d. Odbudowa Gdańska po zniszczeniach"],
@@ -161,7 +161,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku wzniesiono Bramę Stągiewną na Wyspie Spichrzów?",
         "description": "Brama Stągiewna pełniła funkcję obronną w dawnych czasach.",
         "options": ["a. 1517", "b. 1600", "c. 1576", "d. 1453"],
@@ -169,7 +169,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jak nazywa się główna ulica w Starym Mieście Gdańska?",
         "description": "Ulica ta była niegdyś głównym szlakiem handlowym miasta.",
         "options": ["a. Ulica Długa", "b. Ulica Mariacka", "c. Ulica Wały Jagiellońskie", "d. Ulica Spichrzowa"],
@@ -177,7 +177,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku zakończono budowę Kościoła Mariackiego w Gdańsku?",
         "description": "Kościół Mariacki to jeden z największych kościołów ceglanego w Europie.",
         "options": ["a. 1492", "b. 1475", "c. 1360", "d. 1542"],
@@ -185,7 +185,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jakie wydarzenie miało miejsce na Długim Targu w Gdańsku w 1793 roku?",
         "description": "Długi Targ to jedno z najważniejszych miejsc w Gdańsku, które było świadkiem wielu ważnych wydarzeń.",
         "options": ["a. Wybuch powstania gdańskiego", "b. Wizyta króla Stanisława Augusta Poniatowskiego", "c. Przejęcie Gdańska przez Prusy", "d. Zawarcie pokoju z Rosją"],
@@ -193,7 +193,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jak nazywa się zabytkowy budynek w Gdańsku, który pełnił funkcję ratusza w okresie średniowiecza?",
         "description": "Ratusz był ważnym punktem administracyjnym w Gdańsku, zbudowany w stylu gotyckim.",
         "options": ["a. Ratusz Gdański", "b. Dwór Artusa", "c. Pałac Opatów", "d. Kamienica Zielona"],
@@ -201,7 +201,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku Gdańsk otrzymał prawa miejskie?",
         "description": "Prawa miejskie stanowiły fundament rozwoju Gdańska jako ważnego ośrodka handlowego.",
         "options": ["a. 1236", "b. 1254", "c. 1303", "d. 1355"],
@@ -209,7 +209,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Który z poniższych kościołów w Gdańsku jest największym kościołem ceglanego w Europie?",
         "description": "Kościół Mariacki jest jedną z największych gotyckich świątyń w Polsce i Europie.",
         "options": ["a. Kościół Św. Brygidy", "b. Kościół Mariacki", "c. Kościół Św. Katarzyny", "d. Kościół Św. Mikołaja"],
@@ -217,7 +217,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jaką funkcję pełnił Dwór Artusa w Gdańsku?",
         "description": "Dwór Artusa był miejscem spotkań gdańskich kupców i elit, a także pełnił rolę centrum życia towarzyskiego.",
         "options": ["a. Miejsce obrad rady miasta", "b. Siedziba władzy królewskiej", "c. Centrum handlowe", "d. Miejsce spotkań kupców i elit"],
@@ -225,7 +225,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jak nazywa się symbol Gdańska przedstawiający postać mitologiczną?",
         "description": "Postać ta jest jednym z rozpoznawalnych symboli Gdańska i często widoczna na miejskich placach.",
         "options": ["a. Neptun", "b. Hercules", "c. Apollo", "d. Zeus"],
@@ -233,7 +233,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy miało miejsce pierwsze zniszczenie Gdańska w wyniku działań wojennych?",
         "description": "Gdańsk był wielokrotnie niszczony przez wojny, a pierwsze większe zniszczenia miały miejsce w średniowieczu.",
         "options": ["a. 1300", "b. 1410", "c. 1466", "d. 1577"],
@@ -241,7 +241,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy wzniesiono pierwszą część Gdańskiego Żurawia?",
         "description": "Gdański Żuraw był jednym z największych i najstarszych dźwigów portowych w średniowieczu.",
         "options": ["a. 1360", "b. 1395", "c. 1450", "d. 1520"],
@@ -249,7 +249,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Która z poniższych bram Gdańska była główną bramą miejską do XVIII wieku?",
         "description": "Brama ta stanowiła główny punkt wejściowy do miasta.",
         "options": ["a. Brama Mariacka", "b. Brama Stągiewna", "c. Brama Wyżynna", "d. Brama Długouliczna"],
@@ -257,7 +257,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku zakończono budowę Wielkiego Młyna w Gdańsku?",
         "description": "Wielki Młyn to jeden z największych młynów średniowiecznych w Europie.",
         "options": ["a. 1480", "b. 1505", "c. 1575", "d. 1620"],
@@ -265,7 +265,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jaka funkcję pełnił Dwór Artusa w Gdańsku?",
         "description": "Dwór Artusa był miejscem spotkań kupców i elit miejskich, a także pełnił funkcję reprezentacyjną.",
         "options": ["a. Siedziba króla", "b. Dom handlowy", "c. Miejsce spotkań kupców", "d. Szkoła wyższa"],
@@ -273,7 +273,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Które z poniższych miejsc w Gdańsku służyło niegdyś jako szpital?",
         "description": "W Gdańsku zachowało się wiele budynków, które pełniły funkcje szpitalne w średniowieczu.",
         "options": ["a. Szpital Świętego Ducha", "b. Kościół Świętej Katarzyny", "c. Pałac Opatów", "d. Klasztor Dominikanów"],
@@ -281,7 +281,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy po raz pierwszy wzniesiono Brama Wyżynna?",
         "description": "Brama Wyżynna była jedną z głównych bram Gdańska i stanowiła element systemu obronnego miasta.",
         "options": ["a. 1496", "b. 1555", "c. 1581", "d. 1600"],
@@ -289,7 +289,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku otwarto pierwszy port w Gdańsku?",
         "description": "Port w Gdańsku ma bardzo długą historię i był jednym z najważniejszych portów w Europie.",
         "options": ["a. X w.", "b. 1227", "c. 1250", "d. 1300"],
@@ -297,7 +297,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Kiedy zbudowano Kościół św. Mikołaja w Gdańsku?",
         "description": "Kościół św. Mikołaja w Gdańsku jest jednym z najstarszych kościołów w mieście.",
         "options": ["a. 1210", "b. 1270", "c. 1300", "d. 1350"],
@@ -305,7 +305,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W jakim stylu architektonicznym zbudowano Brama Stągiewną?",
         "description": "Brama Stągiewna w Gdańsku jest przykładem architektury gotyckiej.",
         "options": ["a. Gotycki", "b. Barokowy", "c. Renesansowy", "d. Klasycystyczny"],
@@ -313,7 +313,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W jakim roku zniszczono podczas II wojny światowej większość zabytków Starego Miasta w Gdańsku?",
         "description": "W czasie II wojny światowej Gdańsk ucierpiał na skutek zniszczeń.",
         "options": ["a. 1940", "b. 1943", "c. 1945", "d. 1942"],
@@ -321,7 +321,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Który król Polski nadał Gdańskowi prawa miejskie?",
         "description": "Prawa miejskie nadano Gdańskowi przez króla Polski.",
         "options": ["a. Kazimierz Wielki", "b. Władysław Łokietek", "c. Zygmunt Stary", "d. August II Mocny"],
@@ -329,7 +329,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "W którym roku odbudowano większość Starego Miasta w Gdańsku?",
         "description": "Po zniszczeniach wojennych, Stare Miasto zostało odbudowane w drugiej połowie XX wieku.",
         "options": ["a. 1946", "b. 1950", "c. 1960", "d. 1975"],
@@ -337,7 +337,7 @@
     },
     {
         "type": "ABCD",
-        "district": "Stare miasto",
+        "district": "Stare Miasto",
         "question": "Jakie wydarzenie miało miejsce w Gdańsku w 1980 roku?",
         "description": "W 1980 roku w Gdańsku wybuchły strajki, które miały kluczowe znaczenie dla historii Polski.",
         "options": ["a. Utworzenie Solidarności", "b. Wyzwolenie Gdańska z rąk niemieckich", "c. Początek II wojny światowej", "d. Odbudowa Gdańska po zniszczeniach"],
@@ -2921,5 +2921,3 @@
         "correct_answer": "nie"
     }       
 ]
-
-

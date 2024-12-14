@@ -9,7 +9,7 @@ class GameCore(GameBoard):
     csv_writer = CsvWriter()
     questions_disp = GameQuestions()
     def __init__(self):
-        self.task_assingment_positions = [i - 1 for i in self.board_range if i % 5 == 0]
+        self.task_assingment_positions = [i - 1 for i in self.board_range if i % 3 == 0]
     # Nadanie nazw przez użytkowników
         self.blue = (f"\U0001F535 {input("Wprowadź nazwę niebieskiego gracza: ")}")
         self.red = (f"\U0001F534 {input("Wprowadź nazwę czerwonego gracza: ")}")
@@ -45,7 +45,7 @@ class GameCore(GameBoard):
     def make_players(self)->list:
         players = [x for x in enumerate([self.blue, self.red, self.green, self.yellow], start=1)]
         actual_date = datetime.now()
-        formatted_actual_date = actual_date.strftime("%Y-%m-%d %H:%M:%S")
+        formatted_actual_date = actual_date.strftime("%Y-%m-%d %H:%M")
         self.player_data = []
         i = 0
         for i in range(len(players)):
