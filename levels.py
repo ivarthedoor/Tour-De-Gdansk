@@ -1,6 +1,5 @@
 from core import GameCore
 from board import GameBoard
-from time import sleep
 from movement_programms import move_player
 from utils import sleep_and_clear
 

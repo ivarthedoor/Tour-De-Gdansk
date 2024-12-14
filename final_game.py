@@ -5,7 +5,7 @@ sleep_and_clear(0)
 
 def initial_game(): 
     print("Witaj w grze Tour De Gdańsk! Zapraszamy do wspólnej zabawy i nauki")
-    sleep_and_clear(4)
+    sleep_and_clear(5)
     game = GameLevels()
     while True:
         if not game.level_1():
