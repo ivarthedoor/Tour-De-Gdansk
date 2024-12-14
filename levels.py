@@ -19,37 +19,32 @@ class GameLevels(GameCore):
             self.board.players_positions[0] = move_player(self.board.players_positions[0])
             self.points_for_questions(self.board.players_positions[0], 0, district)
             print("Teraz kolej " + self.red + " (2)")
-            sleep_and_clear(2)
-            return True
+            return True, sleep_and_clear(3)
 
         elif play == "2":
             self.board.players_positions[1] = move_player(self.board.players_positions[1])
             self.points_for_questions(self.board.players_positions[1], 1, district)
             print("Teraz kolej " + self.green + " (3)")
-            sleep_and_clear(2)
-            return True
-
+            return True, sleep_and_clear(3)
+            
         elif play == "3":
             self.board.players_positions[2] = move_player(self.board.players_positions[2])
             self.points_for_questions(self.board.players_positions[2], 2, district)
             print("Teraz kolej " + self.yellow + " (4)")
-            sleep_and_clear(2)
-            return True
+            return True, sleep_and_clear(3)
 
         elif play == "4":
             self.board.players_positions[3] = move_player(self.board.players_positions[3])
             self.points_for_questions(self.board.players_positions[3], 3, district)
             print("Teraz kolej " + self.blue + " (1)")
-            sleep_and_clear(2)
-            return True
+            return True, sleep_and_clear(3)
 
         elif play == "q": # Zakończenie gry
-            sleep_and_clear(1)
-            return False
+            return False, sleep_and_clear(3)
         else:
             print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
-            sleep(2)
-            return True
+            return True, sleep_and_clear(3)
+    
 
     def next_level_movement_mechanics(self)->bool:
         if any(pos == 29 for pos in self.board.players_positions):
@@ -126,58 +121,55 @@ class GameLevels(GameCore):
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         ____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____.____. \n  \
         {self.board.generate_board()}.META\n")
-            
+
 
             play = input("Wpisz 1 żeby ruszyć niebieskim pionkiem, 2 czerwonym, 3 zielonym i 4 żółtym, albo wpisz Q żeby opuścić grę: \n")
             play = play.lower()
+            if True:
+                if play == "1":
+                    self.board.players_positions[0] = move_player(self.board.players_positions[0])
+                    self.points_for_questions(self.board.players_positions[0], 0, "Wrzeszcz")
+                    if self.board.players_positions[0] != 29:
+                        print("Teraz kolej " + self.red + " (2)")
+                    return True, sleep_and_clear(3)
 
-            if play == "1":
-                self.board.players_positions[0] = move_player(self.board.players_positions[0])
-                self.points_for_questions(self.board.players_positions[0], 0, "Wrzeszcz")
-                if self.board.players_positions[0] != 29:
-                    print("Teraz kolej " + self.red + " (2)")
-                sleep_and_clear(2)
+                elif play == "2":
+                    self.board.players_positions[1] = move_player(self.board.players_positions[1])
+                    self.points_for_questions(self.board.players_positions[1], 1, "Wrzeszcz")
+                    if self.board.players_positions[0] != 29:
+                        print("Teraz kolej " + self.green + " (3)")
+                    return True, sleep_and_clear(3)
+                    
+                elif play == "3":
+                    self.board.players_positions[2] = move_player(self.board.players_positions[2])
+                    self.points_for_questions(self.board.players_positions[2], 2, "Wrzeszcz")
+                    if self.board.players_positions[0] != 29:
+                        print("Teraz kolej " + self.yellow + " (4)")
+                    return True, sleep_and_clear(3)
 
-            elif play == "2":
-                self.board.players_positions[1] = move_player(self.board.players_positions[1])
-                self.points_for_questions(self.board.players_positions[1], 1, "Wrzeszcz")
-                if self.board.players_positions[1] != 29:
-                    print("Teraz kolej " + self.green + " (3)")
-                sleep_and_clear(2)
+                elif play == "4":
+                    self.board.players_positions[3] = move_player(self.board.players_positions[3])
+                    self.points_for_questions(self.board.players_positions[3], 3, "Wrzeszcz")
+                    if self.board.players_positions[0] != 29:
+                        print("Teraz kolej " + self.blue + " (1)")
+                    return True, sleep_and_clear(3)
 
-            elif play == "3":
-                self.board.players_positions[2] = move_player(self.board.players_positions[2])
-                self.points_for_questions(self.board.players_positions[2], 2, "Wrzeszcz")
-                if self.board.players_positions[2] != 29:
-                    print("Teraz kolej " + self.yellow + " (4)")
-                sleep_and_clear(2)
-
-            elif play == "4":
-                self.board.players_positions[3] = move_player(self.board.players_positions[3])
-                self.points_for_questions(self.board.players_positions[3], 3, "Wrzeszcz")
-                if self.board.players_positions[3] != 29:
-                    print("Teraz kolej " + self.blue + " (1)")
-                sleep_and_clear(2)
-                
-            
-
-            elif play == "q": # Zakończenie gry
-                sleep_and_clear(1)
-                # return False
-            else:
-                print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
-                sleep(2)
-                # return True
-                # if not self.level_movement_mechanics("Wrzeszcz"):
-                #     return False
-
+                elif play == "q": # Zakończenie gry
+                    return False, sleep_and_clear(3)
+                else:
+                    print("Niepoprawny znak ruchu! Proszę wpisz 1, 2, 3, 4 lub Q żeby opuścić grę.")
+                    return True, sleep_and_clear(3)
             
             if self.next_level_movement_mechanics():
-                # sleep_and_clear(0.01)
-                self.end_game_and_save()
-                for i in self.player_data:
-                    print(i)
-                return False
+                return True
+            
+    def finish(self):
+        self.make_players()
+        sleep_and_clear(0)
+        self.end_game_and_save()
+        for i in self.player_data:
+            print(i)
+        return False
 
 
 
