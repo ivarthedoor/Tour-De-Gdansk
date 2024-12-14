@@ -1,7 +1,7 @@
 from datetime import datetime
 from board import GameBoard
 from data_adding_program import CsvWriter
-from utiles import sleep_and_clear
+from utils import sleep_and_clear
 from questions_reading import GameQuestions
 
 

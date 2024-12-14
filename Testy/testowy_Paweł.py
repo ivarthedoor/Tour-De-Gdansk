@@ -1,7 +1,7 @@
 
 from core import game1, game2
 from questions import abcd_questions
-from utiles import sleep_and_clear
+from utils import sleep_and_clear
 from board import board_range, generate_board
 from movement_programms import move_player
 

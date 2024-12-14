@@ -1,17 +1,11 @@
 import random
 
-
 def throw_the_dice(): # Rzut kostką
-    # throw = random.randint(1, 6)
-    throw = 15
+    throw = random.randint(1, 6)
     return throw
-
-
 
 def move_player(position):
     position += throw_the_dice()
     if position >= 30:
         position = 29 # Zapobiega wyjściu poza plansze w momencie wyrzucenia większej ilości oczek niż pozostało do końca dzielnicy lub mety 
     return position
-
-
