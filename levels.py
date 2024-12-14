@@ -51,28 +51,28 @@ class GameLevels(GameCore):
             self.board.players_positions[0] = move_player(self.board.players_positions[0])
             self.points_for_questions(self.board.players_positions[0], 0, district)
             if self.board.players_positions[0] != 29:
-                print("Teraz kolej " + self.red + " (2)")
+                print("Następnie: " + self.red + " (2)")
             return True, sleep_and_clear(3)
 
         elif play == "2":
             self.board.players_positions[1] = move_player(self.board.players_positions[1])
             self.points_for_questions(self.board.players_positions[1], 1, district)
             if self.board.players_positions[1] != 29:
-                print("Teraz kolej " + self.green + " (3)")
+                print("Następnie: " + self.green + " (3)")
             return True, sleep_and_clear(3)
             
         elif play == "3":
             self.board.players_positions[2] = move_player(self.board.players_positions[2])
             self.points_for_questions(self.board.players_positions[2], 2, district)
             if self.board.players_positions[2] != 29:
-                print("Teraz kolej " + self.yellow + " (4)")
+                print("Następnie: " + self.yellow + " (4)")
             return True, sleep_and_clear(3)
 
         elif play == "4":
             self.board.players_positions[3] = move_player(self.board.players_positions[3])
             self.points_for_questions(self.board.players_positions[3], 3, district)
             if self.board.players_positions[3] != 29:
-                print("Teraz kolej " + self.blue + " (1)")
+                print("Następnie: " + self.blue + " (1)")
             return True, sleep_and_clear(3)
 
         elif play == "q":
@@ -135,6 +135,7 @@ class GameLevels(GameCore):
                 return True
 
     def level_2(self):
+        print("         Gratulacje! Pierwszy poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
         print("         Twoja wędrówka prowadzi Cię na Stare Przedmieście, dawną bramę Gdańska.\n \
         To tutaj zaczynały się historie kupców i rzemieślników, którzy budowali potęgę miasta.\n \
         Wśród malowniczych widoków i śladów przeszłości ukryte są kolejne wyzwania. ")
@@ -156,6 +157,7 @@ class GameLevels(GameCore):
                 return True
 
     def level_3(self):
+        print("         Gratulacje! Drugi poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
         print("         Witaj w Oliwie, miejscu pełnym zieleni i harmonii.\n \
         To dzielnica znana z pięknych parków i monumentalnej katedry, gdzie historia miesza się z ciszą i spokojem.\n \
         Ale nie daj się zwieść tej sielance - Oliwa skrywa wyzwania, które potrafią zaskoczyć nawet najtwardszych graczy.")
@@ -177,6 +179,7 @@ class GameLevels(GameCore):
                 return True
 
     def level_4(self):
+        print("         Gratulacje! Trzeci poziom ukończony. Wszyscy gracze zostają przeniesieni do następnego poziomu.")
         print("         Docierasz do Wrzeszcza - serca nowoczesnego Gdańska, gdzie historia spotyka współczesność.\n \
         To tutaj, w tętniącym życiem centrum, Twoje umiejętności zostaną wystawione na ostatnią próbę.\n \
         Zgiełk miasta nie pozwala się zatrzymać, a każdy krok może zadecydować o Twoim sukcesie.")
@@ -198,15 +201,18 @@ class GameLevels(GameCore):
             
     def finish(self):
         self.make_players()
+        self.end_game_and_save() 
         sleep_and_clear(0)
-        print("         Gratulacje! Twoja podróż przez Gdańsk dobiegła końca, a Ty triumfujesz jako zwycięzca tej niezwykłej przygody!\n \
+        winner = max(self.player_data, key=lambda player: player[2])
+        print(f"         Gratulacje {winner[1]}, zostałeś zwycięzcą!\n \
+        Wasza podróż przez Gdańsk dobiegła końca, a Ty triumfujesz jako zwycięzca tej niezwykłej przygody!\n \
         Poznałeś cztery dzielnice miasta, zmierzyłeś się z pytaniami\n \
         i wyzwaniami, a teraz Twoje imię zapisze się w historii 'Tour De Gdańsk'.")
         sleep_and_clear(12)
         print("         Gdańsk dziękuje Ci za odwiedziny - kto wie, może wkrótce wrócisz na nowe szlaki?\n \
         Do zobaczenia!")
         sleep_and_clear(6)
-        self.end_game_and_save()
+        
         for i in self.player_data:
             print(i)
         sleep_and_clear(5)

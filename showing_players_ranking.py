@@ -1,6 +1,5 @@
 import csv
 
-# class ShowRanking:
 def showing_ranking():
     with open('ranking.csv', 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file)

@@ -2,7 +2,9 @@ README - Tour De Gdańsk Game
 
 
 Description:
-Tour De Gdańsk is an interactive board game for 4 players, the goal of which is to travel through different districts in the city of Gdańsk. Players answer quiz questions to earn points and progress through each district. The game is divided into four districts, each with its own set of challenges and questions. The first player to reach the "Finish Line" wins the game.
+Tour De Gdańsk is an interactive board game for 4 players, the goal of which is to travel through different districts in the city of Gdańsk. 
+Players answer quiz questions to earn points and progress through each district. 
+The game is divided into four districts, each with its own set of challenges and questions. The first player to reach the "Finish Line" wins the game.
 
 Features:
 Interactive gameplay: Players roll the dice to move around the board, answering quiz questions that appear when they land on specific spaces.
@@ -29,11 +31,15 @@ Make sure Python 3.x is installed on your system.
 Go to the project directory and run the game by executing the main.py script.
 bash
 Copy the code
-python main.py
+python final_game.py
 
 
 Game flow:
-1. Start the game:
+1. Menu:
+Player has to chose one of three options:
+Start game, Ranking - show all scores, Quit the game.
+
+2. Start the game:
 Players enter their names at the beginning of the game.
 The game takes place in four districts of Gdańsk:
 -Stare Miasto
@@ -41,26 +47,27 @@ The game takes place in four districts of Gdańsk:
 -Oliwa
 -Wrzeszcz
 
-2. Roll the dice:
+3. Roll the dice:
 On each turn, players roll a dice (1-6), which determines how far they will move on the board.
 
-3. Answering Questions:
+4. Answering Questions:
 Upon reaching specific locations, players are asked to answer a quiz question.
 The question is randomly selected from a pool of district-specific "ABCD" or "True/False" questions loaded from the questions.json file.
 Note:
 When answering "abcd" questions, the answer must be very specific, e.g. "A" or "B"; "True/False" questions also require a very specific answer of "Tak" or "Nie".
 
-4. Winning the Game:
-The first player to reach position 30 ("Finish") wins the game.
+5. Winning the Game:
+The first player to reach position 30 ("Finish") ends the game.
 Players earn points for correctly answering questions and advancing.
+Payer who earn the most points wins the game.
 
-5. Quitting the Game:
+6. Quitting the Game:
 Players can quit the game at any time by pressing "q".
 
 
 Game Structure:
-1. main.py:
-Contains the main game initiation function that calls up levels and controls the flow of the game.
+1. final_game.py:
+Contains the menu and main game initiation function that calls up levels and controls the flow of the game.
 
 2. levels.py:
 Defines the different levels (districts) and controls the game logic for each district.
@@ -77,11 +84,14 @@ Manages the quiz question system by fetching and presenting district-specific qu
 6. core.py:
 Responsible for the core game mechanics, such as tracking player names, positions, and points.
 
-7. utiles.py:
+7. utils.py:
 Contains helper functions, including sleep_and_clear to pause and clear the screen between turns.
 
 8. ranking.csv, data_adding_program.py:
 Contains player data in csv format and supports saving and loading player data along with points.
+
+9. showing_players_ranking.py:
+Short function to read and print players ranking from ranking.csv
 
 
 Thanks for playing Tour De Gdansk! We hope you enjoy the game and the fun quiz questions as you explore the city. Enjoy!

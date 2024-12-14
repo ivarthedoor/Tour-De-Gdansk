@@ -6,7 +6,7 @@ def menu():
     while True: 
         sleep_and_clear(0) 
         print("Witaj w grze Tour De Gdańsk! Zapraszamy do wspólnej zabawy i nauki\n")
-        print("Menu główne\n - Start gry\n - Ranking\n - Wyjdź z gry\n")
+        print("Menu główne\n - Start gry    (S)\n - Ranking      (R)\n - Wyjdź z gry  (Q)\n")
         player_input = input("Wpisz S żeby rozpocząć grę, R żeby otworzyć ranking lub Q żeby opuścić grę:\n").lower()
         if player_input == "r":
             sleep_and_clear(0)

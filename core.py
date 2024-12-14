@@ -4,7 +4,6 @@ from data_adding_program import CsvWriter
 from utils import sleep_and_clear
 from questions_reading import GameQuestions
 
-
 class GameCore(GameBoard):
     csv_writer = CsvWriter()
     questions_disp = GameQuestions()
@@ -15,7 +14,6 @@ class GameCore(GameBoard):
         self.red = (f"\U0001F534 {input("Wprowadź nazwę czerwonego gracza: ")}")
         self.green = (f"\U0001F7E2 {input("Wprowadź nazwę zielonego gracza: ")}")
         self.yellow = (f"\U0001F7E1 {input("Wprowadź nazwę żółtego gracza: ")}")
-        
         sleep_and_clear(1)
     
     def position_reset(self)->int: 
